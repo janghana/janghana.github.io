@@ -6,23 +6,7 @@ title: Tags
 {% assign alldocs = site.documents %}
 {% assign alltags =  alldocs | map: 'tags' | join: ','  | split: ','  | group_by_exp: "tag","tag" %}
 
-<p>
-  Articles on similar topics are grouped together by tags. Click on any tag to find all the articles 'tagged' with that tag.
-</p>
-<ul class="tag-box">
-    {% for tag in alltags %}
-    	<li><a href="#{{ tag.name | slugify }}">{{ tag.name }} <span>{{ tag.size }}</span></a></li>
-    {% endfor %}
-  {% assign tags_list = nil %}
-</ul>
-
-{% for tag in alltags %}
-  <h2 class="nice-title" id="{{ tag.name }}">{{ tag.name }}</h2>
-  <ul>
-    {%- for document in alldocs -%}
-      {% if document.tags contains tag.name %}
-        <li><a href="{{ document.url }}">{{ document.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-{% endfor %}
+<b>
+  For more information, please visit my blog at the link below
+</b>
+<a href="https://janghan-kor.tistory.com/" target="_blank"><img src="./tmp/" alt=""></a>
