@@ -21,7 +21,7 @@ collections:
     default_open: false
     output: true
   posts:
-    title: Essays
+    title: Today-I-Learned
     default_open: true
     output: true
 
