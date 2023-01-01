@@ -29,7 +29,7 @@ defaults:
   - scope:
       type: posts
     values:
-      title: Essays
+      title: Today-I-Learned
       permalink: /post/:title
   - scope:
       type: news
