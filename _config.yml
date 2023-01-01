@@ -34,7 +34,7 @@ defaults:
   - scope:
       type: news
     values:
-      title: News
+      title: NEWS
       permalink: /news/:title
 
 plugins:
