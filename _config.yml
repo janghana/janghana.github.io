@@ -17,7 +17,7 @@ featured_posts:
 
 collections:
   news:
-    title: NEWS
+    title: News
     default_open: false
     output: true
   posts:
@@ -32,9 +32,9 @@ defaults:
       title: Today-I-Learned
       permalink: /post/:title
   - scope:
-      type: NEWS
+      type: News
     values:
-      title: NEWS
+      title: News
       permalink: /news/:title
 
 plugins:
