@@ -17,7 +17,7 @@ featured_posts:
 
 collections:
   news:
-    title: News
+    title: Today-I-Learned
     default_open: false
     output: true
   posts:
