@@ -32,7 +32,7 @@ defaults:
       title: Today-I-Learned
       permalink: /post/:title
   - scope:
-      type: news
+      type: NEWS
     values:
       title: NEWS
       permalink: /news/:title
