@@ -15,15 +15,15 @@
 #   - url: '#'
 #     title: 'Featured post #3'
 
-# collections:
-#   news:
-#     title: Today-I-Learned
-#     default_open: false
-#     output: true
-#   posts:
-#     title: Today-I-Learned
-#     default_open: true
-#     output: true
+collections:
+  news:
+    title: Today-I-Learned
+    default_open: false
+    output: true
+  posts:
+    title: Today-I-Learned
+    default_open: true
+    output: true
 
 defaults:
   - scope:
