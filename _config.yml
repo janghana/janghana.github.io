@@ -25,17 +25,17 @@
 #     default_open: true
 #     output: true
 
-# defaults:
-#   - scope:
-#       type: posts
-#     values:
-#       title: Today-I-Learned
-#       permalink: /post/:title
-#   - scope:
-#       type: News
-#     values:
-#       title: News
-#       permalink: /news/:title
+defaults:
+  - scope:
+      type: posts
+    values:
+      title: Today-I-Learned
+      permalink: /post/:title
+  - scope:
+      type: News
+    values:
+      title: News
+      permalink: /news/:title
 
 # plugins:
 #   - jekyll-sitemap
