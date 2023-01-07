@@ -17,7 +17,7 @@
 
 collections:
   news:
-    title: Today-I-Learned
+    title: News
     default_open: false
     output: true
   posts:
