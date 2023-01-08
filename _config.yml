@@ -1,6 +1,6 @@
 title : Jang Han's Blog for TIL
 # name: 'Jang Han's Blog for TIL'
-# description: 'Simple, light weight, responsive jekyll theme for hackers'
+description: 'Simple, light  weight, responsive jekyll theme for hackers'
 
 markdown: kramdown
 highlighter: rouge
