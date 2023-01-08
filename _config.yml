@@ -6,7 +6,7 @@ markdown: kramdown
 highlighter: rouge
 javascript_enabled: true
 
-featured_posts_title: Unrelated
+featured_posts_title: Main Blog Homepage
 featured_posts:
   - url: 'https://janghan-kor.tistory.com/'
     title: 'Featured post #1'
