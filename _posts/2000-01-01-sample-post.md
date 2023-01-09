@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Monday
+title: Example Option for style
 tags: 
 - text
 ---
