@@ -9,7 +9,7 @@ javascript_enabled: true
 featured_posts_title: Main Blog Homepage
 featured_posts:
   - url: 'https://janghan-kor.tistory.com/'
-    title: 'Jang Han's main blog'
+    title: 'Featured post #1'
   # - url: '#'
   #   title: 'Featured post #2'
   # - url: '#'
