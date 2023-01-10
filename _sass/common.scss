@@ -97,10 +97,15 @@ a:hover {
 .post-wrapper {
   margin: 0.8em 0;
   max-width: 300px;
+  margin-right: 100px;
+  font-size: 1.25rem;
+}
+.post-link {
+  margin: 0.8em 0;
+  max-width: 800px;
   margin-right: 30px;
   font-size: 1.25rem;
 }
-
 .prev {
   max-width: 50%;
   float: left;
