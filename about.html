@@ -21,6 +21,10 @@ title: Jang Han's GIT Blog
     .education {
         font-size: 12px; /* 글꼴 크기 조정 */
     }
+    .education li:before {
+        content: "\2022"; /* 점 추가 */
+        margin-right: 5px;
+    }
     .email {
         font-size: 11px;
     }
@@ -53,8 +57,10 @@ title: Jang Han's GIT Blog
 <ul>
     <li class="education">
         <strong>Master's degree, ~</strong><br>
-        <strong>Bachelor’s degree, The Department of Artificial Intelligence at Chungnam National University Mar.2019 ~ (double majoring)</strong><br>
-        <strong>Bachelor’s degree, The Division of Computer Convergence at Chungnam National University Mar.2019 ~</strong><br>
+        <ul>
+            <li>Bachelor’s degree, The Department of Artificial Intelligence at Chungnam National University Mar.2019 ~ (double majoring)</li>
+            <li>Bachelor’s degree, The Division of Computer Convergence at Chungnam National University Mar.2019 ~</li>
+        </ul>
     </li>
 </ul>
 <hr>
