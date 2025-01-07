@@ -1,7 +1,10 @@
 .app-container {
+  display: flex;           /* flex 컨테이너로 */
+  flex-direction: column;  /* 위→아래 방향 배치 */
+  min-height: 100vh;       /* 브라우저 전체 높이를 최소 높이로 */
   text-align: left;
   margin-left: 20px;
-  color: #333; /* Light grey text */
+  color: #333;
 }
 
 .main-nav {
@@ -42,4 +45,10 @@ footer {
   border-top: 1px solid #ccc;
   padding: 10px;
   font-size: 16px; /* Adjusted font size in the footer */
+}
+.main-content {
+  flex: 1; 
+}
+body {
+  font-family: "Merriweather", serif;
 }
