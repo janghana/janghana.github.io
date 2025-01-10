@@ -21,7 +21,7 @@ function Experience() {
 
         <div className="timeline">
           {/* SNU */}
-          <div className="timeline-item">
+          {/* <div className="timeline-item">
             <div 
               className="timeline-content" 
               style={{ 
@@ -61,7 +61,7 @@ function Experience() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* NanoCellect Biomedical */}
           <div className="timeline-item">
