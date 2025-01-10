@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import CV from './components/CV';
 import Projects from './components/Projects';
 import './Header.css';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (

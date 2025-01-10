@@ -21,6 +21,7 @@ function Experience() {
 
         <div className="timeline">
           {/* SNU */}
+          
           {/* <div className="timeline-item">
             <div 
               className="timeline-content" 
