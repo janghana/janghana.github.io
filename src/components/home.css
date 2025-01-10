@@ -1,27 +1,21 @@
-/* home.css */
-
-/* 메인 레이아웃 컨테이너 */
 .home-container {
   display: flex;
   width: 100%;
-  max-width: 1200px;  /* 필요 시 너비 제한 */
-  margin: 0 auto;     /* 화면 중앙 정렬 */
-  padding: 2rem;      /* 상하좌우 여백 */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
   box-sizing: border-box;
 }
 
-/* 중앙 컨텐츠 */
 .home-content {
-  flex: 2;      /* 프로필 대비 2배 너비 */
+  flex: 2;
   padding: 1rem;
 }
 
-/* 오른쪽 비어있는 공간 */
 .right-space {
   flex: 1;
 }
 
-/* 헤딩과 구분선 */
 .section-divider {
   width: 50%;
   border: none;
@@ -30,18 +24,16 @@
   margin: 1rem 0;
 }
 
-/* 본문 문단 스타일 */
 .home-content p {
   margin: 0 0 1rem;
   line-height: 1.6;
-  font-size: 1rem;  /* 필요한 폰트 크기로 조정 */
-  color: #333;      /* 좀 더 진한 회색 글자 */
+  font-size: 1rem;
+  color: #333;
 }
 
-/* 연구 목록 리스트 */
 .research-list {
-  list-style-type: disc;   /* ● 모양의 기본 리스트 */
-  margin: 0 0 1rem 1.5rem; /* 왼쪽 들여쓰기 */
+  list-style-type: disc;
+  margin: 0 0 1rem 1.5rem;
   padding: 0;
 }
 
@@ -50,10 +42,9 @@
   line-height: 1.4;
 }
 
-/* 타임라인 영역 */
 .timeline {
   position: relative;
-  padding-left: 40px;  /* 점선 아이콘 공간 */
+  padding-left: 40px;
   margin-bottom: 2rem;
 }
 

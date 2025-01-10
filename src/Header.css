@@ -1,60 +1,55 @@
 .app-container {
-  display: flex;           /* flex 컨테이너로 */
-  flex-direction: column;  /* 위→아래 방향 배치 */
-  min-height: 100vh;       /* 브라우저 전체 높이를 최소 높이로 */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   text-align: left;
-  margin-left: 20px;       /* 전체 컨테이너 왼쪽 여백 (원하는 경우에만) */
+  margin-left: 20px;
   color: #333;
 }
 
 .main-nav {
-background-color: rgb(211, 211, 211); /* 원하는 컬러로 변경 */
+background-color: rgb(211, 211, 211);
   padding: 10px 20px;
   text-align: left;
 }
 
-/* ----- NAV 링크 스타일 ----- */
 .main-nav a {
   font-weight: bold;
-  color: #666;             /* Slightly darker grey for text */
-  font-size: 20px;         /* Increased font size */
+  color: #666;
+  font-size: 20px;
   text-decoration: none;
   position: relative;
   margin-right: 20px;
   display: inline-block;
 }
 
-/* ----- 밑줄 효과 ----- */
 .main-nav a::after {
   content: '';
   position: absolute;
-  width: 0;               /* Starts with zero width */
-  height: 4px;            /* Thicker underline */
+  width: 0;
+  height: 4px;
   bottom: -5px;
   left: 0;
-  background-color: #666; /* Matching the text color */
-  transition: width 0.5s ease-out; /* Slower transition for the underline */
+  background-color: #666;
+  transition: width 0.5s ease-out;
 }
 
 .main-nav a:hover::after {
-  width: 100%; /* Full width on hover */
+  width: 100%;
 }
 
-/* ----- 메인 콘텐츠 ----- */
 .main-content {
   flex: 1;
 }
 
-/* ----- 푸터 스타일 ----- */
 footer {
   margin-top: 20px;
   text-align: center;
   border-top: 1px solid #ccc;
   padding: 10px;
-  font-size: 16px; /* Adjusted font size in the footer */
+  font-size: 16px;
 }
 
-/* ----- 글로벌 폰트 ----- */
 body {
   font-family: "Merriweather", serif;
 }

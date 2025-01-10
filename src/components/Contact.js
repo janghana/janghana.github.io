@@ -13,24 +13,68 @@ function Contact() {
 
         <h2>Email</h2>
         <a href="mailto:janghan001112@gmail.com" className="advisor-link">
-          janghan001112@gmail.com
+        janghan001112[at]gmail[dot]com
         </a>
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+        If you're interested in my research or would like to learn more about me, 
+        please contact me through the{" "}
+        <a href="mailto:janghan001112@gmail.com" className="advisor-link">
+          email
+        </a>.
+        <br />I enjoy discussions across various interdisciplinary fields, so please feel free to reach out! 
+        <br /><br />
+        You can also connect with me via my
+          {" "}
+          <a
+            href="https://github.com/janghana"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+            style={{ color: '#007BFF' }}
+          >
+            GitHub
+          </a>,{" "}
+          <a
+            href="https://www.linkedin.com/in/han-jang-255aa0253/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+            style={{ color: '#007BFF' }}
+          >
+            LinkedIn
+          </a>,{" "}
+          <a
+            href="https://janghan-kor.tistory.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+            style={{ color: '#007BFF' }}
+          >
+            Blog
+          </a>,{" "}
+          or{" "}
+          <a
+            href="https://scholar.google.com/citations?hl=en&user=b6IRRlsAAAAJ"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+            style={{ color: '#007BFF' }}
+          >
+            Google Scholar
+          </a>
+        {" "}
+        links! I look forward to connecting with you and exploring new possibilities together.
+      </p>
+
+
 
         <p className="italic-text">
-          If you're interested in my research or would like to learn more about me, 
-          please contact me through the{" "}
-          <a href="mailto:janghan001112@gmail.com" className="advisor-link">
-            email
-          </a>.
-        </p>
-
-        <p className="italic-text">
-          Thank you.
+          Thank you
         </p>
 
         <hr
           style={{
-            width: '10%',
+            width: '100%',
             marginLeft: '0',
             marginRight: 'auto',
             marginTop: '1em',
@@ -64,6 +108,7 @@ function Contact() {
           </div>
         </div>
       </div>
+
       <div style={{ flex: '1' }}> {/* Right side empty space */}</div>
     </div>
   );

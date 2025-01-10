@@ -22,10 +22,9 @@
   }
 }
 
-/* Adjust the global text color */
 body {
-  color: #757575; /* Light grey text */
-  background-color: #fff; /* Ensuring background is white */
+  color: #757575;
+  background-color: #fff;
 }
 
 .App-header {
@@ -36,21 +35,21 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #757575; /* Ensuring header text is also light grey */
+  color: #757575;
 }
 
 .App-link {
-  color: #757575; /* Light grey links */
+  color: #757575;
   transition: color 0.3s ease-in-out;
 }
 
 .App-link:hover {
-  color: #61dafb; /* Keeping hover effect */
+  color: #61dafb;
 }
 
 .timeline {
   position: relative;
-  padding-left: 40px;
+  /* padding-left: 40px; */
   list-style: none;
 }
 
@@ -73,15 +72,15 @@ body {
   margin-left: 2px;
   padding: 8px;
   background-color: white;
-  border-left: 2px solid #ccc;
+  /* border-left: 2px solid #ccc; */
 }
 
 .advisor-link {
-  color: #007BFF; /* Blue for advisors */
+  color: #007BFF;
   text-decoration: none;
 }
 
 .advisor-link:hover {
-  color: #0056b3; /* Darker blue on hover */
+  color: #0056b3;
   text-decoration: underline;
 }
