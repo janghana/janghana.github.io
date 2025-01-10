@@ -1,5 +1,4 @@
 import React from 'react';
-// BrowserRouter 대신 HashRouter만 import 합니다.
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 import Home from './components/Home';
@@ -17,7 +16,7 @@ function App() {
       <div className="app-container">
         <nav className="main-nav">
           <Link to="/">Home</Link>
-          <Link to="/Experience">Experience</Link>
+          <Link to="/Experience">Experiences</Link>
           <Link to="/Projects">Projects</Link>
           <Link to="/publications">Publications</Link>
           <Link to="/CV">CV</Link>

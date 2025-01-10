@@ -7,6 +7,7 @@ function Contact() {
     <div style={{ display: 'flex', width: '100%' }}>
 
       <LeftSideProfile />
+      
       <div style={{ flex: '2' }}>
         <h2>Contact</h2>
         <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />

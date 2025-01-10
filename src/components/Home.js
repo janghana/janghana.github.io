@@ -7,7 +7,6 @@ function Home() {
     <div style={{ display: 'flex', width: '100%' }}>
 
       <LeftSideProfile />
-      
 
       <div style={{ flex: '2' }}>
       <p style={{ marginBottom: '4rem', lineHeight: '1.6' }}>

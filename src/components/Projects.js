@@ -1,8 +1,10 @@
 import React from 'react';
 import '../App.css';
 import LeftSideProfile from './LeftSideProfile';
+import { BlockMath } from 'react-katex';
+import 'katex/dist/katex.min.css';
+import ModalImage from "react-modal-image";
 
-// 순서대로 프로젝트 이미지
 import p1 from './pjts/1.png';
 import p2 from './pjts/2.png';
 import p3 from './pjts/3.png';
@@ -17,10 +19,8 @@ import p10 from './pjts/10.png';
 function Projects() {
   return (
     <div style={{ display: 'flex', width: '100%' }}>
-      {/* 좌측 프로필 영역 */}
       <LeftSideProfile />
 
-      {/* 중앙 + 우측 영역(공간 확장) */}
       <div style={{ flex: 3 }}>
         <h2>Projects</h2>
         <hr
@@ -60,8 +60,9 @@ function Projects() {
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
                 <h3>Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans</h3>
-                <p>[Project Duration: Jan. 2024 - June. 2024]</p>
-                <p>Research Assistant</p>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
                 <p>
                   The advancement of medical imaging technology has significantly 
                   contributed to the improvement of diagnostic precision. Among these, 
@@ -82,14 +83,68 @@ function Projects() {
                   imaging is challenging, enhancing diagnostic accuracy and the quality 
                   of patient care.
                 </p>
-                <p>@CNU @KIST @SEOULTECH @BAISLAB</p>
-                <p>[Paper] | [Code]</p>
+                <p>
+                  @<a 
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    CNU
+                  </a>&nbsp;
+                  @<a 
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                  @<a 
+                  href="https://en.seoultech.ac.kr/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    SEOULTECH
+                  </a>&nbsp;
+                  @BAISLAB</p>
+                <p>[<a 
+                  href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Paper
+                  </a>] | 
+                  [<a 
+                  href="https://github.com/janghana/Unsupervised-Diffusion-Model-for-Synthesizing-T1-weighted-MRI-Scans-from-Abdominal-CT-Scans"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Code
+                  </a>]
+                  |
+                  [<a 
+                  href="https://drive.google.com/file/d/1J3rnoVAd6anQrsf-7kLHkHUhdYOFSOmN/view?usp=drive_link"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Poster
+                  </a>]
+                  |
+                  [Project Duration: Jan. 2024 - Jun. 2024]
+                </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <img
-                  src={p1}
-                  alt="Project Thumbnail 1"
-                  style={{ width: '400px', height: '500px', objectFit: 'contain' }}
+                <ModalImage
+                  small={p1}
+                  large={p1}
+                  alt="Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans"
+                  hideZoom
+                  className="my-modal-image"
                 />
               </div>
             </div>
@@ -103,8 +158,9 @@ function Projects() {
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
                 <h3>GABNet: Graph Attention Boosting Network for circRNA Analysis in the Diagnosis of Hepatocellular Carcinoma</h3>
-                <p>[Project Duration: Mar. 2024 - Dec. 2024]</p>
-                <p>Senior</p>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Senior
+                </p>
                 <p>
                   Circular RNA (circRNA) is a type of non-coding RNA that is notable for 
                   its stability and abundance in human tissues, possessing a closed-loop 
@@ -128,14 +184,63 @@ function Projects() {
                   accuracy, proposing a new non-invasive approach for HCC prediction 
                   that could also be beneficial for diagnosing other types of cancers.
                 </p>
-                <p>@CNU</p>
-                <p>[Paper] | [Code] - Graduation Project | Awards | Poster</p>
+                <p>
+                @<a 
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    CNU
+                  </a>&nbsp;
+                  @Graduation_Project
+                </p>
+                <p>
+                  [<a 
+                  href="https://drive.google.com/file/d/14Jb0DGuJ3rtw9oVpDX8h-zFtCXwUOFBz/view?usp=drive_link"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Paper
+                  </a>]
+                  |
+                  [<a 
+                  href="https://github.com/janghana/HCC-Prediction-with-circRNA-using-Ensemble-Heterogeneous-Graph-Attention-Networks"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Code
+                  </a>] | 
+
+                  [<a 
+                  href="https://drive.google.com/file/d/1wL0qKHLMqsJQ5L3oL_iSEl03YpwCQRZw/view"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Awards
+                  </a>]                  
+                  |
+                  [<a 
+                  href="https://drive.google.com/file/d/1mUGoFzGKtcTUVR2UUFi4breL0e4KBnFk/view"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Poster
+                  </a>]
+                  |
+                  [Project Duration: Mar. 2024 - Dec. 2024]</p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <img
-                  src={p2}
-                  alt="Project Thumbnail 2"
-                  style={{ width: '400px', height: '500px', objectFit: 'contain' }}
+                <ModalImage
+                  small={p2}
+                  large={p2}
+                  alt="GABNet: Graph Attention Boosting Network for circRNA Analysis in the Diagnosis of Hepatocellular Carcinoma"
+                  hideZoom
+                  className="my-modal-image"
                 />
               </div>
             </div>
@@ -149,8 +254,10 @@ function Projects() {
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
                 <h3>CNU NAVI (Chungnam National University NAVIgation)</h3>
-                <p>[Project Duration: Mar. 2024 - Aug. 2024]</p>
-                <p>Senior - Toy Project</p>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Senior
+                </p>
+
                 <p>
                   In this study, we develop an OCR (Optical Character Recognition) 
                   technology tailored to the Everytime dataset, leveraging a novel deep 
@@ -167,14 +274,36 @@ function Projects() {
                   of Korean characters and enhances the overall OCR performance on the 
                   Everytime dataset.
                 </p>
-                <p>@CNU</p>
-                <p>[Code]</p>
+                <p>
+                @<a 
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    CNU
+                  </a>&nbsp;
+                  @Toy_Project
+                </p>
+                
+                <p>
+                  [<a 
+                  href="https://github.com/janghana/CNU-NAVI"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Code
+                  </a>] | [Project Duration: Mar. 2024 - Aug. 2024]
+                  </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <img
-                  src={p3}
-                  alt="Project Thumbnail 3"
-                  style={{ width: '400px', height: '500px', objectFit: 'contain' }}
+                <ModalImage
+                  small={p3}
+                  large={p3}
+                  alt="CNU NAVI (Chungnam National University NAVIgation)"
+                  hideZoom
+                  className="my-modal-image"
                 />
               </div>
             </div>
@@ -203,28 +332,70 @@ function Projects() {
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
                 <h3>Enhancing Breast Cancer MRI Classification Through Vision Transformer(ViT) and Multi-Marker</h3>
-                <p>[Project Duration: Sep. 2023 - Dec. 2023]</p>
-                <p>Internship</p>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Internship
+                </p>
+
                 <p>
                   I worked on a joint project that aimed to enhance breast cancer 
-                  classification performance in MRI images. The focus of this project 
+                  classification performance in T2-weighted MRI images. The focus of this project 
                   was to demonstrate that a multi-marker model, which incorporated both 
                   the label indicating the presence of breast cancer and information 
                   about protein markers such as Estrogen Receptor (ER), Progesterone 
-                  Receptor (PR), and Human Epidermal Growth Factor Receptor 2 (HER2), 
+                  Receptor (PR), and Human Epidermal Growth Factor Receptor 2 (HER2), named Triple-Negative, 
                   was more effective than a single-marker model that only used the label 
                   for the presence of breast cancer. The goal of this project was to prove 
                   the possibility that we could identify the aforementioned protein 
                   markers through non-invasive MRI imaging.
                 </p>
-                <p>@KIST @AIMILAB @KoreaUniversityAnamHospital</p>
-                <p>[Paper] | [Code]</p>
+                <p>
+                  @<a 
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                 @<a 
+                  href="https://anam.kumc.or.kr/en/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    KoreaUniversityAnamHospital
+                  </a>&nbsp;
+                  @AIMILAB
+                  </p>
+                <p>
+                  [<a 
+                  href="https://drive.google.com/file/d/14jp4KGZlAj2tE1xGyHQD4Unks2Ln5WNx/view"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Paper
+                  </a>]
+                   |
+                  [<a 
+                  href="https://github.com/janghana/Breast-Cancer-Classification-using-ViT"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Code
+                  </a>]
+                  |
+                  [Project Duration: Sep. 2023 - Dec. 2023]
+                </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <img
-                  src={p4}
-                  alt="Project Thumbnail 4"
-                  style={{ width: '500px', height: '400px', objectFit: 'contain' }}
+                <ModalImage
+                  small={p4}
+                  large={p4}
+                  alt="Enhancing Breast Cancer MRI Classification Through Vision Transformer(ViT) and Multi-Marker"
+                  hideZoom
+                  className="my-modal-image"
                 />
               </div>
             </div>
@@ -240,8 +411,9 @@ function Projects() {
                 <h3>
                   Contrast Agent-Free Approach for Enhancing Hepatocellular Carcinoma (HCC) Visualization in Contrast-Enhanced Computed Tomography (CECT) Derived from Non-Contrast Enhanced Computed Tomography (NCECT): Utilizing Contrast Agent (CA) Injection Principles
                 </h3>
-                <p>[Project Duration: Jun. 2023 - Dec. 2023]</p>
-                <p>Internship</p>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Internship
+                </p>
                 <p>
                   This study presents a novel approach to enhance the visualization of 
                   Hepatocellular Carcinoma (HCC) in Contrast-Enhanced Computed Tomography (CECT) 
@@ -253,14 +425,44 @@ function Projects() {
                   enhancement effects without the use of contrast agents, significantly 
                   increasing patient safety during the diagnostic procedure.
                 </p>
-                <p>@KIST @AIMILAB @YonseiSeveranceHospital</p>
-                <p>[Code]</p>
+                <p>
+                  @<a 
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                  @<a 
+                  href="https://sev.severance.healthcare/sev-en/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    YonseiSeveranceHospital
+                  </a>&nbsp;
+                   @AIMILAB</p>
+                <p>
+                  [<a 
+                  href="https://github.com/janghana/NCECT-to-CECT"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Code
+                  </a>]
+                  |
+                  [Project Duration: Jun. 2023 - Dec. 2023]
+                </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <img
-                  src={p5}
-                  alt="Project Thumbnail 5"
-                  style={{ width: '500px', height: '400px', objectFit: 'contain' }}
+                <ModalImage
+                  small={p5}
+                  large={p5}
+                  alt="Contrast Agent-Free Approach for Enhancing Hepatocellular Carcinoma (HCC) Visualization in Contrast-Enhanced Computed Tomography (CECT) Derived from Non-Contrast Enhanced Computed Tomography (NCECT): Utilizing Contrast Agent (CA) Injection Principles"
+                  hideZoom
+                  className="my-modal-image"
                 />
               </div>
             </div>
@@ -273,9 +475,10 @@ function Projects() {
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
-                <h3>AI Technology Development for Bile Duct Imaging Synthesis Based on CT</h3>
-                <p>[Project Duration: Sep. 2023 - Oct. 2023]</p>
-                <p>Internship</p>
+                <h3>Diffusion-Model-Based Conditional Medical Image Translation for T1-Weighted MR Imaging Synthesis from CT</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Internship
+                </p>
                 <p>
                   Medical imaging plays a crucial role in enhancing the accuracy of 
                   diagnosis. In particular, some tissues can be more accurately 
@@ -291,14 +494,45 @@ function Projects() {
                   prior neural network-based studies on the translation from CT to MRI 
                   and proposes a solution using a diffusion model.
                 </p>
-                <p>@AIMILAB @KIST @KoreaUniversityAnamHospital</p>
-                <p>[Code]</p>
+                <p>
+                @<a 
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                 @<a 
+                  href="https://anam.kumc.or.kr/en/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    KoreaUniversityAnamHospital
+                  </a>&nbsp;
+                  @AIMILAB
+                </p>
+                <p>
+                [<a 
+                  href="https://github.com/janghana/SynDiff-Medical-Image-Translation"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Code
+                  </a>]
+                  |
+                  [Project Duration: Sep. 2023 - Oct. 2023]
+                </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <img
-                  src={p6}
-                  alt="Project Thumbnail 6"
-                  style={{ width: '500px', height: '400px', objectFit: 'contain' }}
+                <ModalImage
+                  small={p6}
+                  large={p6}
+                  alt="Diffusion-Model-Based Conditional Medical Image Translation for T1-Weighted MR Imaging Synthesis from CT"
+                  hideZoom
+                  className="my-modal-image"
                 />
               </div>
             </div>
@@ -312,8 +546,9 @@ function Projects() {
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
                 <h3>Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation through Aortic Contrast-Enhanced Imaging with UNETR</h3>
-                <p>[Project Duration: Jun. 2023 - Aug. 2023]</p>
-                <p>Internship</p>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Internship
+                </p>
                 <p>
                   I conducted a research project focused on enhancing the diagnostic 
                   precision of Hepatocellular Carcinoma (HCC) using the UNETR model. The 
@@ -336,14 +571,45 @@ function Projects() {
                   in this manner is expected to contribute to more accurate detection and 
                   treatment planning for HCC.
                 </p>
-                <p>@AIMILAB @KIST @YonseiSeveranceHospital</p>
-                <p>[Code]</p>
+                <BlockMath math="Corrected~Contrast = Original~Contrast \times \frac{Original~Contrast}{Aorta~Average~Contrast~Value}" />
+                <p>
+                  @<a 
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                  @<a 
+                  href="https://sev.severance.healthcare/sev-en/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    YonseiSeveranceHospital
+                  </a>&nbsp;
+                   @AIMILAB</p>
+                <p>
+                  [<a 
+                  href="https://github.com/kimhyoree/Improving-HCC-diagnostic-precision-in-CT-using-UNETR-model"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Code
+                  </a>]
+                  |
+                  [Project Duration: Jun. 2023 - Aug. 2023]
+                </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <img
-                  src={p7}
-                  alt="Project Thumbnail 7"
-                  style={{ width: '400px', height: '500px', objectFit: 'contain' }}
+                <ModalImage
+                  small={p7}
+                  large={p7}
+                  alt="Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation through Aortic Contrast-Enhanced Imaging with UNETR"
+                  hideZoom
+                  className="my-modal-image"
                 />
               </div>
             </div>
@@ -357,8 +623,9 @@ function Projects() {
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
                 <h3>Designing a Predictive Coding Network Model to Mimic the Human Visual Cortex</h3>
-                <p>[Project Duration: Jan. 2023 - Jun. 2023]</p>
-                <p>Research Assistant</p>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
                 <p>
                   The project was initiated with a question derived from neuroscience: 
                   How can computer vision's CNNs effectively detect illusory contours, 
@@ -373,15 +640,44 @@ function Projects() {
                   design a PCN model that emulates the processing methods of the human 
                   visual cortex.
                 </p>
-                <p>@BrainXLAB @IBS</p>
-                <p>[Code]</p>
-                <p>Source DALL·E 3 prompted with “[Project Abstract]”</p>
+                <p>
+                  @<a 
+                  href="https://www.ibs.re.kr/eng.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    IBS
+                  </a>&nbsp;
+                  @<a 
+                  href="https://www.ibs.re.kr/glia/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    BrainXLAB
+                  </a>
+                </p>
+                <p>
+                  [<a 
+                  href="https://github.com/janghana/Predictive-Coding-Network"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Code
+                  </a>]
+                  |
+                  [Project Duration: Jan. 2023 - Jun. 2023]
+                </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <img
-                  src={p8}
-                  alt="Project Thumbnail 8"
-                  style={{ width: '400px', height: '300px', objectFit: 'contain' }}
+              <ModalImage
+                  small={p8}
+                  large={p8}
+                  alt="Designing a Predictive Coding Network Model to Mimic the Human Visual Cortex"
+                  hideZoom
+                  className="my-modal-image"
                 />
               </div>
             </div>
@@ -395,8 +691,9 @@ function Projects() {
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
                 <h3>Emotional Chat: Comparative Analysis of T5, BART, and BERT for Generating Sentimental Dialogues</h3>
-                <p>[Project Duration: Mar. 2023 - Jun. 2023]</p>
-                <p>Undergraduate Research Student</p>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Junior
+                </p>
                 <p>
                   "Emotional Chat" is a natural language processing-based learning model 
                   that learns and processes through scripts about emotional AI corpus 
@@ -407,15 +704,48 @@ function Projects() {
                   and generates emotional utterances and which model most effectively 
                   comprehends and responds to the user's emotional state.
                 </p>
-                <p>@CNU</p>
-                <p>[Paper] | [Code]</p>
+                <p>
+                  @<a 
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    CNU
+                  </a>&nbsp;
+                  @NLP_Project
+                </p>
+                <p>
+                  [<a 
+                  href="https://drive.google.com/file/d/1bAVzBOuxXDjDzxMKfmEaZTfPcUS3XDXC/view"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Paper
+                  </a>]
+                   | 
+                  [<a 
+                  href="https://github.com/janghana/Emotional-Chat"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Code
+                  </a>]
+                  |
+                  [Project Duration: Mar. 2023 - Jun. 2023]
+                  </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <img
-                  src={p9}
-                  alt="Project Thumbnail 9"
-                  style={{ width: '400px', height: '300px', objectFit: 'contain' }}
+                <ModalImage
+                  small={p9}
+                  large={p9}
+                  alt="Emotional Chat: Comparative Analysis of T5, BART, and BERT for Generating Sentimental Dialogues"
+                  hideZoom
+                  className="my-modal-image"
                 />
+                <p>Source DALL·E 3 prompted with “[Project Abstract]”</p>
               </div>
             </div>
           </div>
@@ -434,9 +764,6 @@ function Projects() {
             display: 'block'
           }}
           />
-          <p>If you want to see the video about the above picture, click this link:</p>
-          <p>Link</p>
-
           {/* 10) Investigating Brainwave Patterns... */}
           <div className="timeline-item">
             <div
@@ -445,8 +772,9 @@ function Projects() {
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
                 <h3>Investigating Brainwave Patterns in Response to the "Jumping" Phenomenon</h3>
-                <p>[Project Duration: Apr. 2022 - May 2023]</p>
-                <p>Research Assistant</p>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
                 <p>
                   This project centered on the unique 'Jumping' phenomenon observed 
                   within the human visual system. On a display, three spheres, 
@@ -469,16 +797,64 @@ function Projects() {
                   notable peaks within the brainwave patterns using ElectroEncephaloGram 
                   (EEG).
                 </p>
-                <p>@BrainXLAB @IBS @UNIST</p>
-                <p>@IBS-UNIST Joint Research</p>
-                <p>[Code]</p>
+                <p>
+                  @<a 
+                  href="https://www.ibs.re.kr/eng.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    IBS
+                  </a>&nbsp;
+                  @<a 
+                  href="https://www.unist.ac.kr/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    UNIST
+                  </a>&nbsp;
+                  @<a 
+                  href="https://www.ibs.re.kr/glia/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    BrainXLAB
+                  </a>&nbsp;
+                  @IBS-UNIST Joint Research
+                </p>
+                <p>
+                  [<a 
+                  href="https://github.com/janghana/EEG-data-analysis-of-128-channels"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
+                  >
+                    Code
+                  </a>]
+                  |
+                  [Project Duration: Apr. 2022 - May 2023]
+                </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <img
-                  src={p10}
-                  alt="Project Thumbnail 10"
-                  style={{ width: '400px', height: '300px', objectFit: 'contain' }}
+                <ModalImage
+                  small={p10}
+                  large={p10}
+                  alt="Investigating Brainwave Patterns in Response to the 'Jumping' Phenomenon"
+                  hideZoom
+                  className="my-modal-image"
                 />
+                <p>If you want to see the video about the above picture, click this link:&nbsp;
+                  <a 
+                    href="https://drive.google.com/file/d/1BobxfhqmgHK-C1yrrsNltcuCzjpQJuR_/view"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                    >
+                      Link
+                  </a>  
+                </p>
               </div>
             </div>
           </div>

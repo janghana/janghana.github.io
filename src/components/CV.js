@@ -51,7 +51,7 @@ function CV() {
 
         <div className="timeline">
           {/* Seoul National University */}
-          <div className="timeline-item">
+          {/* <div className="timeline-item">
             <div className="timeline-content">
               <h3>Seoul National University</h3>
               <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
@@ -71,7 +71,7 @@ function CV() {
                 </a>
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* NanoCellect Biomedical */}
           <div className="timeline-item">
