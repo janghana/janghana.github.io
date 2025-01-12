@@ -5,16 +5,16 @@ import { BlockMath } from 'react-katex';
 import 'katex/dist/katex.min.css';
 import ModalImage from "react-modal-image";
 
-import p1 from './pjts/1.png';
-import p2 from './pjts/2.png';
-import p3 from './pjts/3.png';
-import p4 from './pjts/4.png';
-import p5 from './pjts/5.png';
-import p6 from './pjts/6.png';
-import p7 from './pjts/7.png';
-import p8 from './pjts/8.png';
-import p9 from './pjts/9.png';
-import p10 from './pjts/10.png';
+import p1 from './pjts/Unsupervised_Diffusion_Model_for_Synthesizing_T1-weighted_MRI_Scans_from_Abdominal_CT_Scans.png';
+import p2 from './pjts/GABNet_Graph_Attention_Boosting_Network_for_circRNA_Analysis_in_the_Diagnosis_of_Hepatocellular_Carcinoma.png';
+import p3 from './pjts/CNU_NAVI.png';
+import p4 from './pjts/Enhancing_Breast_Cancer_MRI_Classification_Through_ViT_and_Multi-Marker.png';
+import p5 from './pjts/Contrast_Agent-Free_Approach_for_Enhancing_HCC_Visualization_in_CECT_Derived_from_NCECT_Utilizing_CA_Injection_Principles.png';
+import p6 from './pjts/Diffusion-Model-Based_Conditional_Medical_Image_Translation_for_T1-Weighted_MR_Imaging_Synthesis_from_CT.png';
+import p7 from './pjts/Enhancing_HCC_Tumor_Segmentation_through_Aortic_Contrast-Enhanced_Imaging_with_UNETR.png';
+import p8 from './pjts/Designing_a_Predictive_Coding_Network_Model_to_Mimic_the_Human_Visual_Cortex.png';
+import p9 from './pjts/Emotional_Chat_Comparative_Analysis_of_T5_BART_and_BERT_for_Generating_Sentimental_Dialogues.png';
+import p10 from './pjts/Investigating_Brainwave_Patterns_in_Response_to_the_Jumping_Phenomenon.png';
 
 function Projects() {
   return (
@@ -23,7 +23,10 @@ function Projects() {
 
       <div style={{ flex: 3 }}>
         <h2>Projects</h2>
-        <hr
+
+          {/* 2025 */}
+          {/* <h3>2025</h3>
+          <hr
           style={{
             width: '55%',
             marginLeft: '0',
@@ -34,7 +37,8 @@ function Projects() {
             opacity: '0.15',
             display: 'block'
           }}
-        />
+          /> */}
+
 
         <div className="timeline">
           {/* 2024 */}
@@ -52,7 +56,7 @@ function Projects() {
           }}
           />
 
-          {/* 1) Unsupervised Diffusion Model... */}
+          {/* Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -150,7 +154,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* 2) GABNet: Graph Attention Boosting Network... */}
+          {/* GABNet: Graph Attention Boosting Network for circRNA Analysis in the Diagnosis of Hepatocellular Carcinoma */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -246,7 +250,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* 3) CNU NAVI */}
+          {/* CNU NAVI (Chungnam National University NAVIgation) */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -324,7 +328,7 @@ function Projects() {
           }}
           />
 
-          {/* 4) Enhancing Breast Cancer MRI Classification... */}
+          {/* Enhancing Breast Cancer MRI Classification Through Vision Transformer(ViT) and Multi-Marker */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -401,7 +405,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* 5) Contrast Agent-Free Approach for Enhancing... */}
+          {/* Contrast Agent-Free Approach for Enhancing Hepatocellular Carcinoma (HCC) Visualization in Contrast-Enhanced Computed Tomography (CECT) Derived from Non-Contrast Enhanced Computed Tomography (NCECT): Utilizing Contrast Agent (CA) Injection Principles */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -468,7 +472,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* 6) AI Technology Development for Bile Duct Imaging... */}
+          {/* Diffusion-Model-Based Conditional Medical Image Translation for T1-Weighted MR Imaging Synthesis from CT */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -538,7 +542,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* 7) Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation... */}
+          {/* Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation through Aortic Contrast-Enhanced Imaging with UNETR */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -615,7 +619,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* 8) Designing a Predictive Coding Network Model... */}
+          {/* Designing a Predictive Coding Network Model to Mimic the Human Visual Cortex */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -683,7 +687,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* 9) Emotional Chat: Comparative Analysis of T5, BART, and BERT... */}
+          {/* Emotional Chat: Comparative Analysis of T5, BART, and BERT for Generating Sentimental Dialogues */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -764,7 +768,7 @@ function Projects() {
             display: 'block'
           }}
           />
-          {/* 10) Investigating Brainwave Patterns... */}
+          {/* Investigating Brainwave Patterns in Response to the "Jumping" Phenomenon */}
           <div className="timeline-item">
             <div
               className="timeline-content"

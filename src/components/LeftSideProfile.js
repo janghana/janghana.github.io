@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect'; 
-import picture1 from './han.jpeg';
-import tistoryLogo from './tistory-logo.png';
+import picture1 from './me/han.jpeg';
+import tistoryLogo from './Affiliation/tistory-logo.png';
 
 function ProfileSidebar() {
   return (

@@ -2,70 +2,24 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 body {
   color: #757575;
   background-color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #757575;
-}
-
-.App-link {
-  color: #757575;
-  transition: color 0.3s ease-in-out;
-}
-
-.App-link:hover {
-  color: #61dafb;
+.timeline-section {
+  margin-bottom: 2rem;
 }
 
 .timeline {
   position: relative;
-  /* padding-left: 40px; */
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .timeline-item {
-  margin-bottom: 20px;
-}
-
-.timeline-icon {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 25px;
-  height: 25px;
-  background-color: #ccc;
-  border-radius: 50%;
-  transform: translateX(-50%);
+  margin-bottom: 0.5px;
 }
 
 .timeline-content {
@@ -73,7 +27,6 @@ body {
   padding: 8px;
   background-color: white;
   line-height: 1.6;
-  /* border-left: 2px solid #ccc; */
 }
 
 .advisor-link {
@@ -85,9 +38,17 @@ body {
   color: #0056b3;
   text-decoration: underline;
 }
-.my-modal-image {
-  width: 400px;
-  height: 500px;
-  object-fit: contain;
-  cursor: pointer;
+
+/* 
+  Research Interest 부분만 가로배치 
+  (flex로 수평 나열, wrap으로 줄바꿈)
+*/
+.research-interest-section .timeline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.research-interest-section .timeline-item {
+  margin-bottom: 0; /* 기본 margin을 없애 수평 정렬 시 깔끔하게 */
 }

@@ -2,13 +2,13 @@ import React from 'react';
 import '../App.css';
 import LeftSideProfile from './LeftSideProfile';
 
-import snu from './snu.png';
-import nanocellect from './nanocellect.png';
-import seoultech from './seoultech.png';
-import kist from './kist.png';
-import ibs from './ibs.png';
-import navy from './navy.png';
-import cnu from './cnu.png';
+import snu from './Affiliation/snu.png';
+import nanocellect from './Affiliation/nanocellect.png';
+import seoultech from './Affiliation/seoultech.png';
+import kist from './Affiliation/kist.png';
+import ibs from './Affiliation/ibs.png';
+import navy from './Affiliation/navy.png';
+import cnu from './Affiliation/cnu.png';
 
 function Experience() {
   return (
