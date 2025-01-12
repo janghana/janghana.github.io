@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a65cbda71b162e7655859972c38271b",
+    "revision": "847c7c3a4d1ebeec214b7dbef1273f61",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.990c4241.chunk.css"
   },
   {
-    "revision": "c2bf01387eb2bed7e91b",
-    "url": "/static/css/main.8d97974b.chunk.css"
+    "revision": "ccd95e33be4f756e82f9",
+    "url": "/static/css/main.71ef4c72.chunk.css"
   },
   {
     "revision": "cbcc5195a821c2b3aa65",
@@ -20,52 +20,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/3.18a8d937.chunk.js"
   },
   {
-    "revision": "c2bf01387eb2bed7e91b",
-    "url": "/static/js/main.b5ee020f.chunk.js"
+    "revision": "ccd95e33be4f756e82f9",
+    "url": "/static/js/main.28fc25ab.chunk.js"
   },
   {
     "revision": "7630ab4973f3feffff9e",
     "url": "/static/js/runtime~main.91c6a37f.js"
   },
   {
-    "revision": "93c82fb0cb8142255076b3e75472e1f0",
-    "url": "/static/media/1.93c82fb0.png"
-  },
-  {
-    "revision": "8a57291d212ae4840d4cce7a48a8e50a",
-    "url": "/static/media/10.8a57291d.png"
-  },
-  {
-    "revision": "06208e92508f29db5f3844eeb5ab1f2a",
-    "url": "/static/media/2.06208e92.png"
-  },
-  {
     "revision": "be9308d71ef374a636a7e22561afbef4",
-    "url": "/static/media/3.be9308d7.png"
-  },
-  {
-    "revision": "ddb07dd6bf12d8729618dc57d62fddf8",
-    "url": "/static/media/4.ddb07dd6.png"
+    "url": "/static/media/CNU_NAVI.be9308d7.png"
   },
   {
     "revision": "1fc3e1365f45020ff26de2dc07dde926",
-    "url": "/static/media/5.1fc3e136.png"
-  },
-  {
-    "revision": "7adb9031503008af7b33e77cf8e62ee8",
-    "url": "/static/media/6.7adb9031.png"
-  },
-  {
-    "revision": "b9fbe69e9bdb668819acea6f94b51f62",
-    "url": "/static/media/7.b9fbe69e.png"
+    "url": "/static/media/Contrast_Agent-Free_Approach_for_Enhancing_HCC_Visualization_in_CECT_Derived_from_NCECT_Utilizing_CA_Injection_Principles.1fc3e136.png"
   },
   {
     "revision": "e0e7745a724187f4a84ddbe4a2120bbd",
-    "url": "/static/media/8.e0e7745a.png"
+    "url": "/static/media/Designing_a_Predictive_Coding_Network_Model_to_Mimic_the_Human_Visual_Cortex.e0e7745a.png"
+  },
+  {
+    "revision": "7adb9031503008af7b33e77cf8e62ee8",
+    "url": "/static/media/Diffusion-Model-Based_Conditional_Medical_Image_Translation_for_T1-Weighted_MR_Imaging_Synthesis_from_CT.7adb9031.png"
   },
   {
     "revision": "3bcbce55ae2d917d7daab1883fc60b85",
-    "url": "/static/media/9.3bcbce55.png"
+    "url": "/static/media/Emotional_Chat_Comparative_Analysis_of_T5_BART_and_BERT_for_Generating_Sentimental_Dialogues.3bcbce55.png"
+  },
+  {
+    "revision": "ddb07dd6bf12d8729618dc57d62fddf8",
+    "url": "/static/media/Enhancing_Breast_Cancer_MRI_Classification_Through_ViT_and_Multi-Marker.ddb07dd6.png"
+  },
+  {
+    "revision": "b9fbe69e9bdb668819acea6f94b51f62",
+    "url": "/static/media/Enhancing_HCC_Tumor_Segmentation_through_Aortic_Contrast-Enhanced_Imaging_with_UNETR.b9fbe69e.png"
+  },
+  {
+    "revision": "06208e92508f29db5f3844eeb5ab1f2a",
+    "url": "/static/media/GABNet_Graph_Attention_Boosting_Network_for_circRNA_Analysis_in_the_Diagnosis_of_Hepatocellular_Carcinoma.06208e92.png"
+  },
+  {
+    "revision": "8a57291d212ae4840d4cce7a48a8e50a",
+    "url": "/static/media/Investigating_Brainwave_Patterns_in_Response_to_the_Jumping_Phenomenon.8a57291d.png"
   },
   {
     "revision": "10824af77e9961cfd548c8a458f10851",
@@ -306,6 +302,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b8b8393d2e65fcebda5fa99fa3264f41",
     "url": "/static/media/KaTeX_Typewriter-Regular.b8b8393d.woff2"
+  },
+  {
+    "revision": "93c82fb0cb8142255076b3e75472e1f0",
+    "url": "/static/media/Unsupervised_Diffusion_Model_for_Synthesizing_T1-weighted_MRI_Scans_from_Abdominal_CT_Scans.93c82fb0.png"
   },
   {
     "revision": "779e96e595e0d6c09f2a7ef114f85c0c",
