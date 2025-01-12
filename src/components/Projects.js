@@ -849,6 +849,7 @@ function Projects() {
                   hideZoom
                   className="my-modal-image"
                 />
+
                 <p>If you want to see the video about the above picture, click this link:&nbsp;
                   <a 
                     href="https://drive.google.com/file/d/1BobxfhqmgHK-C1yrrsNltcuCzjpQJuR_/view"

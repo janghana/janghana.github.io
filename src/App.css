@@ -19,7 +19,7 @@ body {
 }
 
 .timeline-item {
-  margin-bottom: 0.5px;
+  margin-bottom: 10px;
 }
 
 .timeline-content {
@@ -39,10 +39,6 @@ body {
   text-decoration: underline;
 }
 
-/* 
-  Research Interest 부분만 가로배치 
-  (flex로 수평 나열, wrap으로 줄바꿈)
-*/
 .research-interest-section .timeline {
   display: flex;
   flex-wrap: wrap;
@@ -50,5 +46,15 @@ body {
 }
 
 .research-interest-section .timeline-item {
-  margin-bottom: 0; /* 기본 margin을 없애 수평 정렬 시 깔끔하게 */
+  margin-bottom: 0;
+}
+
+.my-modal-image {
+  max-width: 400px;
+  width: 80%;
+  height: auto;
+  cursor: pointer;
+  /* float: left; */
+  /* margin-left: 2rcap;
+  margin-right: 5rem; */
 }
