@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Han Jang's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains my personal portfolio website, showcasing my **Home**, **CV**, **Experience**, **Publications**, **Projects**, and **Contact** pages.  
+It's a **React** project, structured to be **responsive** across desktop and mobile devices.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+1. [Project Overview](#project-overview)  
+2. [Features](#features)  
+3. [Folder Structure](#folder-structure)  
+4. [Getting Started](#getting-started)  
+5. [Usage](#usage)  
+6. [Deployment (GitHub Pages)](#deployment-github-pages)  
+7. [Packages & Libraries](#packages--libraries)  
+8. [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Overview
 
-### `npm test`
+- **Framework**: [React](https://reactjs.org/)  
+- **Layout**: Multiple pages (Home, CV, Experience, Publications, Projects, Contact)  
+- **Responsive**: Uses `flexbox` + **media queries** for mobile-friendly design  
+- **Styling**: Primarily custom CSS in `App.css`, plus some inline styles  
+- **Modal Images**: [react-modal-image](https://www.npmjs.com/package/react-modal-image) for clickable/zoomable images  
+- **Mathematical Expressions**: [react-katex](https://www.npmjs.com/package/react-katex) for LaTeX-style math rendering  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Home**  
+   - Basic introduction to who I am and what I do.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **CV**  
+   - Education, experience, research interest, skills, honors & awards, and licenses.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Experience**  
+   - Timeline of work/research experiences with logos, short descriptions, and links.
 
-### `npm run eject`
+4. **Publications**  
+   - List of published works, with reference details and external links.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. **Projects**  
+   - Showcases major projects with images, short explanations, and references to code/papers.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. **Contact**  
+   - Contact email, plus map embed and links to GitHub, LinkedIn, Blog, Google Scholar, etc.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+7. **LeftSideProfile**  
+   - Common profile component displayed on every page’s left side.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Folder Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Below is a simplified version of how the major files/folders are organized:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```plaintext
+my-portfolio/
+├─ public/
+│   ├─ index.html
+│   └─ icon.ico
+├─ src/
+│   ├─ components/
+│   │   ├─ Home.js
+│   │   ├─ CV.js
+│   │   ├─ Experience.js
+│   │   ├─ Publications.js
+│   │   ├─ Projects.js
+│   │   └─ Contact.js
+│   ├─ LeftSideProfile.js
+│   ├─ App.js
+│   ├─ App.css
+│   ├─ ...
+│   └─ pjts/
+│       ├─ ...
+├─ package.json
+├─ README.md (this file)
+├─ yarn.lock or package-lock.json
+└─ ...
+```
 
-### Code Splitting
+- **`App.js`** sets up routes to each page (`Home`, `Contact`, etc.) if using React Router (or direct links).
+- **`LeftSideProfile.js`** the common sidebar content across pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/janghana/my-portfolio.git
+   cd my-portfolio
