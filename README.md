@@ -87,10 +87,3 @@ my-portfolio/
 - **`LeftSideProfile.js`** the common sidebar content across pages.
 
 ---
-
-## Getting Started
-
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/janghana/my-portfolio.git
-   cd my-portfolio
