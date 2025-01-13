@@ -12,26 +12,21 @@ import cnu from './Affiliation/cnu.png';
 
 function Experience() {
   return (
-    <div style={{ display: 'flex', width: '100%' }}>
-      <LeftSideProfile />
+    <div className="exp-container">
+      <div className="exp-left">
+        <LeftSideProfile />
+      </div>
 
-      <div style={{ flex: '2' }}>
+      <div className="exp-main">
         <h2>Experience</h2>
         <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
 
         <div className="timeline">
+
           {/* SNU */}
-          
           {/* <div className="timeline-item">
-            <div 
-              className="timeline-content" 
-              style={{ 
-                display: 'flex', 
-                gap: '2rem',
-                alignItems: 'center'
-              }}
-            >
-              <div style={{ flex: 1, marginRight: '1rem' }}>
+            <div className="timeline-content exp-flex-item">
+              <div className="exp-description">
                 <h3>Seoul National University (SNU)</h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Seoul, South Korea
@@ -50,15 +45,11 @@ function Experience() {
                   </a>
                 </p>
               </div>
-              <div style={{ width: '80px', textAlign: 'center' }}>
+              <div className="exp-logo">
                 <img
                   src={snu}
                   alt="SNU Logo"
-                  style={{ 
-                    maxWidth: '150px',
-                    maxHeight: '150px',
-                    objectFit: 'contain'
-                  }}
+                  className="exp-logo-img"
                 />
               </div>
             </div>
@@ -66,48 +57,38 @@ function Experience() {
 
           {/* NanoCellect Biomedical */}
           <div className="timeline-item">
-            <div
-              className="timeline-content"
-              style={{
-                display: 'flex',
-                gap: '2rem',
-                alignItems: 'center'
-              }}
-            >
-              <div style={{ flex: 1, marginRight: '1rem' }}>
+            <div className="timeline-content exp-flex-item">
+              <div className="exp-description">
                 <h3>NanoCellect Biomedical</h3>
-
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   San Diego, California, United States
                 </p>
-
                 <p><strong>Machine Learning Engineer</strong> (On-site), Apr. 2024 - Feb. 2025</p>
-                <p>Research Focus: Cell Image Analysis, Cell Classification <br /> (specifically human white blood cells, leukemia cells, trophoblast cells)</p>
+                <p>
+                  Research Focus: Cell Image Analysis, Cell Classification
+                  <br />
+                  (specifically human white blood cells, leukemia cells, trophoblast cells)
+                </p>
                 <p>
                   Product: &nbsp;
                   <strong>
-                  <a 
-                    href="https://nanocellect.com/verlo/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className='advisor-link'
-                    style={{ color: 'green' }}
-                  >
-                    VERLO™ Image-Guided Cell Sorter
-                  </a>
+                    <a
+                      href="https://nanocellect.com/verlo/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                      style={{ color: 'green' }}
+                    >
+                      VERLO™ Image-Guided Cell Sorter
+                    </a>
                   </strong>
                 </p>
-
               </div>
-              <div style={{ width: '80px', textAlign: 'center' }}>
+              <div className="exp-logo">
                 <img
                   src={nanocellect}
                   alt="NanoCellect Logo"
-                  style={{ 
-                    maxWidth: '150px',
-                    maxHeight: '150px',
-                    objectFit: 'contain'
-                  }}
+                  className="exp-logo-img"
                 />
               </div>
             </div>
@@ -115,15 +96,8 @@ function Experience() {
 
           {/* SEOULTECH */}
           <div className="timeline-item">
-            <div
-              className="timeline-content"
-              style={{
-                display: 'flex',
-                gap: '2rem',
-                alignItems: 'center'
-              }}
-            >
-              <div style={{ flex: 1, marginRight: '1rem' }}>
+            <div className="timeline-content exp-flex-item">
+              <div className="exp-description">
                 <h3>Seoul National University of Science and Technology (SEOULTECH)</h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Seoul, South Korea
@@ -143,15 +117,11 @@ function Experience() {
                   &nbsp;BAIS LAB
                 </p>
               </div>
-              <div style={{ width: '80px', textAlign: 'center' }}>
+              <div className="exp-logo">
                 <img
                   src={seoultech}
                   alt="SEOULTECH Logo"
-                  style={{ 
-                    maxWidth: '150px',
-                    maxHeight: '150px',
-                    objectFit: 'contain'
-                  }}
+                  className="exp-logo-img"
                 />
               </div>
             </div>
@@ -159,15 +129,8 @@ function Experience() {
 
           {/* KIST */}
           <div className="timeline-item">
-            <div
-              className="timeline-content"
-              style={{
-                display: 'flex',
-                gap: '2rem',
-                alignItems: 'center'
-              }}
-            >
-              <div style={{ flex: 1, marginRight: '1rem' }}>
+            <div className="timeline-content exp-flex-item">
+              <div className="exp-description">
                 <h3>Korea Institute of Science and Technology (KIST)</h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Seoul, South Korea
@@ -187,15 +150,11 @@ function Experience() {
                   &nbsp;AIMI LAB
                 </p>
               </div>
-              <div style={{ width: '80px', textAlign: 'center' }}>
+              <div className="exp-logo">
                 <img
                   src={kist}
                   alt="KIST Logo"
-                  style={{ 
-                    maxWidth: '150px',
-                    maxHeight: '150px',
-                    objectFit: 'contain'
-                  }}
+                  className="exp-logo-img"
                 />
               </div>
             </div>
@@ -203,15 +162,8 @@ function Experience() {
 
           {/* IBS 1 */}
           <div className="timeline-item">
-            <div
-              className="timeline-content"
-              style={{
-                display: 'flex',
-                gap: '2rem',
-                alignItems: 'center'
-              }}
-            >
-              <div style={{ flex: 1, marginRight: '1rem' }}>
+            <div className="timeline-content exp-flex-item">
+              <div className="exp-description">
                 <h3>Institute for Basic Science (IBS)</h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Daejeon, South Korea
@@ -231,15 +183,11 @@ function Experience() {
                   &nbsp;BrainX LAB
                 </p>
               </div>
-              <div style={{ width: '80px', textAlign: 'center' }}>
+              <div className="exp-logo">
                 <img
                   src={ibs}
                   alt="IBS Logo"
-                  style={{ 
-                    maxWidth: '150px',   /* 가로 최대 120px */
-                    maxHeight: '150px',   /* 세로 최대 80px */
-                    objectFit: 'contain'
-                  }}
+                  className="exp-logo-img"
                 />
               </div>
             </div>
@@ -247,15 +195,8 @@ function Experience() {
 
           {/* IBS 2 */}
           <div className="timeline-item">
-            <div
-              className="timeline-content"
-              style={{
-                display: 'flex',
-                gap: '2rem',
-                alignItems: 'center'
-              }}
-            >
-              <div style={{ flex: 1, marginRight: '1rem' }}>
+            <div className="timeline-content exp-flex-item">
+              <div className="exp-description">
                 <h3>Institute for Basic Science (IBS)</h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Daejeon, South Korea
@@ -275,106 +216,77 @@ function Experience() {
                   &nbsp;BrainX LAB
                 </p>
               </div>
-              <div style={{ width: '80px', textAlign: 'center' }}>
+              <div className="exp-logo">
                 <img
                   src={ibs}
                   alt="IBS Logo"
-                  style={{ 
-                    maxWidth: '150px',   /* 가로 최대 120px */
-                    maxHeight: '150px',   /* 세로 최대 80px */
-                    objectFit: 'contain'
-                  }}
+                  className="exp-logo-img"
                 />
               </div>
             </div>
           </div>
-          </div>
+        </div>
 
+        <hr
+          style={{
+            width: '100%',
+            marginLeft: '0',
+            marginRight: 'auto',
+            marginTop: '1em',
+            marginBottom: '1em',
+            borderColor: '#e0e0e0',
+            opacity: '0.15',
+            display: 'block',
+          }}
+        />
 
-          {/* Military & Student Leadership */}
-          <hr
-            style={{
-              width: '100%',
-              marginLeft: '0',
-              marginRight: 'auto',
-              marginTop: '1em',
-              marginBottom: '1em',
-              borderColor: '#e0e0e0',
-              opacity: '0.15',
-              display: 'block',
-            }}
-          />
+        <h2>Military & Student Representative</h2>
 
-          <h2>Military & Student Representative</h2>
-
-          {/* Republic of Korea Navy */}
-          <div className="timeline-item">
-            <div
-              className="timeline-content"
-              style={{
-                display: 'flex',
-                gap: '2rem',
-                alignItems: 'center'
-              }}
-            >
-              <div style={{ flex: 1, marginRight: '1rem' }}>
-                <h3>Republic of Korea Navy</h3>
-                <p>2020. 2. ~ 2021. 10.</p>
-                <p>Military Service - Republic of Korea Navy, Class 664</p>
-                <p>(Honorably Discharged as a Sergeant upon Completion of Full Service Term)</p>
-              </div>
-
-              <div style={{ width: '80px', textAlign: 'center' }}>
-                <img
-                  src={navy}
-                  alt="ROK Navy Logo"
-                  style={{ 
-                    maxWidth: '150px', 
-                    maxHeight: '150px', 
-                    objectFit: 'contain' 
-                  }}
-                />
-              </div>
+        {/* ROK Navy */}
+        <div className="timeline-item">
+          <div className="timeline-content exp-flex-item">
+            <div className="exp-description">
+              <h3>Republic of Korea Navy</h3>
+              <p>2020. 2. ~ 2021. 10.</p>
+              <p>Military Service - Republic of Korea Navy, Class 664</p>
+              <p>(Honorably Discharged as a Sergeant upon Completion of Full Service Term)</p>
+            </div>
+            <div className="exp-logo">
+              <img
+                src={navy}
+                alt="ROK Navy Logo"
+                className="exp-logo-img"
+              />
             </div>
           </div>
+        </div>
 
-          {/* CNU */}
-          <div className="timeline-item">
-            <div
-              className="timeline-content"
-              style={{
-                display: 'flex',
-                gap: '2rem',
-                alignItems: 'center'
-              }}
-            >
-              <div style={{ flex: 1, marginRight: '1rem' }}>
-                <h3>Chungnam National University (CNU)</h3>
-                <p>2019. 3. ~ 2019. 12.</p>
-                <p>
-                  Class of 2019 Student Representative of the Division of Computer Convergence,<br />
-                  College of Engineering, Chungnam National University
-                </p>
-              </div>
-
-              <div style={{ width: '80px', textAlign: 'center' }}>
-                <img
-                  src={cnu}
-                  alt="CNU Logo"
-                  style={{ 
-                    maxWidth: '150px', 
-                    maxHeight: '150px', 
-                    objectFit: 'contain'
-                  }}
-                />
-              </div>
+        {/* CNU */}
+        <div className="timeline-item">
+          <div className="timeline-content exp-flex-item">
+            <div className="exp-description">
+              <h3>Chungnam National University (CNU)</h3>
+              <p>2019. 3. ~ 2019. 12.</p>
+              <p>
+                Class of 2019 Student Representative of the Division of Computer Convergence,
+                <br />
+                College of Engineering, Chungnam National University
+              </p>
+            </div>
+            <div className="exp-logo">
+              <img
+                src={cnu}
+                alt="CNU Logo"
+                className="exp-logo-img"
+              />
             </div>
           </div>
+        </div>
 
-        <br/>
+        <br />
       </div>
 
-      <div style={{ flex: '1' }}/>
+      <div className="exp-right" />
     </div>
   );
 }

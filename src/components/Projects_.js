@@ -3,32 +3,30 @@ import '../App.css';
 import LeftSideProfile from './LeftSideProfile';
 import { BlockMath } from 'react-katex';
 import 'katex/dist/katex.min.css';
-import ModalImage from 'react-modal-image';
+import ModalImage from "react-modal-image";
 
-import UnsupervisedDiffusionCT from './pjts/Unsupervised_Diffusion_Model_for_Synthesizing_T1-weighted_MRI_Scans_from_Abdominal_CT_Scans.png';
-import GABNetHCC from './pjts/GABNet_Graph_Attention_Boosting_Network_for_circRNA_Analysis_in_the_Diagnosis_of_Hepatocellular_Carcinoma.png';
-import CNUNAVI from './pjts/CNU_NAVI.png';
-import BreastCancerViT from './pjts/Enhancing_Breast_Cancer_MRI_Classification_Through_ViT_and_Multi-Marker.png';
-import ContrastAgentFree from './pjts/Contrast_Agent-Free_Approach_for_Enhancing_HCC_Visualization_in_CECT_Derived_from_NCECT_Utilizing_CA_Injection_Principles.png';
-import DiffusionModelT1Synthesis from './pjts/Diffusion-Model-Based_Conditional_Medical_Image_Translation_for_T1-Weighted_MR_Imaging_Synthesis_from_CT.png';
-import AorticContrastUNETR from './pjts/Enhancing_HCC_Tumor_Segmentation_through_Aortic_Contrast-Enhanced_Imaging_with_UNETR.png';
-import PredictiveCodingNetwork from './pjts/Designing_a_Predictive_Coding_Network_Model_to_Mimic_the_Human_Visual_Cortex.png';
-import EmotionalChat from './pjts/Emotional_Chat_Comparative_Analysis_of_T5_BART_and_BERT_for_Generating_Sentimental_Dialogues.png';
-import JumpingPhenomenon from './pjts/Investigating_Brainwave_Patterns_in_Response_to_the_Jumping_Phenomenon.png';
+import p1 from './pjts/Unsupervised_Diffusion_Model_for_Synthesizing_T1-weighted_MRI_Scans_from_Abdominal_CT_Scans.png';
+import p2 from './pjts/GABNet_Graph_Attention_Boosting_Network_for_circRNA_Analysis_in_the_Diagnosis_of_Hepatocellular_Carcinoma.png';
+import p3 from './pjts/CNU_NAVI.png';
+import p4 from './pjts/Enhancing_Breast_Cancer_MRI_Classification_Through_ViT_and_Multi-Marker.png';
+import p5 from './pjts/Contrast_Agent-Free_Approach_for_Enhancing_HCC_Visualization_in_CECT_Derived_from_NCECT_Utilizing_CA_Injection_Principles.png';
+import p6 from './pjts/Diffusion-Model-Based_Conditional_Medical_Image_Translation_for_T1-Weighted_MR_Imaging_Synthesis_from_CT.png';
+import p7 from './pjts/Enhancing_HCC_Tumor_Segmentation_through_Aortic_Contrast-Enhanced_Imaging_with_UNETR.png';
+import p8 from './pjts/Designing_a_Predictive_Coding_Network_Model_to_Mimic_the_Human_Visual_Cortex.png';
+import p9 from './pjts/Emotional_Chat_Comparative_Analysis_of_T5_BART_and_BERT_for_Generating_Sentimental_Dialogues.png';
+import p10 from './pjts/Investigating_Brainwave_Patterns_in_Response_to_the_Jumping_Phenomenon.png';
 
 function Projects() {
   return (
-    <div className="projects-container">
-      <div className="projects-left">
-        <LeftSideProfile />
-      </div>
+    <div style={{ display: 'flex', width: '100%' }}>
+      <LeftSideProfile />
 
-      <div className="projects-main">
+      <div style={{ flex: 3 }}>
         <h2>Projects</h2>
 
-        {/* 2025 (Placeholder if needed in future) */}
-        {/* <h3>2025</h3>
-        <hr
+          {/* 2025 */}
+          <h3>2025</h3>
+          <hr
           style={{
             width: '55%',
             marginLeft: '0',
@@ -39,26 +37,26 @@ function Projects() {
             opacity: '0.15',
             display: 'block'
           }}
-        /> */}
+          />
+
 
         <div className="timeline">
-
           {/* 2024 */}
           <h3>2024</h3>
           <hr
-            style={{
-              width: '55%',
-              marginLeft: '0',
-              marginRight: 'auto',
-              marginTop: '1em',
-              marginBottom: '1em',
-              borderColor: '#e0e0e0',
-              opacity: '0.15',
-              display: 'block'
-            }}
+          style={{
+            width: '55%',
+            marginLeft: '0',
+            marginRight: 'auto',
+            marginTop: '1em',
+            marginBottom: '1em',
+            borderColor: '#e0e0e0',
+            opacity: '0.15',
+            display: 'block'
+          }}
           />
 
-          {/* Unsupervised Diffusion Model ... */}
+          {/* Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -91,55 +89,52 @@ function Projects() {
                 </p>
                 <p>
                   @<a 
-                    href="https://plus.cnu.ac.kr/html/en/"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     CNU
                   </a>&nbsp;
                   @<a 
-                    href="https://www.kist.re.kr/eng/index.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     KIST
                   </a>&nbsp;
                   @<a 
-                    href="https://en.seoultech.ac.kr/"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://en.seoultech.ac.kr/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     SEOULTECH
                   </a>&nbsp;
-                  @BAISLAB
-                </p>
-                <p>
-                  [<a 
-                    href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  @BAISLAB</p>
+                <p>[<a 
+                  href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Paper
-                  </a>] 
-                  | 
+                  </a>] | 
                   [<a 
-                    href="https://github.com/janghana/Unsupervised-Diffusion-Model-for-Synthesizing-T1-weighted-MRI-Scans-from-Abdominal-CT-Scans"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://github.com/janghana/Unsupervised-Diffusion-Model-for-Synthesizing-T1-weighted-MRI-Scans-from-Abdominal-CT-Scans"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Code
                   </a>]
                   |
                   [<a 
-                    href="https://drive.google.com/file/d/1J3rnoVAd6anQrsf-7kLHkHUhdYOFSOmN/view?usp=drive_link"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://drive.google.com/file/d/1J3rnoVAd6anQrsf-7kLHkHUhdYOFSOmN/view?usp=drive_link"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Poster
                   </a>]
@@ -149,9 +144,9 @@ function Projects() {
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
-                  small={UnsupervisedDiffusionCT}
-                  large={UnsupervisedDiffusionCT}
-                  alt="Unsupervised Diffusion Model for Synthesizing T1-weighted MRI"
+                  small={p1}
+                  large={p1}
+                  alt="Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans"
                   hideZoom
                   className="my-modal-image"
                 />
@@ -159,7 +154,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* GABNet: Graph Attention Boosting Network ... */}
+          {/* GABNet: Graph Attention Boosting Network for circRNA Analysis in the Diagnosis of Hepatocellular Carcinoma */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -194,60 +189,60 @@ function Projects() {
                   that could also be beneficial for diagnosing other types of cancers.
                 </p>
                 <p>
-                  @<a 
-                    href="https://plus.cnu.ac.kr/html/en/"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                @<a 
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     CNU
-                  </a>&nbsp;@Graduation_Project
+                  </a>&nbsp;
+                  @Graduation_Project
                 </p>
                 <p>
                   [<a 
-                    href="https://drive.google.com/file/d/14Jb0DGuJ3rtw9oVpDX8h-zFtCXwUOFBz/view?usp=drive_link"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://drive.google.com/file/d/14Jb0DGuJ3rtw9oVpDX8h-zFtCXwUOFBz/view?usp=drive_link"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Paper
                   </a>]
                   |
                   [<a 
-                    href="https://github.com/janghana/HCC-Prediction-with-circRNA-using-Ensemble-Heterogeneous-Graph-Attention-Networks"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://github.com/janghana/HCC-Prediction-with-circRNA-using-Ensemble-Heterogeneous-Graph-Attention-Networks"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Code
-                  </a>]
-                  | 
+                  </a>] | 
+
                   [<a 
-                    href="https://drive.google.com/file/d/1wL0qKHLMqsJQ5L3oL_iSEl03YpwCQRZw/view"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://drive.google.com/file/d/1wL0qKHLMqsJQ5L3oL_iSEl03YpwCQRZw/view"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Awards
                   </a>]                  
                   |
                   [<a 
-                    href="https://drive.google.com/file/d/1mUGoFzGKtcTUVR2UUFi4breL0e4KBnFk/view"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://drive.google.com/file/d/1mUGoFzGKtcTUVR2UUFi4breL0e4KBnFk/view"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Poster
                   </a>]
                   |
-                  [Project Duration: Mar. 2024 - Dec. 2024]
-                </p>
+                  [Project Duration: Mar. 2024 - Dec. 2024]</p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
-                  small={GABNetHCC}
-                  large={GABNetHCC}
-                  alt="GABNet: Graph Attention Boosting Network for circRNA Analysis"
+                  small={p2}
+                  large={p2}
+                  alt="GABNet: Graph Attention Boosting Network for circRNA Analysis in the Diagnosis of Hepatocellular Carcinoma"
                   hideZoom
                   className="my-modal-image"
                 />
@@ -255,7 +250,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* CNU NAVI */}
+          {/* CNU NAVI (Chungnam National University NAVIgation) */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -266,6 +261,7 @@ function Projects() {
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Senior
                 </p>
+
                 <p>
                   In this study, we develop an OCR (Optical Character Recognition) 
                   technology tailored to the Everytime dataset, leveraging a novel deep 
@@ -283,31 +279,32 @@ function Projects() {
                   Everytime dataset.
                 </p>
                 <p>
-                  @<a 
-                    href="https://plus.cnu.ac.kr/html/en/"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                @<a 
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     CNU
-                  </a>&nbsp;@Toy_Project
+                  </a>&nbsp;
+                  @Toy_Project
                 </p>
+                
                 <p>
                   [<a 
-                    href="https://github.com/janghana/CNU-NAVI"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://github.com/janghana/CNU-NAVI"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Code
-                  </a>]
-                  | [Project Duration: Mar. 2024 - Aug. 2024]
-                </p>
+                  </a>] | [Project Duration: Mar. 2024 - Aug. 2024]
+                  </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
-                  small={CNUNAVI}
-                  large={CNUNAVI}
+                  small={p3}
+                  large={p3}
                   alt="CNU NAVI (Chungnam National University NAVIgation)"
                   hideZoom
                   className="my-modal-image"
@@ -319,19 +316,19 @@ function Projects() {
           {/* 2023 */}
           <h3 style={{ marginTop: '3rem' }}>2023</h3>
           <hr
-            style={{
-              width: '55%',
-              marginLeft: '0',
-              marginRight: 'auto',
-              marginTop: '1em',
-              marginBottom: '1em',
-              borderColor: '#e0e0e0',
-              opacity: '0.15',
-              display: 'block'
-            }}
+          style={{
+            width: '55%',
+            marginLeft: '0',
+            marginRight: 'auto',
+            marginTop: '1em',
+            marginBottom: '1em',
+            borderColor: '#e0e0e0',
+            opacity: '0.15',
+            display: 'block'
+          }}
           />
 
-          {/* Enhancing Breast Cancer MRI Classification ... */}
+          {/* Enhancing Breast Cancer MRI Classification Through Vision Transformer(ViT) and Multi-Marker */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -342,6 +339,7 @@ function Projects() {
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Internship
                 </p>
+
                 <p>
                   I worked on a joint project that aimed to enhance breast cancer 
                   classification performance in T2-weighted MRI images. The focus of this project 
@@ -356,38 +354,38 @@ function Projects() {
                 </p>
                 <p>
                   @<a 
-                    href="https://www.kist.re.kr/eng/index.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     KIST
                   </a>&nbsp;
-                  @<a 
-                    href="https://anam.kumc.or.kr/en/index.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                 @<a 
+                  href="https://anam.kumc.or.kr/en/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     KoreaUniversityAnamHospital
                   </a>&nbsp;
                   @AIMILAB
-                </p>
+                  </p>
                 <p>
                   [<a 
-                    href="https://drive.google.com/file/d/14jp4KGZlAj2tE1xGyHQD4Unks2Ln5WNx/view"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://drive.google.com/file/d/14jp4KGZlAj2tE1xGyHQD4Unks2Ln5WNx/view"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Paper
                   </a>]
-                  |
+                   |
                   [<a 
-                    href="https://github.com/janghana/Breast-Cancer-Classification-using-ViT"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://github.com/janghana/Breast-Cancer-Classification-using-ViT"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Code
                   </a>]
@@ -397,9 +395,9 @@ function Projects() {
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
-                  small={BreastCancerViT}
-                  large={BreastCancerViT}
-                  alt="Enhancing Breast Cancer MRI Classification with ViT and Multi-Marker"
+                  small={p4}
+                  large={p4}
+                  alt="Enhancing Breast Cancer MRI Classification Through Vision Transformer(ViT) and Multi-Marker"
                   hideZoom
                   className="my-modal-image"
                 />
@@ -407,7 +405,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* Contrast Agent-Free Approach for Enhancing ... */}
+          {/* Contrast Agent-Free Approach for Enhancing Hepatocellular Carcinoma (HCC) Visualization in Contrast-Enhanced Computed Tomography (CECT) Derived from Non-Contrast Enhanced Computed Tomography (NCECT): Utilizing Contrast Agent (CA) Injection Principles */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -415,7 +413,7 @@ function Projects() {
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
                 <h3>
-                  Contrast Agent-Free Approach for Enhancing Hepatocellular Carcinoma (HCC) Visualization...
+                  Contrast Agent-Free Approach for Enhancing Hepatocellular Carcinoma (HCC) Visualization in Contrast-Enhanced Computed Tomography (CECT) Derived from Non-Contrast Enhanced Computed Tomography (NCECT): Utilizing Contrast Agent (CA) Injection Principles
                 </h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Internship
@@ -433,29 +431,28 @@ function Projects() {
                 </p>
                 <p>
                   @<a 
-                    href="https://www.kist.re.kr/eng/index.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     KIST
                   </a>&nbsp;
                   @<a 
-                    href="https://sev.severance.healthcare/sev-en/index.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://sev.severance.healthcare/sev-en/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     YonseiSeveranceHospital
                   </a>&nbsp;
-                  @AIMILAB
-                </p>
+                   @AIMILAB</p>
                 <p>
                   [<a 
-                    href="https://github.com/janghana/NCECT-to-CECT"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://github.com/janghana/NCECT-to-CECT"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Code
                   </a>]
@@ -465,9 +462,9 @@ function Projects() {
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
-                  small={ContrastAgentFree}
-                  large={ContrastAgentFree}
-                  alt="Contrast Agent-Free Approach for Enhancing HCC Visualization..."
+                  small={p5}
+                  large={p5}
+                  alt="Contrast Agent-Free Approach for Enhancing Hepatocellular Carcinoma (HCC) Visualization in Contrast-Enhanced Computed Tomography (CECT) Derived from Non-Contrast Enhanced Computed Tomography (NCECT): Utilizing Contrast Agent (CA) Injection Principles"
                   hideZoom
                   className="my-modal-image"
                 />
@@ -475,7 +472,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* Diffusion-Model-Based Conditional Medical Image Translation ... */}
+          {/* Diffusion-Model-Based Conditional Medical Image Translation for T1-Weighted MR Imaging Synthesis from CT */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -502,30 +499,30 @@ function Projects() {
                   and proposes a solution using a diffusion model.
                 </p>
                 <p>
-                  @<a 
-                    href="https://www.kist.re.kr/eng/index.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                @<a 
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     KIST
                   </a>&nbsp;
-                  @<a 
-                    href="https://anam.kumc.or.kr/en/index.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                 @<a 
+                  href="https://anam.kumc.or.kr/en/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     KoreaUniversityAnamHospital
                   </a>&nbsp;
                   @AIMILAB
                 </p>
                 <p>
-                  [<a 
-                    href="https://github.com/janghana/SynDiff-Medical-Image-Translation"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                [<a 
+                  href="https://github.com/janghana/SynDiff-Medical-Image-Translation"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Code
                   </a>]
@@ -535,9 +532,9 @@ function Projects() {
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
-                  small={DiffusionModelT1Synthesis}
-                  large={DiffusionModelT1Synthesis}
-                  alt="Diffusion-Model-Based Conditional Medical Image Translation"
+                  small={p6}
+                  large={p6}
+                  alt="Diffusion-Model-Based Conditional Medical Image Translation for T1-Weighted MR Imaging Synthesis from CT"
                   hideZoom
                   className="my-modal-image"
                 />
@@ -545,7 +542,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation... */}
+          {/* Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation through Aortic Contrast-Enhanced Imaging with UNETR */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -581,29 +578,28 @@ function Projects() {
                 <BlockMath math="Corrected~Contrast = Original~Contrast \times \frac{Original~Contrast}{Aorta~Average~Contrast~Value}" />
                 <p>
                   @<a 
-                    href="https://www.kist.re.kr/eng/index.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     KIST
                   </a>&nbsp;
                   @<a 
-                    href="https://sev.severance.healthcare/sev-en/index.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://sev.severance.healthcare/sev-en/index.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     YonseiSeveranceHospital
                   </a>&nbsp;
-                  @AIMILAB
-                </p>
+                   @AIMILAB</p>
                 <p>
                   [<a 
-                    href="https://github.com/kimhyoree/Improving-HCC-diagnostic-precision-in-CT-using-UNETR-model"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://github.com/kimhyoree/Improving-HCC-diagnostic-precision-in-CT-using-UNETR-model"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Code
                   </a>]
@@ -613,9 +609,9 @@ function Projects() {
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
-                  small={AorticContrastUNETR}
-                  large={AorticContrastUNETR}
-                  alt="Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation"
+                  small={p7}
+                  large={p7}
+                  alt="Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation through Aortic Contrast-Enhanced Imaging with UNETR"
                   hideZoom
                   className="my-modal-image"
                 />
@@ -623,7 +619,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* Designing a Predictive Coding Network Model ... */}
+          {/* Designing a Predictive Coding Network Model to Mimic the Human Visual Cortex */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -650,28 +646,28 @@ function Projects() {
                 </p>
                 <p>
                   @<a 
-                    href="https://www.ibs.re.kr/eng.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://www.ibs.re.kr/eng.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     IBS
                   </a>&nbsp;
                   @<a 
-                    href="https://www.ibs.re.kr/glia/"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://www.ibs.re.kr/glia/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     BrainXLAB
                   </a>
                 </p>
                 <p>
                   [<a 
-                    href="https://github.com/janghana/Predictive-Coding-Network"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://github.com/janghana/Predictive-Coding-Network"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Code
                   </a>]
@@ -680,9 +676,9 @@ function Projects() {
                 </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
-                <ModalImage
-                  small={PredictiveCodingNetwork}
-                  large={PredictiveCodingNetwork}
+              <ModalImage
+                  small={p8}
+                  large={p8}
                   alt="Designing a Predictive Coding Network Model to Mimic the Human Visual Cortex"
                   hideZoom
                   className="my-modal-image"
@@ -691,7 +687,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* Emotional Chat: Comparative Analysis ... */}
+          {/* Emotional Chat: Comparative Analysis of T5, BART, and BERT for Generating Sentimental Dialogues */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -714,10 +710,10 @@ function Projects() {
                 </p>
                 <p>
                   @<a 
-                    href="https://plus.cnu.ac.kr/html/en/"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     CNU
                   </a>&nbsp;
@@ -725,31 +721,31 @@ function Projects() {
                 </p>
                 <p>
                   [<a 
-                    href="https://drive.google.com/file/d/1bAVzBOuxXDjDzxMKfmEaZTfPcUS3XDXC/view"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://drive.google.com/file/d/1bAVzBOuxXDjDzxMKfmEaZTfPcUS3XDXC/view"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Paper
                   </a>]
                    | 
                   [<a 
-                    href="https://github.com/janghana/Emotional-Chat"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://github.com/janghana/Emotional-Chat"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Code
                   </a>]
                   |
                   [Project Duration: Mar. 2023 - Jun. 2023]
-                </p>
+                  </p>
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
-                  small={EmotionalChat}
-                  large={EmotionalChat}
-                  alt="Emotional Chat: Comparative Analysis of T5, BART, and BERT"
+                  small={p9}
+                  large={p9}
+                  alt="Emotional Chat: Comparative Analysis of T5, BART, and BERT for Generating Sentimental Dialogues"
                   hideZoom
                   className="my-modal-image"
                 />
@@ -761,19 +757,18 @@ function Projects() {
           {/* 2022 */}
           <h3 style={{ marginTop: '3rem' }}>2022</h3>
           <hr
-            style={{
-              width: '55%',
-              marginLeft: '0',
-              marginRight: 'auto',
-              marginTop: '1em',
-              marginBottom: '1em',
-              borderColor: '#e0e0e0',
-              opacity: '0.15',
-              display: 'block'
-            }}
+          style={{
+            width: '55%',
+            marginLeft: '0',
+            marginRight: 'auto',
+            marginTop: '1em',
+            marginBottom: '1em',
+            borderColor: '#e0e0e0',
+            opacity: '0.15',
+            display: 'block'
+          }}
           />
-
-          {/* Investigating Brainwave Patterns ... */}
+          {/* Investigating Brainwave Patterns in Response to the "Jumping" Phenomenon */}
           <div className="timeline-item">
             <div
               className="timeline-content"
@@ -808,36 +803,37 @@ function Projects() {
                 </p>
                 <p>
                   @<a 
-                    href="https://www.ibs.re.kr/eng.do"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://www.ibs.re.kr/eng.do"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     IBS
                   </a>&nbsp;
                   @<a 
-                    href="https://www.unist.ac.kr/"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://www.unist.ac.kr/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     UNIST
                   </a>&nbsp;
                   @<a 
-                    href="https://www.ibs.re.kr/glia/"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://www.ibs.re.kr/glia/"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     BrainXLAB
-                  </a>&nbsp;@IBS-UNIST Joint Research
+                  </a>&nbsp;
+                  @IBS-UNIST Joint Research
                 </p>
                 <p>
                   [<a 
-                    href="https://github.com/janghana/EEG-data-analysis-of-128-channels"
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="advisor-link"
+                  href="https://github.com/janghana/EEG-data-analysis-of-128-channels"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="advisor-link"
                   >
                     Code
                   </a>]
@@ -847,27 +843,28 @@ function Projects() {
               </div>
               <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
-                  small={JumpingPhenomenon}
-                  large={JumpingPhenomenon}
-                  alt="Investigating Brainwave Patterns in Response to the Jumping Phenomenon"
+                  small={p10}
+                  large={p10}
+                  alt="Investigating Brainwave Patterns in Response to the 'Jumping' Phenomenon"
                   hideZoom
                   className="my-modal-image"
                 />
-                <p>
-                  If you want to see the video about the above picture, click this link:&nbsp;
+
+                <p>If you want to see the video about the above picture, click this link:&nbsp;
                   <a 
                     href="https://drive.google.com/file/d/1BobxfhqmgHK-C1yrrsNltcuCzjpQJuR_/view"
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="advisor-link"
-                  >
-                    Link
+                    >
+                      Link
                   </a>  
                 </p>
               </div>
             </div>
           </div>
         </div>
+
         <br />
       </div>
     </div>

@@ -4,17 +4,13 @@ import LeftSideProfile from './LeftSideProfile';
 
 function CV() {
   return (
-    <div style={{ display: 'flex', width: '100%' }}>
+    <div className="cv-container">
       <LeftSideProfile />
 
-      <div style={{ flex: 2 }}>
+      <div className="cv-main">
         <h2>CV</h2>
         <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
 
-        {/* 
-          Research Interest 섹션만 
-          .research-interest-section 클래스를 추가 
-        */}
         <div className="timeline-section research-interest-section">
           <h3>Research Interest</h3>
           <div className="timeline">
