@@ -47,7 +47,7 @@ function Projects() {
           <h3>2024</h3>
           <hr
             style={{
-              width: '100%',
+              width: '55%',
               marginLeft: '0',
               marginRight: 'auto',
               marginTop: '1em',
@@ -147,14 +147,7 @@ function Projects() {
                   [Project Duration: Jan. 2024 - Jun. 2024]
                 </p>
               </div>
-              <div
-                style={{
-                    textAlign: 'center',
-                    maxWidth: '400px',
-                    width: '100%',
-                    marginRight: '-400px',
-                }}
-              >
+              <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
                   small={UnsupervisedDiffusionCT}
                   large={UnsupervisedDiffusionCT}
@@ -250,14 +243,7 @@ function Projects() {
                   [Project Duration: Mar. 2024 - Dec. 2024]
                 </p>
               </div>
-              <div
-                style={{
-                    textAlign: 'center',
-                    maxWidth: '400px',
-                    width: '100%',
-                    marginRight: '-400px',
-                }}
-              >
+              <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
                   small={GABNetHCC}
                   large={GABNetHCC}
@@ -318,14 +304,7 @@ function Projects() {
                   | [Project Duration: Mar. 2024 - Aug. 2024]
                 </p>
               </div>
-              <div
-                style={{
-                    textAlign: 'center',
-                    maxWidth: '400px',
-                    width: '100%',
-                    marginRight: '-400px',
-                }}
-              >
+              <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
                   small={CNUNAVI}
                   large={CNUNAVI}
@@ -416,14 +395,7 @@ function Projects() {
                   [Project Duration: Sep. 2023 - Dec. 2023]
                 </p>
               </div>
-              <div
-                style={{
-                    textAlign: 'center',
-                    maxWidth: '400px',
-                    width: '100%',
-                    marginRight: '-400px',
-                }}
-              >
+              <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
                   small={BreastCancerViT}
                   large={BreastCancerViT}
@@ -491,14 +463,7 @@ function Projects() {
                   [Project Duration: Jun. 2023 - Dec. 2023]
                 </p>
               </div>
-              <div
-                style={{
-                    textAlign: 'center',
-                    maxWidth: '400px',
-                    width: '100%',
-                    marginRight: '-400px',
-                }}
-              >
+              <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
                   small={ContrastAgentFree}
                   large={ContrastAgentFree}
@@ -568,14 +533,7 @@ function Projects() {
                   [Project Duration: Sep. 2023 - Oct. 2023]
                 </p>
               </div>
-              <div
-                style={{
-                    textAlign: 'center',
-                    maxWidth: '400px',
-                    width: '100%',
-                    marginRight: '-400px',
-                }}
-              >
+              <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
                   small={DiffusionModelT1Synthesis}
                   large={DiffusionModelT1Synthesis}
@@ -653,14 +611,7 @@ function Projects() {
                   [Project Duration: Jun. 2023 - Aug. 2023]
                 </p>
               </div>
-              <div
-                style={{
-                    textAlign: 'center',
-                    maxWidth: '400px',
-                    width: '100%',
-                    marginRight: '-400px',
-                }}
-              >
+              <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
                   small={AorticContrastUNETR}
                   large={AorticContrastUNETR}
@@ -728,14 +679,7 @@ function Projects() {
                   [Project Duration: Jan. 2023 - Jun. 2023]
                 </p>
               </div>
-              <div
-                style={{
-                    textAlign: 'center',
-                    maxWidth: '400px',
-                    width: '100%',
-                    marginRight: '-400px',
-                }}
-              >
+              <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
                   small={PredictiveCodingNetwork}
                   large={PredictiveCodingNetwork}
@@ -801,14 +745,7 @@ function Projects() {
                   [Project Duration: Mar. 2023 - Jun. 2023]
                 </p>
               </div>
-              <div
-                style={{
-                    textAlign: 'center',
-                    maxWidth: '400px',
-                    width: '100%',
-                    marginRight: '-400px',
-                }}
-              >
+              <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
                   small={EmotionalChat}
                   large={EmotionalChat}
@@ -908,14 +845,7 @@ function Projects() {
                   [Project Duration: Apr. 2022 - May 2023]
                 </p>
               </div>
-              <div
-                style={{
-                    textAlign: 'center',
-                    maxWidth: '400px',
-                    width: '100%',
-                    marginRight: '-400px',
-                }}
-              >
+              <div style={{ width: '500px', textAlign: 'center' }}>
                 <ModalImage
                   small={JumpingPhenomenon}
                   large={JumpingPhenomenon}
@@ -940,7 +870,10 @@ function Projects() {
         </div>
         <br />
       </div>
-      <div className='projects-right'/>
+      <div className="projects-right">
+
+
+      </div>
     </div>
   );
 }

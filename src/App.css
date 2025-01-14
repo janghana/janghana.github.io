@@ -53,10 +53,8 @@ body {
 
 /* react-modal-image */
 .my-modal-image {
-  max-width: 400px;
-  width: 80%;
+  max-width: 100%;
   height: auto;
-  cursor: pointer;
 }
 
 /* ==================================
@@ -178,16 +176,22 @@ body {
 ================================== */
 .projects-container {
   display: flex;
-  width: 101%;
+  width: 100%;
 }
 
 .projects-left {
   flex: 1;
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
 }
 
 .projects-main {
   flex: 2;
   padding: 1rem;
+  overflow: visible;
+  position: relative;
 }
 
 .projects-right {
