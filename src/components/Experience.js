@@ -59,11 +59,21 @@ function Experience() {
           <div className="timeline-item">
             <div className="timeline-content exp-flex-item">
               <div className="exp-description">
-                <h3>NanoCellect Biomedical</h3>
+                <h3>
+                <a
+                  href="https://nanocellect.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                  // style={{ color: '#00AAFF' }}
+                >
+                  NanoCellect Biomedical
+                </a>
+                </h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   San Diego, California, United States
                 </p>
-                <p><strong>Machine Learning Engineer</strong> (On-site), Apr. 2024 - Feb. 2025</p>
+                <p><strong>Machine Learning Engineer</strong> R&D Team (On-site), Apr. 2024 - Feb. 2025</p>
                 <p>
                   Research Focus: Cell Image Analysis, Cell Classification
                   <br />
@@ -98,7 +108,16 @@ function Experience() {
           <div className="timeline-item">
             <div className="timeline-content exp-flex-item">
               <div className="exp-description">
-                <h3>Seoul National University of Science and Technology (SEOULTECH)</h3>
+                <h3>
+                <a
+                  href="https://en.seoultech.ac.kr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                >
+                  Seoul National University of Science and Technology (SEOULTECH)
+                </a>
+                </h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Seoul, South Korea
                 </p>
@@ -131,7 +150,16 @@ function Experience() {
           <div className="timeline-item">
             <div className="timeline-content exp-flex-item">
               <div className="exp-description">
-                <h3>Korea Institute of Science and Technology (KIST)</h3>
+                <h3>
+                <a
+                  href="https://www.kist.re.kr/eng/index.do"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                >
+                  Korea Institute of Science and Technology (KIST)
+                </a>
+                </h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Seoul, South Korea
                 </p>
@@ -164,7 +192,16 @@ function Experience() {
           <div className="timeline-item">
             <div className="timeline-content exp-flex-item">
               <div className="exp-description">
-                <h3>Institute for Basic Science (IBS)</h3>
+                <h3>
+                <a
+                  href="https://www.ibs.re.kr/eng.do"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                >
+                  Institute for Basic Science (IBS)
+                </a>
+                </h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Daejeon, South Korea
                 </p>
@@ -197,7 +234,16 @@ function Experience() {
           <div className="timeline-item">
             <div className="timeline-content exp-flex-item">
               <div className="exp-description">
-                <h3>Institute for Basic Science (IBS)</h3>
+                <h3>
+                <a
+                  href="https://www.ibs.re.kr/eng.do"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                >
+                  Institute for Basic Science (IBS)
+                </a>
+                </h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Daejeon, South Korea
                 </p>
@@ -246,7 +292,16 @@ function Experience() {
         <div className="timeline-item">
           <div className="timeline-content exp-flex-item">
             <div className="exp-description">
-              <h3>Republic of Korea Navy</h3>
+              <h3>
+                <a
+                  href="https://www.navy.mil.kr/mbshome/mbs/eng/index.do"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                >
+                  Republic of Korea Navy
+                </a>
+              </h3>
               <p>2020. 2. ~ 2021. 10.</p>
               <p>Military Service - Republic of Korea Navy, Class 664</p>
               <p>(Honorably Discharged as a Sergeant upon Completion of Full Service Term)</p>
@@ -265,7 +320,16 @@ function Experience() {
         <div className="timeline-item">
           <div className="timeline-content exp-flex-item">
             <div className="exp-description">
-              <h3>Chungnam National University (CNU)</h3>
+              <h3>
+                <a
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                >
+                  Chungnam National University (CNU)
+                </a>
+              </h3>
               <p>2019. 3. ~ 2019. 12.</p>
               <p>
                 Class of 2019 Student Representative of the Division of Computer Convergence,

@@ -43,7 +43,16 @@ function Publications() {
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
             <strong>H. Jang</strong>, J.H. Kwon, K.H. Choi*, 
-            <em> Korea Computer Congress</em> 2025 (pp. 2048-2050), Jeju ICC |{" "}
+            <em> Korea Computer Congress</em> 2024 (pp. 2048-2050),{" "}
+            <a
+              href="https://www.kiise.or.kr/conference/kcc/2024/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', color: '#1f6f8b' }}
+            >
+              Jeju ICC
+            </a>
+            {" "}|{" "}
             <a
               href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
               target="_blank"
