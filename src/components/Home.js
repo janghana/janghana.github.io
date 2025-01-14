@@ -5,6 +5,7 @@ import LeftSideProfile from './LeftSideProfile';
 function Home() {
   return (
     <div className="home-container">
+      
       <div className="home-left">
         <LeftSideProfile />
       </div>

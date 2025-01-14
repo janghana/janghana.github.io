@@ -5,7 +5,10 @@ import LeftSideProfile from './LeftSideProfile';
 function CV() {
   return (
     <div className="cv-container">
-      <LeftSideProfile />
+
+      <div className="cv-left">
+        <LeftSideProfile />
+      </div>
 
       <div className="cv-main">
         <h2>CV</h2>

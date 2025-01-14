@@ -5,6 +5,7 @@ import LeftSideProfile from './LeftSideProfile';
 function Publications() {
   return (
     <div className="pub-container">
+
       <div className="pub-left">
         <LeftSideProfile />
       </div>
@@ -19,7 +20,18 @@ function Publications() {
             Bi-directional Diffusion Model-Driven Medical Image Translation
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>H. Jang et al.</strong>, <em>Expert Systems With Applications</em> 2025
+            <strong>H. Jang et al.</strong>, <em>Expert Systems With Applications</em>
+            {" "}
+            (
+            <a
+              href="https://www.sciencedirect.com/journal/expert-systems-with-applications"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+              ESWA
+            </a>
+            ) 2025
           </p>
         </div>
 
@@ -48,7 +60,7 @@ function Publications() {
               href="https://www.kiise.or.kr/conference/kcc/2024/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ textDecoration: 'none', color: '#1f6f8b' }}
+              className="advisor-link"
             >
               Jeju ICC
             </a>
@@ -57,7 +69,7 @@ function Publications() {
               href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ textDecoration: 'none', color: '#1f6f8b' }}
+              className="advisor-link"
             >
               Paper
             </a>
