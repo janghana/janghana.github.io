@@ -73,11 +73,11 @@ function Experience() {
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   San Diego, California, United States
                 </p>
-                <p><strong>Machine Learning Engineer</strong> R&D Team (On-site), Apr. 2024 - Feb. 2025</p>
+                <p><strong>Machine Learning Engineer Intern</strong> R&D Team (On-site), Apr. 2024 - Feb. 2025</p>
                 <p>
-                  Research Focus: Cell Image Analysis, Cell Classification
+                  Research Focus: Machine Learning, Medical Imaging(Cytology), Cell Image Analysis, Cell Sorting
                   <br />
-                  (specifically human white blood cells, leukemia cells, trophoblast cells)
+                  (specifically Human white blood cells, Leukemia cells, Trophoblast cells, Human Embryonic Kidney cells)
                 </p>
                 <p>
                   Product: &nbsp;
@@ -122,7 +122,7 @@ function Experience() {
                   Seoul, South Korea
                 </p>
                 <p><strong>Research Assistance</strong> (Hybrid), Dec. 2023 - Aug. 2024</p>
-                <p>Research Focus: Computer Vision, Medical Imaging, Generative Models</p>
+                <p>Research Focus: Computer Vision, Medical Imaging(CT/MR/MRCP), Generative Models</p>
                 <p>
                   Under the supervision of Prof.&nbsp;
                   <a
@@ -164,7 +164,7 @@ function Experience() {
                   Seoul, South Korea
                 </p>
                 <p><strong>Research Intern</strong> (On-site), Jun. 2023 - Dec. 2023</p>
-                <p>Research Focus: Computer Vision, Medical Imaging, 3D Segmentation, 3D Classification</p>
+                <p>Research Focus: Computer Vision, Medical Imaging(CT/MR/MRCP), 3D Segmentation, 3D Classification</p>
                 <p>
                   Under the supervision of Dr.&nbsp;
                   <a
@@ -273,6 +273,7 @@ function Experience() {
           </div>
         </div>
 
+        <h2>Extracurricular activities</h2>
         <hr
           style={{
             width: '100%',
@@ -286,7 +287,52 @@ function Experience() {
           }}
         />
 
+        {/* CNU */}
+        <div className="timeline-item">
+          <div className="timeline-content exp-flex-item">
+            <div className="exp-description">
+              <h3>
+                <a
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                >
+                  Chungnam National University (CNU)
+                </a>
+              </h3>
+              <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Daejeon, South Korea
+              </p>
+              <p><strong>Artificial Intelligence Coding Tutor (Programming Tutor)</strong>, Mar. 2024 - Jun. 2024</p>
+              <p>The course introduces AI to humanities and social sciences students with no prior experience, featuring basic lectures and practical assignments. It aims to understand the human mind and brain through AI, exploring AI-inspired neuroscience, which uses AI to gain insights into brain functions, and neuroscience-inspired AI, which applies brain principles to enhance AI systems.</p>
+              <p>
+                Subjects name : Artificial Intelligence Convergence Basic
+              </p>
+            </div>
+            <div className="exp-logo">
+              <img
+                src={cnu}
+                alt="CNU Logo"
+                className="exp-logo-img"
+              />
+            </div>
+          </div>
+        </div>
+
         <h2>Military & Student Representative</h2>
+        <hr
+          style={{
+            width: '100%',
+            marginLeft: '0',
+            marginRight: 'auto',
+            marginTop: '1em',
+            marginBottom: '1em',
+            borderColor: '#e0e0e0',
+            opacity: '0.15',
+            display: 'block',
+          }}
+        />
 
         {/* ROK Navy */}
         <div className="timeline-item">
@@ -302,9 +348,8 @@ function Experience() {
                   Republic of Korea Navy
                 </a>
               </h3>
-              <p>2020. 2. ~ 2021. 10.</p>
-              <p>Military Service - Republic of Korea Navy, Class 664</p>
-              <p>(Honorably Discharged as a Sergeant upon Completion of Full Service Term)</p>
+              <strong>Military Service - Republic of Korea Navy, Class 664</strong>, Feb. 2020 - Oct. 2021 
+              <p>Honorably Discharged as a Sergeant upon Completion of Full Service Term</p>
             </div>
             <div className="exp-logo">
               <img
@@ -330,11 +375,10 @@ function Experience() {
                   Chungnam National University (CNU)
                 </a>
               </h3>
-              <p>2019. 3. ~ 2019. 12.</p>
               <p>
-                Class of 2019 Student Representative of the Division of Computer Convergence,
+                <strong>Class of 2019 Student Representative</strong>, Mar. 2019 - Dec. 2019
                 <br />
-                College of Engineering, Chungnam National University
+                The Division of Computer Convergence, College of Engineering, Chungnam National University
               </p>
             </div>
             <div className="exp-logo">

@@ -443,7 +443,7 @@ function Projects() {
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
                 <h3>
-                  Contrast Agent-Free Approach for Enhancing Hepatocellular Carcinoma (HCC) Visualization...
+                  Contrast Agent-Free Approach for Enhancing Hepatocellular Carcinoma (HCC) Visualization in Contrast-Enhanced Computed Tomography (CECT) Derived from Non-Contrast Enhanced Computed Tomography (NCECT): Utilizing Contrast Agent (CA) Injection Principles
                 </h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Internship

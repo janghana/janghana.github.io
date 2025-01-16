@@ -32,7 +32,7 @@ function Home() {
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           I focus on <em>Computer Science</em> and <em>Artificial Intelligence</em>, 
           with a particular interest in <em>Machine Learning</em>, <em>Deep Learning</em>, 
-          <em>Medical Imaging</em>, <em>Generative Models</em>, <em>Neuroimaging</em> and <em>Neuroscience</em>.
+          {" "}<em>Medical Imaging</em>, <em>Generative Models</em>, <em>Neuroimaging</em> and <em>Neuroscience</em>.
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
@@ -41,9 +41,7 @@ function Home() {
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          Through sustained research efforts, I aspire to create meaningful changes in people’s lives, 
-          while collaborating with researchers who share similar interests and contributing to 
-          the advancement of knowledge in the field.
+        Through sustained research efforts, I aspire to create meaningful changes in people’s lives by collaborating with like-minded researchers and contributing to the advancement of knowledge in the field.
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6', color: '#333' }}>

@@ -31,7 +31,7 @@ function Publications() {
             >
               ESWA
             </a>
-            ) 2025
+            ) 2025 {/*(Submitted/Under Review) */}
           </p>
         </div>
 
