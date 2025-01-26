@@ -348,6 +348,9 @@ function Experience() {
                   Republic of Korea Navy
                 </a>
               </h3>
+              <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  South Korea
+              </p>
               <strong>Military Service - Republic of Korea Navy, Class 664</strong>, Feb. 2020 - Oct. 2021 
               <p>Honorably Discharged as a Sergeant upon Completion of Full Service Term</p>
             </div>
@@ -375,6 +378,9 @@ function Experience() {
                   Chungnam National University (CNU)
                 </a>
               </h3>
+              <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Daejeon, South Korea
+              </p>
               <p>
                 <strong>Class of 2019 Student Representative</strong>, Mar. 2019 - Dec. 2019
                 <br />

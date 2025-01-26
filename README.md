@@ -10,11 +10,11 @@ It's a **React** project, structured to be **responsive** across desktop and mob
 1. [Project Overview](#project-overview)  
 2. [Features](#features)  
 3. [Folder Structure](#folder-structure)  
-4. [Getting Started](#getting-started)  
+<!-- 4. [Getting Started](#getting-started)  
 5. [Usage](#usage)  
 6. [Deployment (GitHub Pages)](#deployment-github-pages)  
 7. [Packages & Libraries](#packages--libraries)  
-8. [License](#license)
+8. [License](#license) -->
 
 ---
 

@@ -70,7 +70,7 @@ function CV() {
               <div className="timeline-content">
                 <h4>NanoCellect Biomedical</h4>
                 <p style={{ fontStyle: 'italic', color: '#555' }}>San Diego, California, United States</p>
-                <p><strong>Machine Learning Engineer</strong>, Apr. 2024 - Feb. 2025</p>
+                <p><strong>Machine Learning Engineer Intern</strong>, Apr. 2024 - Feb. 2025</p>
                 <p>Research Focus: Cell Image Analysis, Cell Classification</p>
               </div>
             </div>
@@ -121,14 +121,14 @@ function CV() {
             <div className="timeline-item">
               <div className="timeline-content">
                 <h4>Bi-directional Diffusion Model-Driven Medical Image Translation</h4>
-                <p><strong>H. Jang et al.</strong>, <em>Expert Systems With Applications</em> 2025</p>
+                <p><strong>Han Jang et al.</strong>, <em>Expert Systems With Applications</em> 2025</p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-content">
                 <h4>Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans</h4>
                 <p>
-                  <strong>H. Jang</strong>, J.H. Kwon, K.H. Choi*, <em>Korea Computer Congress</em> 2025 (pp. 2048-2050), Jeju ICC |{' '}
+                  <strong>Han Jang</strong>, J.H. Kwon, K.H. Choi*, <em>Korea Computer Congress</em> 2025 (pp. 2048-2050), Jeju ICC |{' '}
                   <a className="advisor-link" href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432" target="_blank" rel="noopener noreferrer">
                     Paper
                   </a>
