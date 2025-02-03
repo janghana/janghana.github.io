@@ -45,7 +45,18 @@ function CV() {
           </div>
         </div>
 
-        <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
+        <hr
+            style={{
+              width: '10%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
 
         <div className="timeline-section">
           <h3>Education</h3>
@@ -61,14 +72,25 @@ function CV() {
           </div>
         </div>
 
-        <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
+        <hr
+            style={{
+              width: '10%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
 
         <div className="timeline-section">
           <h3>Experience</h3>
           <div className="timeline">
             <div className="timeline-item">
               <div className="timeline-content">
-                <h4>NanoCellect Biomedical</h4>
+                <h4>NanoCellect Biomedical Inc.</h4>
                 <p style={{ fontStyle: 'italic', color: '#555' }}>San Diego, California, United States</p>
                 <p><strong>Machine Learning Engineer Intern</strong>, Apr. 2024 - Feb. 2025</p>
                 <p>Research Focus: Cell Image Analysis, Cell Classification</p>
@@ -113,17 +135,28 @@ function CV() {
           </div>
         </div>
 
-        <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
+        <hr
+            style={{
+              width: '10%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
 
         <div className="timeline-section">
           <h3>Publications</h3>
           <div className="timeline">
-            <div className="timeline-item">
+            {/* <div className="timeline-item">
               <div className="timeline-content">
                 <h4>Bi-directional Diffusion Model-Driven Medical Image Translation</h4>
                 <p><strong>Han Jang et al.</strong>, <em>Expert Systems With Applications</em> 2025</p>
               </div>
-            </div>
+            </div> */}
             <div className="timeline-item">
               <div className="timeline-content">
                 <h4>Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans</h4>
@@ -138,7 +171,18 @@ function CV() {
           </div>
         </div>
 
-        <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
+        <hr
+            style={{
+              width: '10%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
 
         <div className="timeline-section">
           <h3>Skills</h3>
@@ -182,7 +226,18 @@ function CV() {
           </div>
         </div>
 
-        <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
+        <hr
+            style={{
+              width: '10%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
 
         <div className="timeline-section">
           <h3>Honors & Awards</h3>
@@ -215,7 +270,18 @@ function CV() {
           </div>
         </div>
 
-        <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
+        <hr
+            style={{
+              width: '10%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
 
         <div className="timeline-section">
           <h3>Licenses & Certifications</h3>
@@ -253,7 +319,18 @@ function CV() {
           </div>
         </div>
 
-        <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
+        <hr
+            style={{
+              width: '10%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
 
         <div className="timeline-section">
           <h3>Languages</h3>
@@ -275,8 +352,6 @@ function CV() {
             </div>
           </div>
         </div>
-
-        <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
       </div>
 
       <div style={{ flex: 1 }} />

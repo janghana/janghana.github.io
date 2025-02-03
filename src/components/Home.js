@@ -11,6 +11,9 @@ function Home() {
       </div>
 
       <div className="home-main">
+        <h2>About me</h2>
+        <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
+
         <p style={{ marginBottom: '4rem', lineHeight: '1.6' }}></p>
         
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
@@ -58,7 +61,48 @@ function Home() {
         <p style={{ marginBottom: '1rem', lineHeight: '1.6', color: '#333' }}>
           I’m always open to discussions on interesting ideas and collaborations.
         </p>
+
+        <br></br>
+        <br></br>
+        <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>News</h3>
+        
+        <hr
+          style={{
+            width: '10%',
+            marginLeft: '0',
+            marginRight: 'auto',
+            marginTop: '1em',
+            marginBottom: '1em',
+            borderColor: '#e0e0e0',
+            opacity: '0.15',
+            display: 'block'
+          }}
+        />
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          [Mar. 2025] Joined SNU AICON LAB to advance research in Deep Learning and Neuroimaging.
+        </p>
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          [Feb. 2025] Completed a Machine Learning Engineer Intern in San Diego, California, United States, focusing on healthcare.
+        </p>
+
+        {/* <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          [May 2025] Published a paper in ESWA (IF 8.96 in 2025); <strong>Diffusion model-driven medical image translation.</strong>
+        </p> */}
+
+
+
+
+
+
+          
+
       </div>
+
+      
+      
+      
 
       <div className="home-right" />
     </div>

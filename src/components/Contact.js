@@ -72,6 +72,8 @@ function Contact() {
 
         <p className="italic-text">Thank you</p>
 
+        <br></br>
+
         <hr
           style={{
             width: '100%',
@@ -87,7 +89,7 @@ function Contact() {
 
         <div className="contact-workplace">
           <div className="workplace-info">
-            <h3>Current workplace :</h3>
+            <h3>Current Workplace :</h3>
             <p><strong>NanoCellect Biomedical Inc.</strong></p>
             <p>9525 Towne Centre Drive, Suite 150, San Diego, CA 92121</p>
           </div>
