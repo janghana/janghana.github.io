@@ -42,6 +42,35 @@ body {
   text-decoration: underline;
 }
 
+.code-link{
+  display:inline-block;
+  padding:0px 8px;
+  margin-right:.4rem;
+  color:#007BFF;
+  border:2px solid #007BFF;
+  border-radius:6px;
+  text-decoration:none;
+  transition:background-color .25s ease,color .25s ease;
+}
+.code-link:hover{
+  background:#deebf9;
+  /* color:#fff; */
+}
+
+.link-row{
+  display:flex;
+  align-items:center;
+  gap:.4rem;
+  width:100%;
+}
+
+.duration-tag{
+  margin-left:auto;
+  font-size:.85rem;
+  color:#555;
+  font-style:italic;
+}
+
 .research-interest-section .timeline {
   display: flex;
   flex-wrap: wrap;
@@ -301,5 +330,71 @@ body {
     width: 100px;
     text-align: left;
     margin-top: 1rem;
+  }
+}
+
+.timeline-content{
+  position:relative;
+  border:1px solid rgba(0,0,0,.05);
+  border-radius:15px;
+  box-shadow:0 4px 12px rgba(0,0,0,.05);
+  background:#fff;
+  padding:1.5rem;
+  margin-bottom:2rem;
+}
+
+.timeline-content:hover{
+  box-shadow:0 6px 18px rgba(0,0,0,.1);
+  transform:translateY(-0.5px);
+  transition:all .25s ease;
+}
+.card-base{
+  position:relative;
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:14px;
+  box-shadow:0 4px 12px rgba(0,0,0,.05);
+  background:#fff;
+  padding:1.5rem;
+  margin-bottom:2rem;
+  transition:.25s ease;
+}
+.card-base:hover{
+  box-shadow:0 6px 18px rgba(0,0,0,.12);
+  transform:translateY(-2px);
+}
+
+.exp-card{
+  overflow:hidden;
+}
+
+.proj-card{
+  overflow:visible;
+}
+
+.proj-img{
+  flex-shrink:0;
+  width:280px;
+  max-width:100%;
+  margin-left:1.5rem;
+  margin-right:-800px;
+}
+
+@media(max-width:768px){
+  .proj-img{
+    margin:1rem 0 0 0;
+    width:100%;
+    margin-right:0;
+  }
+}
+.exp-logo{
+  flex-shrink:0;
+  width:80px;
+  text-align:center;
+  margin-right:4rem;
+}
+
+@media (max-width:768px){
+  .exp-logo{
+    margin-right:.75rem;
   }
 }

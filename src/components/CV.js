@@ -24,11 +24,6 @@ function CV() {
             </div>
             <div className="timeline-item">
               <div className="timeline-content">
-                <p>Deep Learning</p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-content">
                 <p>Generative Models</p>
               </div>
             </div>
@@ -60,16 +55,19 @@ function CV() {
 
         <div className="timeline-section">
           <h3>Education</h3>
+
           <div className="timeline">
             <div className="timeline-item">
               <div className="timeline-content">
                 <p><strong>Chungnam National University (CNU)</strong> - Daejeon, South Korea</p>
                 <p>2019. 3. ~ Present</p>
                 <p>Bachelor’s degree</p>
-                <p>The Division of Computer Convergence</p>
+                <p>The Division of Computer Convergence, College of Engineering</p>
               </div>
             </div>
           </div>
+
+
         </div>
 
         <hr
@@ -90,10 +88,44 @@ function CV() {
           <div className="timeline">
             <div className="timeline-item">
               <div className="timeline-content">
-                <h4>NanoCellect Biomedical Inc.</h4>
+                <h4>Seoul National University</h4>
+                <p style={{ fontStyle: 'italic', color: '#555' }}>Seoul, South Korea</p>
+                <p><strong>Research Assistant</strong>, Mar. 2025 - Present</p>
+                <p>
+                  Research Focus: Machine Learning, Deep Learning, Medical Imaging(Brain Perfusion MR), Neuroimaging
+                </p>
+                <p>
+                  Under the supervision of Prof.&nbsp;
+                  <a
+                    href="https://scholar.google.co.kr/citations?hl=ko&user=XYh6Z0gAAAAJ&view_op=list_works&sortby=pubdate"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="advisor-link"
+                  >
+                    KS Choi
+                  </a>
+                  {" | "}
+                  <a
+                    href="https://sites.google.com/view/snuhradaicon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="advisor-link"
+                  >
+                    AICON LAB
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="timeline-item">
+              <div className="timeline-content">
+                <h4>NanoCellect Biomedical, Inc.</h4>
                 <p style={{ fontStyle: 'italic', color: '#555' }}>San Diego, California, United States</p>
                 <p><strong>Machine Learning Engineer Intern</strong>, Apr. 2024 - Feb. 2025</p>
-                <p>Research Focus: Cell Image Analysis, Cell Classification</p>
+                <p>
+                  Research Focus: Machine Learning, Deep Learning, Medical Imaging(Cytology), Cell Image Analysis, Cell Sorting, Cell Gating
+                  <br />
+                  (Specifically Human white blood, Leukemia, Trophoblast, Human Embryonic Kidney 293 cells)
+                </p>
               </div>
             </div>
             <div className="timeline-item">
@@ -101,7 +133,7 @@ function CV() {
                 <h4>Seoul National University of Science and Technology (SEOULTECH)</h4>
                 <p style={{ fontStyle: 'italic', color: '#555' }}>Seoul, South Korea</p>
                 <p><strong>Research Assistance</strong>, Dec. 2023 - Aug. 2024</p>
-                <p>Research Focus: Computer Vision, Medical Imaging, Probabilistic Generative Modeling (CT, MRI)</p>
+                <p>Research Focus: Deep Learning, Medical Imaging(Abdominal CT/MR/MRCP), Generative Models</p>
                 <p>Under the supervision of Prof. <a href="https://scholar.google.com/citations?user=MeNWZXQAAAAJ" target="_blank" rel="noopener noreferrer" className="advisor-link">KH Choi</a></p>
               </div>
             </div>
@@ -110,7 +142,7 @@ function CV() {
                 <h4>Korea Institute of Science and Technology (KIST)</h4>
                 <p style={{ fontStyle: 'italic', color: '#555' }}>Seoul, South Korea</p>
                 <p><strong>Research Intern</strong>, Jun. 2023 - Dec. 2023</p>
-                <p>Research Focus: Computer Vision, Medical Imaging, 3D Segmentation(CT), 3D Classification(MRI)</p>
+                <p>Research Focus: Deep Learning, Medical Imaging(Abdominal CT/MR/MRCP), 3D Segmentation(Abdominal CT), 3D Classification(Breast MRI)</p>
                 <p>Under the supervision of Dr. <a href="https://scholar.google.com/citations?user=MeNWZXQAAAAJ" target="_blank" rel="noopener noreferrer" className="advisor-link">KH Choi</a></p>
               </div>
             </div>
@@ -127,7 +159,7 @@ function CV() {
               <div className="timeline-content">
                 <h4>Institute for Basic Science (IBS)</h4>
                 <p style={{ fontStyle: 'italic', color: '#555' }}>Daejeon, South Korea</p>
-                <p><strong>Research Assistance</strong>, Feb. 2023 - Jun. 2023</p>
+                <p><strong>Research Assistance</strong>, Apr. 2022 - Sep. 2022</p>
                 <p>Research Focus: Cognitive Neuroscience, EEG experiment</p>
                 <p>Under the supervision of Dr. <a href="https://scholar.google.com/citations?user=DSkjj-4AAAAJ" target="_blank" rel="noopener noreferrer" className="advisor-link">YJ Kim</a></p>
               </div>
@@ -151,21 +183,46 @@ function CV() {
         <div className="timeline-section">
           <h3>Publications</h3>
           <div className="timeline">
-            {/* <div className="timeline-item">
-              <div className="timeline-content">
-                <h4>Bi-directional Diffusion Model-Driven Medical Image Translation</h4>
-                <p><strong>Han Jang et al.</strong>, <em>Expert Systems With Applications</em> 2025</p>
-              </div>
-            </div> */}
             <div className="timeline-item">
+              <br></br>
+
               <div className="timeline-content">
-                <h4>Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans</h4>
-                <p>
-                  <strong>Han Jang</strong>, J.H. Kwon, K.H. Choi*, <em>Korea Computer Congress</em> 2025 (pp. 2048-2050), Jeju ICC |{' '}
-                  <a className="advisor-link" href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432" target="_blank" rel="noopener noreferrer">
-                    Paper
-                  </a>
-                </p>
+                <div style={{ marginBottom: '1.5em' }}>
+                  <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+                    Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans
+                  </h4>
+                  <p style={{ margin: 0, fontSize: '0.9em' }}>
+                    <strong>Han Jang<sup>1</sup></strong>, J.H. Kwon, K.H. Choi<sup>*</sup>, 
+                    {" "}
+                    <i><a
+                      href="http://m.kiise.or.kr/academyEng/main/getContent.faEng?content_no=1&MENU_ID=010100"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      Korea Computer Congress
+                    </a>
+                    
+                    {" "} 2024 </i> (pp. 2048-2050),{" "}
+                    <a
+                      href="https://www.kiise.or.kr/conference/kcc/2024/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      Jeju ICC
+                    </a>
+                    {" "}
+                    [<a
+                      href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      Paper
+                    </a>]
+                  </p>
+                </div>
               </div>
             </div>
           </div>

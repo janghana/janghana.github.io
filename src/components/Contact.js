@@ -54,7 +54,7 @@ function Contact() {
             className="advisor-link"
             style={{ color: '#007BFF' }}
           >
-            Blog
+            Tech Blog
           </a>,{" "}
           or{" "}
           <a
@@ -87,7 +87,7 @@ function Contact() {
           }}
         />
 
-        <div className="contact-workplace">
+        {/* <div className="contact-workplace">
           <div className="workplace-info">
             <h3>Current Workplace :</h3>
             <p><strong>NanoCellect Biomedical Inc.</strong></p>
@@ -106,8 +106,38 @@ function Contact() {
               title="NanoCellect Biomedical Inc. Map"
             />
           </div>
+        </div> */}
+
+
+        <div className="contact-workplace">
+          <div className="workplace-info">
+            <h3>Current Workplace :</h3>
+            <p><strong>Seoul National University</strong></p>
+
+            <p>Seoul National University Hospital, Department of Radiology,</p>
+            <p>Artificial Intelligence Network Room</p>
+            <p>Advanced Imaging and Computational Neuroimaging Laboratory</p>
+            <p>194 Yulgok-ro, Jongno-gu, Seoul, South Korea</p>
+          </div>
+          <div className="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.152298782688!2d126.997944612102!3d37.575031271919734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3264f15436d%3A0x33741771eb3abdd!2z64yA7ZWc66-86rWtIOyEnOyauO2KueuzhOyLnCDsooXroZzqtawg7Jyo6rOh66GcIDE5NA!5e0!3m2!1sko!2sus!4v1740081993746!5m2!1sko!2sus"
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="SNn Map"
+            />
+          </div>
         </div>
+        {/* 10th Floor, Hyundai Group Building (West Wing) */}
+
+        
       </div>
+
+      
 
       <div className="contact-right" />
     </div>

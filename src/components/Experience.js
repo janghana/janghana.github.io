@@ -24,15 +24,35 @@ function Experience() {
         <div className="timeline">
 
           {/* SNU */}
-          {/* <div className="timeline-item">
-            <div className="timeline-content exp-flex-item">
+          <div className="timeline-item">
+            <div className="card-base exp-card exp-flex-item">
               <div className="exp-description">
-                <h3>Seoul National University (SNU)</h3>
+                <h3>
+                <a
+                  href="https://en.snu.ac.kr/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                  // style={{ color: '#00AAFF' }}
+                >
+                  Seoul National University (SNU)
+                </a>
+                </h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Seoul, South Korea
                 </p>
-                <p><strong>Research Assistance</strong> (On-site), Mar. 2025 - Present</p>
-                <p>Research Focus: Deep Learning, Neuroimaging, Neuro-Oncology</p>
+                <p><strong>Research Assistant</strong> (On-site), Mar. 2025 - Present</p>
+                <p>Research Focus: Machine Learning, Multi-modal, Segmentation, Medical Imaging(MR Perfusion, MR, Ultrasound), Neuroimaging</p>
+                <p>Advanced Imaging and Computational Neuroimaging Laboratory, {" "}
+                  <a
+                    href="https://sites.google.com/view/snuhradaicon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="advisor-link"
+                  >
+                    AICON LAB
+                  </a>
+                </p>
                 <p>
                   Under the supervision of Prof.&nbsp;
                   <a
@@ -53,11 +73,11 @@ function Experience() {
                 />
               </div>
             </div>
-          </div> */}
+          </div>
 
           {/* NanoCellect Biomedical */}
           <div className="timeline-item">
-            <div className="timeline-content exp-flex-item">
+            <div className="card-base exp-card exp-flex-item">
               <div className="exp-description">
                 <h3>
                 <a
@@ -67,17 +87,17 @@ function Experience() {
                   className="advisor-link"
                   // style={{ color: '#00AAFF' }}
                 >
-                  NanoCellect Biomedical Inc.
+                  NanoCellect Biomedical, Inc.
                 </a>
                 </h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   San Diego, California, United States
                 </p>
-                <p><strong>Machine Learning Engineer Intern</strong> R&D Team (On-site), Apr. 2024 - Feb. 2025</p>
+                <p><strong>Machine Learning Engineer</strong> R&D Team (Remote & On-site), Apr. 2024 - Feb. 2025</p>
                 <p>
-                  Research Focus: Machine Learning, Medical Imaging(Cytology), Cell Image Analysis, Cell Sorting
+                  Research Focus: Machine Learning, Deep Learning, Medical Imaging(Cytology), Cell Image Analysis, Cell Sorting, Cell Gating
                   <br />
-                  (specifically Human white blood cells, Leukemia cells, Trophoblast cells, Human Embryonic Kidney cells)
+                  (Specifically Human white blood, Leukemia, Trophoblast, Human Embryonic Kidney 293 cells)
                 </p>
                 <p>
                   Product: &nbsp;
@@ -93,6 +113,17 @@ function Experience() {
                     </a>
                   </strong>
                 </p>
+                <p>
+                  Collaborative Research with&nbsp;
+                    <a
+                      href="https://ucsd.edu/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      Lo LAB, University of California San Diego(UCSD)
+                    </a>
+                </p>
               </div>
               <div className="exp-logo">
                 <img
@@ -106,7 +137,7 @@ function Experience() {
 
           {/* SEOULTECH */}
           <div className="timeline-item">
-            <div className="timeline-content exp-flex-item">
+            <div className="card-base exp-card exp-flex-item">
               <div className="exp-description">
                 <h3>
                 <a
@@ -121,8 +152,8 @@ function Experience() {
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Seoul, South Korea
                 </p>
-                <p><strong>Research Assistance</strong> (Hybrid), Dec. 2023 - Aug. 2024</p>
-                <p>Research Focus: Computer Vision, Medical Imaging(CT/MR/MRCP), Generative Models</p>
+                <p><strong>Research Assistant</strong> (Hybrid), Dec. 2023 - Aug. 2024</p>
+                <p>Research Focus: Deep Learning, Medical Imaging(CT/MR/MRCP), Generative Models</p>
                 <p>
                   Under the supervision of Prof.&nbsp;
                   <a
@@ -134,6 +165,26 @@ function Experience() {
                     KH Choi
                   </a>
                   &nbsp;BAIS LAB
+                </p>
+                <p>
+                  Collaborative Research with&nbsp;
+                    <a
+                      href="https://www.kist.re.kr/eng/index.do"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      KIST
+                    </a>
+                    {" & "}
+                    <a
+                      href="https://anam.kumc.or.kr/en/index.do"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      KUMC
+                    </a>
                 </p>
               </div>
               <div className="exp-logo">
@@ -148,7 +199,7 @@ function Experience() {
 
           {/* KIST */}
           <div className="timeline-item">
-            <div className="timeline-content exp-flex-item">
+            <div className="card-base exp-card exp-flex-item">
               <div className="exp-description">
                 <h3>
                 <a
@@ -164,7 +215,7 @@ function Experience() {
                   Seoul, South Korea
                 </p>
                 <p><strong>Research Intern</strong> (On-site), Jun. 2023 - Dec. 2023</p>
-                <p>Research Focus: Computer Vision, Medical Imaging(CT/MR/MRCP), 3D Segmentation, 3D Classification</p>
+                <p>Research Focus: Deep Learning, Medical Imaging(CT/MR/MRCP), 3D Segmentation, 3D Classification</p>
                 <p>
                   Under the supervision of Dr.&nbsp;
                   <a
@@ -177,6 +228,18 @@ function Experience() {
                   </a>
                   &nbsp;AIMI LAB
                 </p>
+                <p>
+                  Collaborative Research with&nbsp;
+                    <a
+                      href="https://anam.kumc.or.kr/en/index.do"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      KUMC
+                    </a>
+                </p>
+
               </div>
               <div className="exp-logo">
                 <img
@@ -190,7 +253,7 @@ function Experience() {
 
           {/* IBS 1 */}
           <div className="timeline-item">
-            <div className="timeline-content exp-flex-item">
+            <div className="card-base exp-card exp-flex-item">
               <div className="exp-description">
                 <h3>
                 <a
@@ -205,8 +268,8 @@ function Experience() {
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Daejeon, South Korea
                 </p>
-                <p><strong>Research Assistance</strong> (On-site), Feb. 2023 - Jun. 2023</p>
-                <p>Research Focus: Cognitive Neuroscience, Predictive Coding, Predictive Coding Network</p>
+                <p><strong>Research Assistant</strong> (On-site), Feb. 2023 - Jun. 2023</p>
+                <p>Research Focus: Machine Learning, Cognitive Neuroscience, Predictive Coding, Predictive Coding Network</p>
                 <p>
                   Under the supervision of Dr.&nbsp;
                   <a
@@ -232,7 +295,7 @@ function Experience() {
 
           {/* IBS 2 */}
           <div className="timeline-item">
-            <div className="timeline-content exp-flex-item">
+            <div className="card-base exp-card exp-flex-item">
               <div className="exp-description">
                 <h3>
                 <a
@@ -247,7 +310,7 @@ function Experience() {
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
                   Daejeon, South Korea
                 </p>
-                <p><strong>Research Assistance</strong> (On-site), Feb. 2023 - Jun. 2023</p>
+                <p><strong>Research Assistant</strong> (On-site), Apr. 2022 - Sep. 2022</p>
                 <p>Research Focus: Cognitive Neuroscience, EEG (electroencephalography) Experiment</p>
                 <p>
                   Under the supervision of Dr.&nbsp;
@@ -273,6 +336,55 @@ function Experience() {
           </div>
         </div>
 
+
+        <h2>Education</h2>
+        <hr
+          style={{
+            width: '100%',
+            marginLeft: '0',
+            marginRight: 'auto',
+            marginTop: '1em',
+            marginBottom: '1em',
+            borderColor: '#e0e0e0',
+            opacity: '0.15',
+            display: 'block',
+          }}
+        />
+
+
+        {/* CNU */}
+        <div className="timeline-item">
+          <div className="card-base exp-card exp-flex-item">
+            <div className="exp-description">
+              <h3>
+                <a
+                  href="https://plus.cnu.ac.kr/html/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                >
+                  Chungnam National University (CNU)
+                </a>
+              </h3>
+              <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Daejeon, South Korea
+              </p>
+              <p><strong>Bachelor’s degree</strong>, Mar. 2019 - Aug. 2025</p>
+              <p>
+                The Division of Computer Convergence, College of Engineering
+              </p>
+            </div>
+            <div className="exp-logo">
+              <img
+                src={cnu}
+                alt="CNU Logo"
+                className="exp-logo-img"
+              />
+            </div>
+          </div>
+        </div>
+
+
         <h2>Extracurricular activities</h2>
         <hr
           style={{
@@ -289,7 +401,7 @@ function Experience() {
 
         {/* CNU */}
         <div className="timeline-item">
-          <div className="timeline-content exp-flex-item">
+          <div className="card-base exp-card exp-flex-item">
             <div className="exp-description">
               <h3>
                 <a
@@ -336,7 +448,7 @@ function Experience() {
 
         {/* ROK Navy */}
         <div className="timeline-item">
-          <div className="timeline-content exp-flex-item">
+          <div className="card-base exp-card exp-flex-item">
             <div className="exp-description">
               <h3>
                 <a
@@ -366,7 +478,7 @@ function Experience() {
 
         {/* CNU */}
         <div className="timeline-item">
-          <div className="timeline-content exp-flex-item">
+          <div className="card-base exp-card exp-flex-item">
             <div className="exp-description">
               <h3>
                 <a
@@ -384,8 +496,8 @@ function Experience() {
               <p>
                 <strong>Class of 2019 Student Representative</strong>, Mar. 2019 - Dec. 2019
                 <br />
-                The Division of Computer Convergence, College of Engineering, Chungnam National University
               </p>
+              <p>The Division of Computer Convergence, College of Engineering</p>
             </div>
             <div className="exp-logo">
               <img

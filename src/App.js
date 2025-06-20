@@ -7,6 +7,8 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import CV from './components/CV';
 import Projects from './components/Projects';
+import Nanocellect from './components/post/_Nanocellect/Nanocellect';
+import AICON from './components/post/_AICON/AICON';
 
 import './Header.css';
 
@@ -31,6 +33,9 @@ function App() {
             <Route path="/publications" element={<Publications />} />
             <Route path="/CV" element={<CV />} />
             <Route path="/contact" element={<Contact />} />
+
+            <Route path="/post/nanocellect" element={<Nanocellect />} />
+            <Route path="/post/aicon" element={<AICON />} />
           </Routes>
         </div>
 

@@ -13,14 +13,24 @@ function ProfileSidebar() {
         flexDirection: 'column', 
         marginTop: '50px' 
       }}>
-        <img src={picture1} width='200px' alt="Profile of Han Jang" />
+        <img 
+          src={picture1} 
+          width='250px' 
+          alt="Profile of Han Jang" 
+          style={{
+            borderRadius: '10%',
+            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)',
+            objectFit: 'cover',
+            height: '300px'
+          }} 
+        />
         <h2 style={{ marginBottom: '0.5em' }}>Han Jang</h2>
         <p style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
           Senior Student
         </p>
 
         <p style={{ textAlign: 'center', margin: '0 0 10px 0', fontWeight: 'normal' }}>
-          Chungnam National University
+          <i>Chungnam National University</i>
         </p>
 
         <p 
@@ -30,7 +40,7 @@ function ProfileSidebar() {
             fontWeight: 'normal' 
           }}
         >
-          Passionate about leveraging&nbsp;
+          Passionate about leveraging <br></br> &nbsp;
           <ReactTypingEffect
             text={[
               "Deep Learning", 
@@ -55,15 +65,15 @@ function ProfileSidebar() {
             display: 'flex', 
             flexDirection: 'column', 
             alignItems: 'flex-start', 
-            fontSize: '12px' 
+            fontSize: '15px' 
           }}
         >
           <p style={{ margin: '5px 0' }}>
-            <i className="fas fa-map-marker-alt"></i> &nbsp; San Diego, California, United States
+            <i className="fas fa-map-marker-alt" style={{ marginRight: '3px' }}></i> &nbsp; Seoul, South Korea
           </p>
           
           <p style={{ margin: '5px 0' }}>
-            <i className="fab fa-github" style={{ marginRight: '3px' }}></i> &nbsp;
+            <i className="fab fa-github" style={{ marginRight: '4px' }}></i> &nbsp;
             <a 
               href="https://github.com/janghana" 
               target="_blank" 
@@ -75,7 +85,7 @@ function ProfileSidebar() {
           </p>
 
           <p style={{ margin: '5px 0' }}>
-            <i className="fab fa-linkedin" style={{ marginRight: '10px' }}></i> 
+            <i className="fab fa-linkedin" style={{ marginRight: '13px' }}></i> 
             <a 
               href="https://www.linkedin.com/in/han-jang-255aa0253/" 
               target="_blank" 
@@ -90,7 +100,7 @@ function ProfileSidebar() {
             <img 
               src={tistoryLogo} 
               alt="Tistory Logo" 
-              style={{ width: '10px', height: '10px', marginRight: '10px' }}
+              style={{ width: '10px', height: '10px', marginRight: '17px' }}
             />
             <a 
               href="https://janghan-kor.tistory.com/" 
@@ -98,7 +108,7 @@ function ProfileSidebar() {
               rel="noopener noreferrer" 
               className="advisor-link"
             >
-              Blog
+              Tech Blog
             </a>
           </p>
 

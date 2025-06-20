@@ -26,22 +26,23 @@ function Projects() {
       <div className="projects-main">
         <h2>Projects</h2>
 
-        {/* 2025 (Placeholder if needed in future) */}
-        {/* <h3>2025</h3>
-        <hr
-          style={{
-            width: '55%',
-            marginLeft: '0',
-            marginRight: 'auto',
-            marginTop: '1em',
-            marginBottom: '1em',
-            borderColor: '#e0e0e0',
-            opacity: '0.15',
-            display: 'block'
-          }}
-        /> */}
+        <hr style={{ borderColor: '#e0e0e0', marginBottom: '5em', opacity: '0.15' }} />
 
         <div className="timeline">
+          {/* 2025 */}
+          <h3>2025</h3>
+          <hr
+            style={{
+              width: '100%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
 
           {/* 2024 */}
           <h3>2024</h3>
@@ -61,7 +62,7 @@ function Projects() {
           {/* Unsupervised Diffusion Model ... */}
           <div className="timeline-item">
             <div
-              className="timeline-content"
+              className="card-base proj-card"
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
@@ -112,39 +113,36 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="advisor-link"
                   >
-                    SEOULTECH
+                    SeoulTech
                   </a>&nbsp;
                   @BAISLAB
                 </p>
-                <p>
-                  [<a 
+                <p className='link-row'>
+                  <a 
                     href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Paper
-                  </a>] 
-                  | 
-                  [<a 
+                  </a>
+                  <a 
                     href="https://github.com/janghana/Unsupervised-Diffusion-Model-for-Synthesizing-T1-weighted-MRI-Scans-from-Abdominal-CT-Scans"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Code
-                  </a>]
-                  |
-                  [<a 
+                  </a>
+                  <a 
                     href="https://drive.google.com/file/d/1J3rnoVAd6anQrsf-7kLHkHUhdYOFSOmN/view?usp=drive_link"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Poster
-                  </a>]
-                  |
-                  [Project Duration: Jan. 2024 - Jun. 2024]
+                  </a>
+                  <span className="duration-tag">Jan. 2024 - Jun. 2024</span>
                 </p>
               </div>
               <div
@@ -152,9 +150,9 @@ function Projects() {
                     textAlign: 'center',
                     maxWidth: '400px',
                     width: '100%',
-                    marginRight: '-400px',
+                    marginRight: '-450px',
                 }}
-              >
+                className="proj-img">
                 <ModalImage
                   small={UnsupervisedDiffusionCT}
                   large={UnsupervisedDiffusionCT}
@@ -169,7 +167,7 @@ function Projects() {
           {/* GABNet: Graph Attention Boosting Network ... */}
           <div className="timeline-item">
             <div
-              className="timeline-content"
+              className="card-base proj-card"
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
@@ -210,44 +208,40 @@ function Projects() {
                     CNU
                   </a>&nbsp;@Graduation_Project
                 </p>
-                <p>
-                  [<a 
+                <p className='link-row'>
+                  <a 
                     href="https://drive.google.com/file/d/14Jb0DGuJ3rtw9oVpDX8h-zFtCXwUOFBz/view?usp=drive_link"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Paper
-                  </a>]
-                  |
-                  [<a 
+                  </a>
+                  <a 
                     href="https://github.com/janghana/HCC-Prediction-with-circRNA-using-Ensemble-Heterogeneous-Graph-Attention-Networks"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Code
-                  </a>]
-                  | 
-                  [<a 
+                  </a>
+                  <a 
                     href="https://drive.google.com/file/d/1wL0qKHLMqsJQ5L3oL_iSEl03YpwCQRZw/view"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Awards
-                  </a>]                  
-                  |
-                  [<a 
+                  </a>
+                  <a 
                     href="https://drive.google.com/file/d/1mUGoFzGKtcTUVR2UUFi4breL0e4KBnFk/view"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Poster
-                  </a>]
-                  |
-                  [Project Duration: Mar. 2024 - Dec. 2024]
+                  </a>
+                  <span className="duration-tag">Mar. 2024 - Dec. 2024</span>
                 </p>
               </div>
               <div
@@ -255,9 +249,9 @@ function Projects() {
                     textAlign: 'center',
                     maxWidth: '400px',
                     width: '100%',
-                    marginRight: '-400px',
+                    marginRight: '-450px',
                 }}
-              >
+                className="proj-img">
                 <ModalImage
                   small={GABNetHCC}
                   large={GABNetHCC}
@@ -272,7 +266,7 @@ function Projects() {
           {/* CNU NAVI */}
           <div className="timeline-item">
             <div
-              className="timeline-content"
+              className="card-base proj-card"
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
@@ -306,16 +300,16 @@ function Projects() {
                     CNU
                   </a>&nbsp;@Toy_Project
                 </p>
-                <p>
-                  [<a 
+                <p className='link-row'>
+                  <a 
                     href="https://github.com/janghana/CNU-NAVI"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Code
-                  </a>]
-                  | [Project Duration: Mar. 2024 - Aug. 2024]
+                  </a>
+                  <span className="duration-tag">Mar. 2024 - Aug. 2024</span>
                 </p>
               </div>
               <div
@@ -323,9 +317,9 @@ function Projects() {
                     textAlign: 'center',
                     maxWidth: '400px',
                     width: '100%',
-                    marginRight: '-400px',
+                    marginRight: '-450px',
                 }}
-              >
+                className="proj-img">
                 <ModalImage
                   small={CNUNAVI}
                   large={CNUNAVI}
@@ -341,7 +335,7 @@ function Projects() {
           <h3 style={{ marginTop: '3rem' }}>2023</h3>
           <hr
             style={{
-              width: '55%',
+              width: '100%',
               marginLeft: '0',
               marginRight: 'auto',
               marginTop: '1em',
@@ -355,7 +349,7 @@ function Projects() {
           {/* Enhancing Breast Cancer MRI Classification ... */}
           <div className="timeline-item">
             <div
-              className="timeline-content"
+              className="card-base proj-card"
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
@@ -394,26 +388,24 @@ function Projects() {
                   </a>&nbsp;
                   @AIMILAB
                 </p>
-                <p>
-                  [<a 
+                <p className='link-row'>
+                  <a 
                     href="https://drive.google.com/file/d/14jp4KGZlAj2tE1xGyHQD4Unks2Ln5WNx/view"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Paper
-                  </a>]
-                  |
-                  [<a 
+                  </a>
+                  <a 
                     href="https://github.com/janghana/Breast-Cancer-Classification-using-ViT"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Code
-                  </a>]
-                  |
-                  [Project Duration: Sep. 2023 - Dec. 2023]
+                  </a>
+                  <span className="duration-tag">Sep. 2023 - Dec. 2023</span>
                 </p>
               </div>
               <div
@@ -421,9 +413,9 @@ function Projects() {
                     textAlign: 'center',
                     maxWidth: '400px',
                     width: '100%',
-                    marginRight: '-400px',
+                    marginRight: '-450px',
                 }}
-              >
+                className="proj-img">
                 <ModalImage
                   small={BreastCancerViT}
                   large={BreastCancerViT}
@@ -438,7 +430,7 @@ function Projects() {
           {/* Contrast Agent-Free Approach for Enhancing ... */}
           <div className="timeline-item">
             <div
-              className="timeline-content"
+              className="card-base proj-card"
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
@@ -478,17 +470,16 @@ function Projects() {
                   </a>&nbsp;
                   @AIMILAB
                 </p>
-                <p>
-                  [<a 
+                <p className='link-row'>
+                  <a 
                     href="https://github.com/janghana/NCECT-to-CECT"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Code
-                  </a>]
-                  |
-                  [Project Duration: Jun. 2023 - Dec. 2023]
+                  </a>
+                  <span className="duration-tag">Jun. 2023 - Dec. 2023</span>
                 </p>
               </div>
               <div
@@ -496,9 +487,9 @@ function Projects() {
                     textAlign: 'center',
                     maxWidth: '400px',
                     width: '100%',
-                    marginRight: '-400px',
+                    marginRight: '-450px',
                 }}
-              >
+                className="proj-img">
                 <ModalImage
                   small={ContrastAgentFree}
                   large={ContrastAgentFree}
@@ -513,7 +504,7 @@ function Projects() {
           {/* Diffusion-Model-Based Conditional Medical Image Translation ... */}
           <div className="timeline-item">
             <div
-              className="timeline-content"
+              className="card-base proj-card"
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
@@ -555,17 +546,26 @@ function Projects() {
                   </a>&nbsp;
                   @AIMILAB
                 </p>
-                <p>
-                  [<a 
+                <p className='link-row'>
+                  <a 
                     href="https://github.com/janghana/SynDiff-Medical-Image-Translation"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Code
-                  </a>]
-                  |
-                  [Project Duration: Sep. 2023 - Oct. 2023]
+                  </a>
+                  <img
+                    src="https://img.shields.io/github/stars/janghana/SynDiff-Medical-Image-Translation?style=flat-square&label=%E2%AD%90&logo=github&logoColor=FACC15&labelColor=ffffff&color=ffffff"
+                    alt="GitHub stars"
+                    style={{
+                      marginLeft: '0.25rem',
+                      border: '1px solid #FACC15',
+                      borderRadius: '4px',
+                      boxShadow: '0 1px 4px rgba(0,0,0,0.15)',
+                    }}
+                  />
+                  <span className="duration-tag">Sep. 2023 - Oct. 2023</span>
                 </p>
               </div>
               <div
@@ -573,9 +573,9 @@ function Projects() {
                     textAlign: 'center',
                     maxWidth: '400px',
                     width: '100%',
-                    marginRight: '-400px',
+                    marginRight: '-450px',
                 }}
-              >
+                className="proj-img">
                 <ModalImage
                   small={DiffusionModelT1Synthesis}
                   large={DiffusionModelT1Synthesis}
@@ -590,7 +590,7 @@ function Projects() {
           {/* Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation... */}
           <div className="timeline-item">
             <div
-              className="timeline-content"
+              className="card-base proj-card"
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
@@ -640,17 +640,16 @@ function Projects() {
                   </a>&nbsp;
                   @AIMILAB
                 </p>
-                <p>
-                  [<a 
+                <p className='link-row'>
+                  <a 
                     href="https://github.com/kimhyoree/Improving-HCC-diagnostic-precision-in-CT-using-UNETR-model"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Code
-                  </a>]
-                  |
-                  [Project Duration: Jun. 2023 - Aug. 2023]
+                  </a>
+                  <span className="duration-tag">Jun. 2023 - Aug. 2023</span>
                 </p>
               </div>
               <div
@@ -658,9 +657,9 @@ function Projects() {
                     textAlign: 'center',
                     maxWidth: '400px',
                     width: '100%',
-                    marginRight: '-400px',
+                    marginRight: '-450px',
                 }}
-              >
+                className="proj-img">
                 <ModalImage
                   small={AorticContrastUNETR}
                   large={AorticContrastUNETR}
@@ -675,7 +674,7 @@ function Projects() {
           {/* Designing a Predictive Coding Network Model ... */}
           <div className="timeline-item">
             <div
-              className="timeline-content"
+              className="card-base proj-card"
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
@@ -715,17 +714,16 @@ function Projects() {
                     BrainXLAB
                   </a>
                 </p>
-                <p>
-                  [<a 
+                <p className='link-row'>
+                  <a 
                     href="https://github.com/janghana/Predictive-Coding-Network"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Code
-                  </a>]
-                  |
-                  [Project Duration: Jan. 2023 - Jun. 2023]
+                  </a>
+                  <span className="duration-tag">Jan. 2023 - Jun. 2023</span>
                 </p>
               </div>
               <div
@@ -733,9 +731,9 @@ function Projects() {
                     textAlign: 'center',
                     maxWidth: '400px',
                     width: '100%',
-                    marginRight: '-400px',
+                    marginRight: '-450px',
                 }}
-              >
+                className="proj-img">
                 <ModalImage
                   small={PredictiveCodingNetwork}
                   large={PredictiveCodingNetwork}
@@ -750,7 +748,7 @@ function Projects() {
           {/* Emotional Chat: Comparative Analysis ... */}
           <div className="timeline-item">
             <div
-              className="timeline-content"
+              className="card-base proj-card"
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
@@ -779,26 +777,24 @@ function Projects() {
                   </a>&nbsp;
                   @NLP_Project
                 </p>
-                <p>
-                  [<a 
+                <p className='link-row'>
+                  <a 
                     href="https://drive.google.com/file/d/1bAVzBOuxXDjDzxMKfmEaZTfPcUS3XDXC/view"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Paper
-                  </a>]
-                   | 
-                  [<a 
+                  </a>
+                  <a 
                     href="https://github.com/janghana/Emotional-Chat"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Code
-                  </a>]
-                  |
-                  [Project Duration: Mar. 2023 - Jun. 2023]
+                  </a>
+                  <span className="duration-tag">Mar. 2023 - Jun. 2023</span>
                 </p>
               </div>
               <div
@@ -806,9 +802,9 @@ function Projects() {
                     textAlign: 'center',
                     maxWidth: '400px',
                     width: '100%',
-                    marginRight: '-400px',
+                    marginRight: '-450px',
                 }}
-              >
+                className="proj-img">
                 <ModalImage
                   small={EmotionalChat}
                   large={EmotionalChat}
@@ -825,7 +821,7 @@ function Projects() {
           <h3 style={{ marginTop: '3rem' }}>2022</h3>
           <hr
             style={{
-              width: '55%',
+              width: '100%',
               marginLeft: '0',
               marginRight: 'auto',
               marginTop: '1em',
@@ -839,7 +835,7 @@ function Projects() {
           {/* Investigating Brainwave Patterns ... */}
           <div className="timeline-item">
             <div
-              className="timeline-content"
+              className="card-base proj-card"
               style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
             >
               <div style={{ flex: 1, marginRight: '1rem' }}>
@@ -895,17 +891,18 @@ function Projects() {
                     BrainXLAB
                   </a>&nbsp;@IBS-UNIST Joint Research
                 </p>
-                <p>
-                  [<a 
+
+                <p className="link-row">
+                  <a 
                     href="https://github.com/janghana/EEG-data-analysis-of-128-channels"
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="advisor-link"
+                    className="code-link"
                   >
                     Code
-                  </a>]
-                  |
-                  [Project Duration: Apr. 2022 - May 2023]
+                  </a>
+                  
+                  <span className="duration-tag">Apr. 2022 - May 2023</span>
                 </p>
               </div>
               <div
@@ -913,9 +910,9 @@ function Projects() {
                     textAlign: 'center',
                     maxWidth: '400px',
                     width: '100%',
-                    marginRight: '-400px',
+                    marginRight: '-450px',
                 }}
-              >
+                className="proj-img">
                 <ModalImage
                   small={JumpingPhenomenon}
                   large={JumpingPhenomenon}

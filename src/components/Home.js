@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import LeftSideProfile from './LeftSideProfile';
+// import { Link } from 'react-router-dom';
+
 
 function Home() {
   return (
@@ -14,28 +16,50 @@ function Home() {
         <h2>About me</h2>
         <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
 
-        <p style={{ marginBottom: '4rem', lineHeight: '1.6' }}></p>
+        <p style={{ marginBottom: '2rem', lineHeight: '1.6' }}></p>
         
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           Greetings and Welcome !
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          I'm Han Jang, and I am currently a <strong>Senior Student</strong> at&nbsp;
+          I am <strong>Han Jang</strong>, and I am currently a <strong>Senior Student</strong> at
+          the Divison of Computer Convergence, {" "}
           <a
             href="https://plus.cnu.ac.kr/html/en/"
             target="_blank"
             rel="noopener noreferrer"
             className="advisor-link"
           >
-            Chungnam National University
-          </a> with a profound interest in Enhancing Human Well-being.
+            <i>Chungnam National University</i>
+          </a> in Daejeon (South Korea) with a profound interest in Enhancing Human Well-being.
+        </p>
+
+        <p>
+          I am working at {" "}
+          <a
+            href="https://sites.google.com/view/snuhradaicon"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+            >
+            AICON LAB {" "}
+          </a>
+            under the supervision of Prof. <a
+              href="https://scholar.google.co.kr/citations?hl=ko&user=XYh6Z0gAAAAJ&view_op=list_works&sortby=pubdate"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+              KS Choi
+            </a>
+.
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           I focus on <em>Computer Science</em> and <em>Artificial Intelligence</em>, 
-          with a particular interest in <em>Machine Learning</em>, <em>Deep Learning</em>, 
-          {" "}<em>Medical Imaging</em>, <em>Generative Models</em>, <em>Neuroimaging</em> and <em>Neuroscience</em>.
+          with a particular interest in <em>Machine Learning</em>, <em>Generative Models</em>, 
+          {" "}<em>Medical Imaging</em>, <em>Neuroimaging</em>.
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
@@ -68,7 +92,7 @@ function Home() {
         
         <hr
           style={{
-            width: '10%',
+            width: '100%',
             marginLeft: '0',
             marginRight: 'auto',
             marginTop: '1em',
@@ -79,24 +103,71 @@ function Home() {
           }}
         />
 
-        {/* <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          [Mar. 2025] Joined SNU AICON LAB to advance research in Deep Learning and Neuroimaging.
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <a
+            href="#/post/AICON"
+            className="code-link"
+          >
+            Post
+          </a>
+
+          [Mar. 2025] Joined SNU
+          {" "}
+          <i><a
+            href="https://sites.google.com/view/snuhradaicon"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+          >
+            AICON LAB
+          </a></i>
+          {" "}
+          as a Research Assistant to advance research in Deep Learning and Neuro­imaging.
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          [Feb. 2025] Completed a Machine Learning Engineer Intern in San Diego, California, United States, focusing on healthcare.
-        </p> */}
+          <a
+            href="#/post/Nanocellect"
+            className="code-link"
+          >
+            Post
+          </a>
+          [Feb. 2025] 
+          {" "}
+          Completed a <strong>Machine Learning Engineer</strong> at {" "}
+          <i><a
+            href="https://nanocellect.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+          >
+            NanoCellect Biomedical, Inc.
+          </a></i> {" "}
+          in San Diego, California, United States.
+        </p>
 
         {/* <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          [May 2025] Published a paper in ESWA (IF 8.96 in 2025); <strong>Diffusion model-driven medical image translation.</strong>
-        </p> */}
+          <a href="#/post/Nanocellect" className="code-link">Post</a>
+          &nbsp;[Jul.&nbsp;2024]&nbsp;
+          Published my first-author paper&nbsp;
+          <strong>“Unsupervised Diffusion Model for Synthesizing&nbsp;T1-weighted&nbsp;MRI Scans from Abdominal CT Scans”</strong>&nbsp;
+          at&nbsp;
+          <i><a
+            href="https://www.kiise.or.kr/conference/kcc/2024/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+          >
+            Korea&nbsp;Computer&nbsp;Congress&nbsp;2024
+          </a></i>, Jeju&nbsp;ICC&nbsp;(South Korea).
+        </p>
+ */}
 
 
 
 
 
 
-          
 
       </div>
 
