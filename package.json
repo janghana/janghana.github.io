@@ -13,7 +13,7 @@
     "react-katex": "^3.0.1",
     "react-medium-image-zoom": "^5.2.13",
     "react-modal-image": "^2.6.0",
-    "react-router-dom": "^6.23.0",
+    "react-router-dom": "^6.29.0",
     "react-scripts": "^3.0.1",
     "react-typing-effect": "^2.0.5",
     "web-vitals": "^2.1.4"

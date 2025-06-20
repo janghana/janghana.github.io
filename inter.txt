@@ -1,0 +1,266 @@
+
+
+CV
+
+
+          {/* <div className="timeline">
+            <div className="timeline-item">
+              <div className="timeline-content">
+                <p><strong>Seoul National University (SNU)</strong> - Seoul, South Korea</p>
+                <p>Mar. 2026. ~ Feb. 2028</p>
+                <p>Master degree</p>
+                <p>Interdisciplinary program of Bioengineering, College of Engineering</p>
+              </div>
+            </div>
+          </div> */}
+
+
+experience
+
+          {/* SNU */}
+          <div className="timeline-item">
+            <div className="card-base exp-card exp-flex-item">
+              <div className="exp-description">
+                <h3>
+                <a
+                  href="https://en.snu.ac.kr/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                  // style={{ color: '#00AAFF' }}
+                >
+                  Seoul National University (SNU)
+                </a>
+                </h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Seoul, South Korea
+                </p>
+                <p><strong>Master Degree</strong>, Mar. 2026 - Feb. 2028</p>
+                <p>Interdisciplinary Program of Bioengineering, College of Engineering</p>
+                <p>
+                  Under the supervision of Prof.&nbsp;
+                  <a
+                    href="https://scholar.google.co.kr/citations?hl=ko&user=XYh6Z0gAAAAJ&view_op=list_works&sortby=pubdate"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="advisor-link"
+                  >
+                    KS Choi
+                  </a>
+                  {" | "}
+                  <a
+                    href="https://sites.google.com/view/snuhradaicon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="advisor-link"
+                  >
+                    AICON LAB
+                  </a>
+                </p>
+              </div>
+              <div className="exp-logo">
+                <img
+                  src={snu}
+                  alt="SNU Logo"
+                  className="exp-logo-img"
+                />
+              </div>
+            </div>
+          </div>
+
+publications
+        <div style={{ marginBottom: '1.5em' }}>
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+            Cycle-Consistent Conditional Diffusion with Misalignment-Aware Adversarial Learning for MR-less Synthetic Segmentation of CT Images
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            <strong>Han Jang<sup>1</sup></strong>, N.Y. Han<sup>1</sup>, J.H. Kwon, H.S. Seo, B.J. Park, K.H. Choi<sup>*</sup>,
+            {" "}
+            <i><a
+              href="https://www.sciencedirect.com/journal/expert-systems-with-applications"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+              Expert Systems With Applications,
+            </a>
+            {" "} 2025 </i> (IF: 7.5)
+            [<a
+              // href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+              Paper
+            </a>]
+          </p>
+        </div>
+
+
+
+
+Projects
+          {/* C3DMAAL */}
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Cycle-Consistent Conditional Diffusion with Misalignment-Aware Adversarial Learning for MR-less Synthetic Segmentation of CT Images</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
+                <p>
+                Abdominal CT is a commonly used imaging modality to diagnose various diseases and conditions that cause internal pain. However, additional imaging tests such as magnetic resonance cholangio-pancreatography (MRCP) are often performed to visualize specific soft structures such as biliary systems. Despite being potentially useful in many clinical applications, predicting soft structures from CT images alone remains challenging to implement and evaluate. In this paper, we focus on learning with misaligned CT-MRI image pairs and present a MR-less synthetic segmentation framework, consisting of CT-to-MRI image translation and subsequent image segmentation, to predict structures that may not be clearly visible in the source CT images.
+                For CT-to-MRI translation, a diffusion model is trained to recover noisy MRI images by using CT images as a conditional input.
+                We use a separate diffusion model, which is trained to recover noisy CT images by using MRI images as the conditional input.
+                To couple the two conditional diffusion models during the training process, each diffusion model retakes the output of the other model as the conditional input.
+                We also propose an adaptive learning strategy for diffusion models to learn with misaligned CT-MRI image pairs. In end-to-end learning of synthetic segmentation, cyclically reconstructed MRI images from the diffusion models, as well as the original MRI images, are used to train the subsequent segmentation network.
+                Through a series of clinical experiments with aligned, misaligned, and unpaired CT-MRI datasets, we show that the proposed method outperforms other competing methods in both CT-to-MRI translation and MR-less segmentation. In particular, the faithful MRI-like images from our synthetic segmentation framework are capable of bridging the gap between the original CT images and the predicted segmentation masks.
+                </p>
+                <p>
+                  @<a 
+                    href="https://plus.cnu.ac.kr/html/en/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    CNU
+                  </a>&nbsp;
+                  @<a 
+                    href="https://www.kist.re.kr/eng/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                  @<a 
+                    href="https://anam.kumc.or.kr/en/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    KoreaUniversityAnamHospital
+                  </a>&nbsp;
+                  @<a 
+                    href="https://en.seoultech.ac.kr/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    SeoulTech
+                  </a>&nbsp;
+                  @BAISLAB
+                </p>
+                <p className='link-row'>
+                  <a 
+                    // href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Paper
+                  </a>
+                  
+                  <a 
+                    // href="https://github.com/janghana/Unsupervised-Diffusion-Model-for-Synthesizing-T1-weighted-MRI-Scans-from-Abdominal-CT-Scans"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Code
+                  </a>
+                  <a 
+                    // href="https://drive.google.com/file/d/1J3rnoVAd6anQrsf-7kLHkHUhdYOFSOmN/view?usp=drive_link"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Project Page
+                  </a>
+                  <span className="duration-tag">Aug. 2023 - Jun. 2025</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={C3DMAAL}
+                  large={C3DMAAL}
+                  alt="Unsupervised Diffusion Model for Synthesizing T1-weighted MRI"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+
+
+news
+
+
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <a 
+            // href="https://drive.google.com/file/d/1J3rnoVAd6anQrsf-7kLHkHUhdYOFSOmN/view?usp=drive_link"
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="code-link"
+          >
+            Post
+          </a>
+          [Jun. 2025] {" "}
+
+          Published a paper in {" "}
+            <i><a
+                href="https://www.sciencedirect.com/journal/expert-systems-with-applications"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="advisor-link"
+              >
+                Expert Systems With Applications,
+              </a>
+              {" "} 2025 </i>
+              (IF: 7.5) <strong>Cycle-Consistent Conditional Diffusion with Misalignment-Aware Adversarial Learning for MR-less Synthetic Segmentation of CT Images</strong>.
+        </p>
+
+
+CV
+
+
+              <div className="timeline-content">
+                
+                <div style={{ marginBottom: '1.5em' }}>
+                  <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+                    Cycle-Consistent Conditional Diffusion with Misalignment-Aware Adversarial Learning for MR-less Synthetic Segmentation of CT Images
+                  </h4>
+                  <p style={{ margin: 0, fontSize: '0.9em' }}>
+                    <strong>Han Jang<sup>1</sup></strong>, N.Y. Han<sup>1</sup>, J.H. Kwon, H.S. Seo, B.J. Park, K.H. Choi<sup>*</sup>,
+                    {" "}
+                    <i><a
+                      href="https://www.sciencedirect.com/journal/expert-systems-with-applications"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      Expert Systems With Applications
+                    </a>
+                    , 2025 </i> (IF: 7.5)
+                    [<a
+                      // href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      Paper
+                    </a>]
+                  </p>
+                </div>
+              </div>
