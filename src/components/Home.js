@@ -103,7 +103,7 @@ function Home() {
           }}
         />
 
-        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+        {/* <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           <a
             href="#/post/AICON"
             className="code-link"
@@ -123,7 +123,7 @@ function Home() {
           </a></i>
           {" "}
           as a Research Assistant to advance research in Deep Learning and Neuro­imaging.
-        </p>
+        </p> */}
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           <a
