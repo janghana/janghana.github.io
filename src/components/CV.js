@@ -60,7 +60,7 @@ function CV() {
             <div className="timeline-item">
               <div className="timeline-content">
                 <p><strong>Chungnam National University (CNU)</strong> - Daejeon, South Korea</p>
-                <p>2019. 3. ~ Present</p>
+                <p>2019. 3. ~ 2025. 8.</p>
                 <p>Bachelor’s degree</p>
                 <p>The Division of Computer Convergence, College of Engineering</p>
               </div>
@@ -88,7 +88,7 @@ function CV() {
           <div className="timeline">
             <div className="timeline-item">
               <div className="timeline-content">
-                <h4>Seoul National University</h4>
+                <h4>Seoul National University Hospital (SNUH)</h4>
                 <p style={{ fontStyle: 'italic', color: '#555' }}>Seoul, South Korea</p>
                 <p><strong>Research Assistant</strong>, Mar. 2025 - Present</p>
                 <p>
@@ -182,6 +182,94 @@ function CV() {
 
         <div className="timeline-section">
           <h3>Publications</h3>
+
+          <div className="timeline">
+            <div className="timeline-item">
+              <div className="timeline-content">
+                <div style={{ marginBottom: '1.5em' }}>
+                  <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+                    Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast Enhanced MRI
+                  </h4>
+                  <p style={{ margin: 0, fontSize: '0.9em' }}>
+                  <strong>Han Jang<sup>1</sup></strong>, J. H. Lee<sup>1</sup>, K. S. Choi<sup>*</sup>
+
+                    {" "}
+                    <i><a
+                      href="https://icmri.ksmrm.org/2025m/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      ICMRI 2025
+                    </a>
+                    ,
+                    </i>
+                    <a
+                      href="https://miccai-clip.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                    </a>
+                    {" "} Grand Walkerhill Seoul, South Korea
+                    <p></p>
+                    <a 
+                      href="https://drive.google.com/file/d/1gfXy22iOdNhNALBTo6k9rpiBjEsy-X6T/view?usp=drive_link"
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="code-link"
+                    >
+                      Poster
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline">
+            <div className="timeline-item">
+              <div className="timeline-content">
+                <div style={{ marginBottom: '1.5em' }}>
+                  <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+                    Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning
+                    {/* Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning: Multi-Prompt 3D Tumor Delineation with Clinical Integration */}
+                  </h4>
+                  <p style={{ margin: 0, fontSize: '0.9em' }}>
+                    J. H. Lee<sup>1</sup>, <strong>Han Jang<sup>1</sup></strong>, K. S. Choi<sup>*</sup>
+                    <i><a
+                      href="https://conferences.miccai.org/2025/en/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                    , MICCAI, 2025.
+                    </a>
+                    </i>
+                    {" "}(pp. 32-41),{" "}
+                    <a
+                      href="https://miccai-clip.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      CLIP workshop
+                    </a>
+                    {" "} Daejeon Convention Center,
+                    [<a
+                      href="https://link.springer.com/chapter/10.1007/978-3-032-05479-1_4/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="advisor-link"
+                    >
+                      Paper
+                    </a>]
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
           <div className="timeline">
             <div className="timeline-item">
               <br></br>

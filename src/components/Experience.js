@@ -29,13 +29,13 @@ function Experience() {
               <div className="exp-description">
                 <h3>
                 <a
-                  href="https://en.snu.ac.kr/index.html"
+                  href="http://www.snuh.org/global/en/main.do"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="advisor-link"
                   // style={{ color: '#00AAFF' }}
                 >
-                  Seoul National University (SNU)
+                  Seoul National University Hospital (SNUH)
                 </a>
                 </h3>
                 <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>

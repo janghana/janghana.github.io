@@ -29,6 +29,152 @@ function Publications() {
           }}
         />
 
+        {/* <div style={{ marginBottom: '1.5em' }}>
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+          Radiogenomics Framework for Perfusion MRI via Hierarchical Graph Representation
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+          <strong>Han Jang<sup>1</sup></strong>, J. H. Lee<sup>1</sup>, ..., K. S. Choi<sup>*</sup>
+
+            {" "}
+            <i><a
+              href="https://www.sciencedirect.com/journal/medical-image-analysis/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+              Medical Image Analysis 2025
+            </a>
+            </i>
+            <a
+              href="https://miccai-clip.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+            </a>
+            {" "} Daejeon Convention Center {" "}
+            <p></p>
+            <a 
+              href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="code-link"
+            >
+              Paper
+            </a>
+          </p>
+        </div> */}
+
+        {/* <p></p><br></br><br></br> */}
+
+
+        <div style={{ marginBottom: '1.5em' }}>
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+            Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast Enhanced MRI
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+          <strong>Han Jang<sup>1</sup></strong>, J. H. Lee<sup>1</sup>, K. S. Choi<sup>*</sup>
+
+            {" "}
+            <i><a
+              href="https://icmri.ksmrm.org/2025m/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+              ICMRI 2025
+            </a>
+            </i>
+            <a
+              href="https://miccai-clip.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+            </a>
+            {" "} Grand Walkerhill Seoul, South Korea
+            <p></p>
+            <a 
+              href="https://drive.google.com/file/d/1gfXy22iOdNhNALBTo6k9rpiBjEsy-X6T/view?usp=drive_link"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="code-link"
+            >
+              Poster
+            </a>
+          </p>
+        </div>
+
+        <p></p><br></br><br></br>
+
+        <div style={{ marginBottom: '1.5em' }}>
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+          Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning
+          {/* Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning: Multi-Prompt 3D Tumor Delineation with Clinical Integration */}
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            J. H. Lee<sup>1</sup>, <strong>Han Jang<sup>1</sup></strong>, K. S. Choi<sup>*</sup>
+
+            <br></br><br></br>
+            <i><a
+              href="https://conferences.miccai.org/2025/en/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+              MICCAI, 2025
+            </a>
+            </i>
+            {" "}(pp. 32-41),{" "}
+            <a
+              href="https://miccai-clip.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+              CLIP workshop,
+            </a>
+            {" "} Daejeon Convention Center, South Korea
+            <p></p>
+            <a 
+              href="https://janghana.github.io/Interactive_MEN_RT/"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="code-link"
+            >
+              Project Page
+            </a>
+            <a 
+              href="https://link.springer.com/chapter/10.1007/978-3-032-05479-1_4"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="code-link"
+            >
+              Paper
+            </a>
+            <a 
+              href="https://arxiv.org/abs/2510.00416"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="code-link"
+            >
+              arXiv
+            </a>
+            <a 
+              href="https://github.com/snuh-rad-aicon/Interactive-MEN-RT"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="code-link"
+            >
+              Github
+            </a>
+
+          </p>
+        </div>
+
+        <p></p><br></br><br></br>
+
         <div style={{ marginBottom: '1.5em' }}>
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             ... Cycle-Consistent Conditional Diffusion ...
@@ -38,6 +184,8 @@ function Publications() {
             {" "} [Under Review]
           </p>
         </div>
+
+
 
         <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2024</h3>
 
@@ -63,31 +211,26 @@ function Publications() {
             <strong>Han Jang<sup>1</sup></strong>, J.H. Kwon, K.H. Choi<sup>*</sup>, 
             {" "}
             <i><a
-              href="http://m.kiise.or.kr/academyEng/main/getContent.faEng?content_no=1&MENU_ID=010100"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="advisor-link"
-            >
-              Korea Computer Congress
-            </a>
-            {" "} 2024 </i> (pp. 2048-2050),{" "}
-            <a
               href="https://www.kiise.or.kr/conference/kcc/2024/"
               target="_blank"
               rel="noopener noreferrer"
               className="advisor-link"
             >
-              Jeju ICC
+              Korea Computer Congress 2024
             </a>
-            {" "}
-            [<a
+            </i> (pp. 2048-2050){" "}
+              Jeju ICC
+            , South Korea
+            <p></p>
+            <a 
               href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="advisor-link"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="code-link"
             >
               Paper
-            </a>]
+            </a>
+
           </p>
         </div>
       </div>

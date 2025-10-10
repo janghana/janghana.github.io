@@ -5,6 +5,8 @@ import { BlockMath } from 'react-katex';
 import 'katex/dist/katex.min.css';
 import ModalImage from 'react-modal-image';
 
+import GraphDeepLearningBreastDCEMRI from './pjts/Graph_Deep_Learning_for_Triple_Negative_Breast_Cancer_Prediction_Using_Dynamic_Contrast_Enhanced_MRI.png';
+import SpecializedInteractiveSegmentation from './pjts/Specialized_Interactive_Segmentation_for_Meningioma_Radiotherapy_Planning.png';
 import UnsupervisedDiffusionCT from './pjts/Unsupervised_Diffusion_Model_for_Synthesizing_T1-weighted_MRI_Scans_from_Abdominal_CT_Scans.png';
 import GABNetHCC from './pjts/GABNet_Graph_Attention_Boosting_Network_for_circRNA_Analysis_in_the_Diagnosis_of_Hepatocellular_Carcinoma.png';
 import CNUNAVI from './pjts/CNU_NAVI.png';
@@ -15,7 +17,6 @@ import AorticContrastUNETR from './pjts/Enhancing_HCC_Tumor_Segmentation_through
 import PredictiveCodingNetwork from './pjts/Designing_a_Predictive_Coding_Network_Model_to_Mimic_the_Human_Visual_Cortex.png';
 import EmotionalChat from './pjts/Emotional_Chat_Comparative_Analysis_of_T5_BART_and_BERT_for_Generating_Sentimental_Dialogues.png';
 import JumpingPhenomenon from './pjts/Investigating_Brainwave_Patterns_in_Response_to_the_Jumping_Phenomenon.png';
-
 function Projects() {
   return (
     <div className="projects-container">
@@ -43,6 +44,224 @@ function Projects() {
               display: 'block'
             }}
           />
+
+<div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast Enhanced MRI</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
+                <p>
+                  We introduce a graph deep learning-based framework for triple-negative breast cancer (TNBC) prediction from breast Dynamic Contrast Enhanced Magnetic Resonance Imaging (DCE-MRI)
+                  that captures intratumoral heterogeneity and is robust across MRI acquisition protocols.
+                  This study utilized the MAMA-MIA breast DCE-MRI dataset, comprising 3–7 post-contrast time points per case.
+                  Tumor voxels were processed to extract signal intensity curves, which were then reconstructed using a vector-quantized variational autoencoder (VQ-VAE).
+                  Latent embeddings were mapped to a compact codebook for unsupervised voxel clustering, generating heterogeneous tumor subregions.
+                  Each cluster was represented as a graph node with features derived from averaged latent vectors, and edges were established between spatially proximal nodes with similarity-based features.
+                  A graph neural network (GNN) was subsequently trained to classify triple-negative breast cancer (TNBC) versus non-TNBC.
+                  Patient characteristics and molecular subtype distributions for the breast DCE-MRI cohorts are summarized in Table 1, which includes internal datasets (ISPY) and external datasets (Duke, NACT).                </p>
+                <p>Dynamic Contrast-Enhanced Magnetic Resonance Imaging, Triple Negative Breast Cancer, Graph Neural Network</p>
+                <p>
+                  @<a 
+                    href="https://en.snu.ac.kr/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    SNU
+                  </a>&nbsp;
+                  @<a 
+                    href="http://www.snuh.org/global/en/main.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    SNUH
+                  </a>&nbsp;
+                  @<a 
+                    href="https://sites.google.com/view/snuhradaicon/home?authuser=0"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    AICON LAB
+                  </a>&nbsp;
+                  @<a 
+                    href="https://icmri.ksmrm.org/2025m/"
+                    target="_blank" 
+                    style={{ color: 'red' }}
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    ICMRI 2025
+                  </a>
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://drive.google.com/file/d/1gfXy22iOdNhNALBTo6k9rpiBjEsy-X6T/view?usp=drive_link"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Poster
+                  </a>
+                  <a 
+                    // href="https://link.springer.com/chapter/10.1007/978-3-032-05479-1_4"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Paper
+                  </a>
+                  <span className="duration-tag">Mar. 2025 - Oct. 2025</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={GraphDeepLearningBreastDCEMRI}
+                  large={GraphDeepLearningBreastDCEMRI}
+                  alt="Graph Deep Learning for Triple Negative Breast Cancer Prediction Using Dynamic Contrast-Enhanced MRI"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
+                <p>
+                  Precise delineation of meningiomas is crucial for effective radiotherapy (RT) planning,
+                  directly influencing treatment efficacy and preservation of adjacent healthy tissues.
+                  While automated deep learning approaches have demonstrated considerable potential,
+                  achieving consistently accurate clinical segmentation remains challenging due to tumor heterogeneity.
+                  Interactive Medical Image Segmentation (IMIS) addresses this challenge by integrating advanced AI techniques with clinical input.
+                  However, generic segmentation tools, despite widespread applicability, often lack the specificity required for clinically critical and disease-specific tasks like meningioma RT planning.
+                  To overcome these limitations, we introduce Interactive-MEN-RT, a dedicated IMIS tool specifically developed for clinician-assisted 3D meningioma segmentation in RT workflows.
+                  The system incorporates multiple clinically relevant interaction methods, including point annotations, bounding boxes, lasso tools, and scribbles, enhancing usability and clinical precision.
+                  In our evaluation involving 500 contrast-enhanced T1-weighted MRI scans from the BraTS 2025 Meningioma RT Segmentation Challenge,
+                  Interactive-MEN-RT demonstrated substantial improvement compared to other segmentation methods, achieving Dice similarity coefficients of up to 77.6% and Intersection over Union scores of 64.8%.
+                  These results emphasize the need for clinically tailored segmentation solutions in critical applications such as meningioma RT planning.
+                </p>
+                <p>Magnetic Resonance Imaging, Meningioma, Tumor Segmentation, Interactive Medical Image Segmentation</p>
+                <p>
+                  @<a 
+                    href="https://en.snu.ac.kr/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    SNU
+                  </a>&nbsp;
+                  @<a 
+                    href="http://www.snuh.org/global/en/main.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    SNUH
+                  </a>&nbsp;
+                  @<a 
+                    href="https://sites.google.com/view/snuhradaicon/home?authuser=0"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    AICON LAB
+                  </a>&nbsp;
+                  @<a 
+                    href="https://conferences.miccai.org/2025/en/"
+                    target="_blank" 
+                    style={{ color: 'red' }}
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    MICCAI 2025
+                  </a>
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://janghana.github.io/Interactive_MEN_RT/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Project Page
+                  </a>
+
+                  <a 
+                    href="https://link.springer.com/chapter/10.1007/978-3-032-05479-1_4"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Paper
+                  </a>
+
+                  <a 
+                    href="https://arxiv.org/abs/2510.00416"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    arXiv
+                  </a>
+                  <a 
+                    href="https://github.com/snuh-rad-aicon/Interactive-MEN-RT"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <a 
+                    href="https://github.com/snuh-rad-aicon/Interactive-MEN-RT"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Hugging Face
+                  </a>
+                  <span className="duration-tag">May. 2025 - Sep. 2025</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={SpecializedInteractiveSegmentation}
+                  large={SpecializedInteractiveSegmentation}
+                  alt="Specialized Interactive Segmentation for Meningioma Radiotherapy Planning"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
 
           {/* 2024 */}
           <h3>2024</h3>
@@ -132,7 +351,7 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="code-link"
                   >
-                    Code
+                    Github
                   </a>
                   <a 
                     href="https://drive.google.com/file/d/1J3rnoVAd6anQrsf-7kLHkHUhdYOFSOmN/view?usp=drive_link"
@@ -223,7 +442,7 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="code-link"
                   >
-                    Code
+                    Github
                   </a>
                   <a 
                     href="https://drive.google.com/file/d/1wL0qKHLMqsJQ5L3oL_iSEl03YpwCQRZw/view"
@@ -307,7 +526,7 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="code-link"
                   >
-                    Code
+                    Github
                   </a>
                   <span className="duration-tag">Mar. 2024 - Aug. 2024</span>
                 </p>
@@ -403,7 +622,7 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="code-link"
                   >
-                    Code
+                    Github
                   </a>
                   <span className="duration-tag">Sep. 2023 - Dec. 2023</span>
                 </p>
@@ -477,7 +696,7 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="code-link"
                   >
-                    Code
+                    Github
                   </a>
                   <span className="duration-tag">Jun. 2023 - Dec. 2023</span>
                 </p>
@@ -553,7 +772,7 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="code-link"
                   >
-                    Code
+                    Github
                   </a>
                   <img
                     src="https://img.shields.io/github/stars/janghana/SynDiff-Medical-Image-Translation?style=flat-square&label=%E2%AD%90&logo=github&logoColor=FACC15&labelColor=ffffff&color=ffffff"
@@ -647,7 +866,7 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="code-link"
                   >
-                    Code
+                    Github
                   </a>
                   <span className="duration-tag">Jun. 2023 - Aug. 2023</span>
                 </p>
@@ -721,7 +940,7 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="code-link"
                   >
-                    Code
+                    Github
                   </a>
                   <span className="duration-tag">Jan. 2023 - Jun. 2023</span>
                 </p>
@@ -792,7 +1011,7 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="code-link"
                   >
-                    Code
+                    Github
                   </a>
                   <span className="duration-tag">Mar. 2023 - Jun. 2023</span>
                 </p>
@@ -899,7 +1118,7 @@ function Projects() {
                     rel="noopener noreferrer" 
                     className="code-link"
                   >
-                    Code
+                    Github
                   </a>
                   
                   <span className="duration-tag">Apr. 2022 - May 2023</span>

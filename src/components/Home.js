@@ -23,16 +23,16 @@ function Home() {
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          I am <strong>Han Jang</strong>, and I am currently a <strong>Senior Student</strong> at
-          the Divison of Computer Convergence, {" "}
+          I am <strong>Han Jang</strong>, and I am currently a <strong>Research intern</strong> at
+          the Department of Radiology, {" "}
           <a
-            href="https://plus.cnu.ac.kr/html/en/"
+            href="http://www.snuh.org/global/en/main.do"
             target="_blank"
             rel="noopener noreferrer"
             className="advisor-link"
           >
-            <i>Chungnam National University</i>
-          </a> in Daejeon (South Korea) with a profound interest in Enhancing Human Well-being.
+            <i>Seoul National University Hospital</i>
+          </a> in Seoul (South Korea) with a profound interest in Enhancing Human Well-being.
         </p>
 
         <p>
@@ -105,6 +105,52 @@ function Home() {
 
         {/* <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           <a
+            href="#/post/Nanocellect"
+            className="code-link"
+          >
+            Post
+          </a>
+          [Dec. 2025] 
+          {" "}
+          Visited NeurIPS 2025
+          {" "}
+          in San Diego, California, United States.
+        </p>
+
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <a
+            href="#/post/Nanocellect"
+            className="code-link"
+          >
+            Post
+          </a>
+          [Nov. 2025] 
+          {" "}
+          Presented ICMRI 2025 Paper, publised Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast Enhanced MRI,
+          {" "}
+          in Seoul, South Korea.
+        </p> */}
+
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <a
+            href="#/post/MICCAI2025"
+            className="code-link"
+          >
+            Post
+          </a>
+          [Sep. 2025] 
+          {" "}
+          Presented MICCAI CLIP workshop 2025 Paper, publised <b>Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning</b>,
+          {" "}
+          in Daejeon, South Korea.
+        </p>
+
+
+
+        {/* <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <a
             href="#/post/AICON"
             className="code-link"
           >
@@ -161,7 +207,7 @@ function Home() {
             Korea&nbsp;Computer&nbsp;Congress&nbsp;2024
           </a></i>, Jeju&nbsp;ICC&nbsp;(South Korea).
         </p>
- */}
+        */}
 
 
 
