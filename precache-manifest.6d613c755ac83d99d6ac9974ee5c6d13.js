@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "674a2e621572ffe8142c0fd09167bb2a",
+    "revision": "6215e8c0fa6b64071b9149d6ca15e00a",
     "url": "/index.html"
   },
   {
-    "revision": "364cab79016b9a955480",
+    "revision": "a8fa0eb5ecb5b3bce0ed",
     "url": "/static/css/2.990c4241.chunk.css"
   },
   {
-    "revision": "fb75139d100106db3cfd",
+    "revision": "eb471d82b11392f9b9f7",
     "url": "/static/css/main.247c8536.chunk.css"
   },
   {
-    "revision": "364cab79016b9a955480",
-    "url": "/static/js/2.76be58e4.chunk.js"
+    "revision": "a8fa0eb5ecb5b3bce0ed",
+    "url": "/static/js/2.88d691db.chunk.js"
   },
   {
-    "revision": "3232a3baa9a05f3e2b89",
-    "url": "/static/js/3.9973b74a.chunk.js"
+    "revision": "bbe4e905135b01ef8bc3",
+    "url": "/static/js/3.06ba7f4b.chunk.js"
   },
   {
-    "revision": "fb75139d100106db3cfd",
-    "url": "/static/js/main.022bde0f.chunk.js"
+    "revision": "eb471d82b11392f9b9f7",
+    "url": "/static/js/main.3d08544f.chunk.js"
   },
   {
-    "revision": "fed94df124c5ee77d71f",
-    "url": "/static/js/runtime~main.49b828cc.js"
+    "revision": "4a717e3f17ea14926be8",
+    "url": "/static/js/runtime~main.be58f8d8.js"
   },
   {
     "revision": "be9308d71ef374a636a7e22561afbef4",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "06208e92508f29db5f3844eeb5ab1f2a",
     "url": "/static/media/GABNet_Graph_Attention_Boosting_Network_for_circRNA_Analysis_in_the_Diagnosis_of_Hepatocellular_Carcinoma.06208e92.png"
+  },
+  {
+    "revision": "f05acfed82cfe388cac99a77aa315f50",
+    "url": "/static/media/Graph_Deep_Learning_for_Triple_Negative_Breast_Cancer_Prediction_Using_Dynamic_Contrast_Enhanced_MRI.f05acfed.png"
   },
   {
     "revision": "8a57291d212ae4840d4cce7a48a8e50a",
@@ -304,6 +308,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/KaTeX_Typewriter-Regular.b8b8393d.woff2"
   },
   {
+    "revision": "50917cb76cdab13dbc247b3807a898e2",
+    "url": "/static/media/Specialized_Interactive_Segmentation_for_Meningioma_Radiotherapy_Planning.50917cb7.png"
+  },
+  {
     "revision": "93c82fb0cb8142255076b3e75472e1f0",
     "url": "/static/media/Unsupervised_Diffusion_Model_for_Synthesizing_T1-weighted_MRI_Scans_from_Abdominal_CT_Scans.93c82fb0.png"
   },
@@ -320,6 +328,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/han.253afedd.jpeg"
   },
   {
+    "revision": "1c1fe2b37922a678d5a20e086562060f",
+    "url": "/static/media/korean_food.1c1fe2b3.png"
+  },
+  {
     "revision": "44017d96e7cac29bd1d35f87c3370d5b",
     "url": "/static/media/marathon_1.44017d96.jpg"
   },
@@ -328,12 +340,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/marathon_2.5c8f7d0a.jpg"
   },
   {
+    "revision": "c47bd20d93d3541caeb09750306544df",
+    "url": "/static/media/miccai1.c47bd20d.png"
+  },
+  {
+    "revision": "102a442e0d3916fb3aa7e0d4458040b0",
+    "url": "/static/media/miccai2.102a442e.png"
+  },
+  {
+    "revision": "a9aa44327bcb8fe8b3eae678f0194fc0",
+    "url": "/static/media/miccai3_top_view.a9aa4432.png"
+  },
+  {
+    "revision": "591b8535f7bcb7a83d21a2e292f51533",
+    "url": "/static/media/miccai4_oral_ppt.591b8535.png"
+  },
+  {
+    "revision": "fce31e1c28e63a5f08c63fde8e966a8f",
+    "url": "/static/media/miccai_food.fce31e1c.png"
+  },
+  {
     "revision": "6c4320006d69408b14d91d3c4f57f31b",
     "url": "/static/media/nanocellect_representative.6c432000.jpg"
   },
   {
     "revision": "d4c56e32d2e33e732c53e3be32f7fb5a",
     "url": "/static/media/office_work.d4c56e32.jpg"
+  },
+  {
+    "revision": "9e399c55f1d69ae5f8e2713dcfaf3d4e",
+    "url": "/static/media/poster_me.9e399c55.png"
+  },
+  {
+    "revision": "bbe8afb248552e330dfadb2765635c99",
+    "url": "/static/media/ppt1.bbe8afb2.png"
+  },
+  {
+    "revision": "bb5b476aa8239f5ec5c9b80e6e2cc4e5",
+    "url": "/static/media/ppt2.bb5b476a.png"
   },
   {
     "revision": "31e7cd2b648d8f6266cbde9c23b3662d",
@@ -346,5 +390,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7db6760d5a19a170a208733b3b250c01",
     "url": "/static/media/seoultech.7db6760d.png"
+  },
+  {
+    "revision": "6b136ace84409b1f6119da5f0f5c697e",
+    "url": "/static/media/weather.6b136ace.png"
   }
 ]);
