@@ -59,6 +59,17 @@ function CV() {
           <div className="timeline">
             <div className="timeline-item">
               <div className="timeline-content">
+                <p><strong>Seoul National University (SNU)</strong> - Seoul, South Korea</p>
+                <p>2026. 3. ~ Present</p>
+                <p>Integrated Master’s & PhD degree</p>
+                <p>College of Engineering, Interdisciplinary Program in Bioengineering</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline">
+            <div className="timeline-item">
+              <div className="timeline-content">
                 <p><strong>Chungnam National University (CNU)</strong> - Daejeon, South Korea</p>
                 <p>2019. 3. ~ 2025. 8.</p>
                 <p>Bachelor’s degree</p>

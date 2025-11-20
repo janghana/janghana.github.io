@@ -10,6 +10,7 @@ import Projects from './components/Projects';
 import Nanocellect from './components/post/_Nanocellect/Nanocellect';
 import AICON from './components/post/_AICON/AICON';
 import MICCAI2025 from './components/post/_MICCAI2025/MICCAI2025';
+import ICMRI2025 from './components/post/_ICMRI2025/ICMRI2025';
 
 import './Header.css';
 
@@ -38,6 +39,7 @@ function App() {
             <Route path="/post/nanocellect" element={<Nanocellect />} />
             <Route path="/post/aicon" element={<AICON />} />
             <Route path="/post/miccai2025" element={<MICCAI2025 />} />
+            <Route path="/post/icmri2025" element={<ICMRI2025 />} />
           </Routes>
         </div>
 

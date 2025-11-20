@@ -99,6 +99,21 @@ function Projects() {
                   >
                     ICMRI 2025
                   </a>
+                  {" "} 🏆 {" "}
+                  <a 
+                    href="https://drive.google.com/file/d/1puwCCurH7XDfHEM-_a25z5MN8IBUE_it/view?usp=sharing"
+                    target="_blank"
+                    style={{ 
+                      color: 'darkgoldenrod',
+                      border: '1px solid darkgoldenrod',
+                      padding: '2px 5px'
+                    }}              
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Best Trainee Scientific Award (Silver Prize)
+                  </a>
+
                 </p>
                 <p className='link-row'>
                   <a 

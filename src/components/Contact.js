@@ -87,28 +87,6 @@ function Contact() {
           }}
         />
 
-        {/* <div className="contact-workplace">
-          <div className="workplace-info">
-            <h3>Current Workplace :</h3>
-            <p><strong>NanoCellect Biomedical Inc.</strong></p>
-            <p>9525 Towne Centre Drive, Suite 150, San Diego, CA 92121</p>
-          </div>
-
-          <div className="map-container">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.6626102197115!2d-117.20688719999998!3d32.880645099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc0761c0a7e59d%3A0xe414edbdd10d1a2d!2sNanoCellect%20Biomedical!5e0!3m2!1sko!2sus!4v1736279848290!5m2!1sko!2sus"
-              width="100%"
-              height="300"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="NanoCellect Biomedical Inc. Map"
-            />
-          </div>
-        </div> */}
-
-
         <div className="contact-workplace">
           <div className="workplace-info">
             <h3>Current Workplace :</h3>

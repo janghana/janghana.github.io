@@ -26,11 +26,11 @@ function ProfileSidebar() {
         />
         <h2 style={{ marginBottom: '0.5em' }}>Han Jang</h2>
         <p style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
-          Research Intern
+          MS-PhD Student in Bioengineering
         </p>
 
         <p style={{ textAlign: 'center', margin: '0 0 10px 0', fontWeight: 'normal' }}>
-          <i>Seoul National University Hospital</i>
+          <i>Seoul National University</i>
         </p>
 
         <p 

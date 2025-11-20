@@ -23,16 +23,25 @@ function Home() {
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          I am <strong>Han Jang</strong>, and I am currently a <strong>Research intern</strong> at
-          the Department of Radiology, {" "}
+          I am <strong>Han Jang</strong>, and I am currently a <strong>MS-PhD Student</strong> at
+          the {" "}
           <a
-            href="http://www.snuh.org/global/en/main.do"
+            href="https://bioeng.snu.ac.kr/en/"
             target="_blank"
             rel="noopener noreferrer"
             className="advisor-link"
           >
-            <i>Seoul National University Hospital</i>
-          </a> in Seoul (South Korea) with a profound interest in Enhancing Human Well-being.
+            <i>Interdisciplinary Program for Bioengineering</i>
+          </a>
+          , Graduate School of {" "}
+          <a
+            href="https://en.snu.ac.kr/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+          >
+            <i>Seoul National University</i>
+          </a> (SNU) in Seoul (South Korea) with a profound interest in Enhancing Human Well-being.
         </p>
 
         <p>
@@ -58,8 +67,8 @@ function Home() {
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           I focus on <em>Computer Science</em> and <em>Artificial Intelligence</em>, 
-          with a particular interest in <em>Machine Learning</em>, <em>Generative Models</em>, 
-          {" "}<em>Medical Imaging</em>, <em>Neuroimaging</em>.
+          with a particular interest in
+          {" "}<em>Medical Image Analysis</em> and <em>Generative Models</em>.
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
@@ -103,34 +112,34 @@ function Home() {
           }}
         />
 
-        {/* <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          <a
-            href="#/post/Nanocellect"
-            className="code-link"
-          >
-            Post
-          </a>
-          [Dec. 2025] 
-          {" "}
-          Visited NeurIPS 2025
-          {" "}
-          in San Diego, California, United States.
-        </p>
 
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           <a
-            href="#/post/Nanocellect"
+            href="#/post/ICMRI2025"
             className="code-link"
           >
             Post
           </a>
-          [Nov. 2025] 
+          [Oct. 2025] 
           {" "}
-          Presented ICMRI 2025 Paper, publised Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast Enhanced MRI,
+          Presented ICMRI 2025 Paper, published <b>Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast Enhanced MRI</b>, with 
+          {" "} 🏆 {" "}
+                  <a 
+                    href="https://drive.google.com/file/d/1puwCCurH7XDfHEM-_a25z5MN8IBUE_it/view?usp=sharing"
+                    target="_blank"
+                    style={{ 
+                      color: 'darkgoldenrod',
+                      // border: '1px solid darkgoldenrod',
+                    }}              
+                    // rel="noopener noreferrer" 
+                    // className="code-link"
+                  >
+                    Best Trainee Scientific Award (Silver Prize)
+                  </a>
           {" "}
           in Seoul, South Korea.
-        </p> */}
+        </p>
 
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
@@ -142,7 +151,7 @@ function Home() {
           </a>
           [Sep. 2025] 
           {" "}
-          Presented MICCAI CLIP workshop 2025 Paper, publised <b>Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning</b>,
+          Presented MICCAI CLIP workshop 2025 Paper, published <b>Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning</b>,
           {" "}
           in Daejeon, South Korea.
         </p>
@@ -208,10 +217,6 @@ function Home() {
           </a></i>, Jeju&nbsp;ICC&nbsp;(South Korea).
         </p>
         */}
-
-
-
-
 
 
 

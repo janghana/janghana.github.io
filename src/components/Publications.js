@@ -13,8 +13,9 @@ function Publications() {
       <div className="pub-main">
         <h2>Publications</h2>
         <hr style={{ borderColor: '#e0e0e0', marginBottom: '5em', opacity: '0.15' }} />
-        
-        <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2025</h3>
+
+
+        <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2026</h3>
 
         <hr
           style={{
@@ -29,45 +30,33 @@ function Publications() {
           }}
         />
 
-        {/* <div style={{ marginBottom: '1.5em' }}>
+        <div style={{ marginBottom: '1.5em' }}>
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
-          Radiogenomics Framework for Perfusion MRI via Hierarchical Graph Representation
+            ... Cycle-Consistent Conditional Diffusion ...
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
-          <strong>Han Jang<sup>1</sup></strong>, J. H. Lee<sup>1</sup>, ..., K. S. Choi<sup>*</sup>
-
-            {" "}
-            <i><a
-              href="https://www.sciencedirect.com/journal/medical-image-analysis/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="advisor-link"
-            >
-              Medical Image Analysis 2025
-            </a>
-            </i>
-            <a
-              href="https://miccai-clip.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="advisor-link"
-            >
-            </a>
-            {" "} Daejeon Convention Center {" "}
-            <p></p>
-            <a 
-              href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="code-link"
-            >
-              Paper
-            </a>
+            <strong>Han Jang<sup>1</sup></strong>, ...,
+            {" "} [Under Review]
           </p>
-        </div> */}
+        </div>
 
-        {/* <p></p><br></br><br></br> */}
 
+        <p></p><br></br><br></br>
+
+        <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2025</h3>
+
+        <hr
+          style={{
+            width: '100%',
+            marginLeft: '0',
+            marginRight: 'auto',
+            marginTop: '1em',
+            marginBottom: '1em',
+            borderColor: '#e0e0e0',
+            opacity: '0.15',
+            display: 'block'
+          }}
+        />
 
         <div style={{ marginBottom: '1.5em' }}>
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
@@ -102,6 +91,20 @@ function Publications() {
               className="code-link"
             >
               Poster
+            </a>
+            🏆 {" "}
+            <a 
+              href="https://drive.google.com/file/d/1puwCCurH7XDfHEM-_a25z5MN8IBUE_it/view?usp=sharing"
+              target="_blank"
+              style={{ 
+                color: 'darkgoldenrod',
+                border: '1px solid darkgoldenrod',
+                padding: '2px 5px'
+              }}              
+              rel="noopener noreferrer" 
+              className="code-link"
+            >
+              Best Trainee Scientific Award (Silver Prize)
             </a>
           </p>
         </div>
@@ -175,15 +178,6 @@ function Publications() {
 
         <p></p><br></br><br></br>
 
-        <div style={{ marginBottom: '1.5em' }}>
-          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
-            ... Cycle-Consistent Conditional Diffusion ...
-          </h4>
-          <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>Han Jang<sup>1</sup></strong>, ...,
-            {" "} [Under Review]
-          </p>
-        </div>
 
 
 
