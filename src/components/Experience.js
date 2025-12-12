@@ -23,60 +23,6 @@ function Experience() {
 
         <div className="timeline">
 
-          {/* SNU */}
-          <div className="timeline-item">
-            <div className="card-base exp-card exp-flex-item">
-              <div className="exp-description">
-                <h3>
-                <a
-                  href="https://en.snu.ac.kr/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="advisor-link"
-                  // style={{ color: '#00AAFF' }}
-                >
-                  Seoul National University
-                </a>
-                </h3>
-                <p><i>Interdisciplinary Program for Bioengineering</i></p>
-                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
-                  Seoul, South Korea
-                </p>
-                <p><strong>Research Assistant</strong> (On-site), Mar. 2026 - Present</p>
-                <p>Research Focus: Multi-modal Reasoning Segmentation w/ LLM, Medical Image Analysis</p>
-                <p>Interdisciplinary Program for Bioengineering, Graduate School of SNU, MS-PhD Student</p>
-                <p>Advanced Imaging and Computational Neuroimaging Laboratory, {" "}
-                  <a
-                    href="https://sites.google.com/view/snuhradaicon"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="advisor-link"
-                  >
-                    AICON LAB
-                  </a>
-                </p>
-                <p>
-                  Under the supervision of Prof.&nbsp;
-                  <a
-                    href="https://scholar.google.co.kr/citations?hl=ko&user=XYh6Z0gAAAAJ&view_op=list_works&sortby=pubdate"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="advisor-link"
-                  >
-                    KS Choi
-                  </a>
-                </p>
-              </div>
-              <div className="exp-logo">
-                <img
-                  src={snu}
-                  alt="SNU Logo"
-                  className="exp-logo-img"
-                />
-              </div>
-            </div>
-          </div>
-
           {/* SNUH */}
           <div className="timeline-item">
             <div className="card-base exp-card exp-flex-item">
@@ -411,6 +357,59 @@ function Experience() {
           }}
         />
 
+          {/* SNU */}
+          <div className="timeline-item">
+            <div className="card-base exp-card exp-flex-item">
+              <div className="exp-description">
+                <h3>
+                <a
+                  href="https://en.snu.ac.kr/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="advisor-link"
+                  // style={{ color: '#00AAFF' }}
+                >
+                  Seoul National University (SNU)
+                </a>
+                </h3>
+                <p><i>Interdisciplinary Program for Bioengineering</i></p>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Seoul, South Korea
+                </p>
+                <p><strong>Research Assistant</strong> (On-site), Mar. 2026 - Present</p>
+                <p>Research Focus: Multi-modal Reasoning Segmentation w/ LLM, Medical Image Analysis</p>
+                <p>Interdisciplinary Program for Bioengineering, Graduate School of SNU, MS-PhD Student</p>
+                <p>Advanced Imaging and Computational Neuroimaging Laboratory, {" "}
+                  <a
+                    href="https://sites.google.com/view/snuhradaicon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="advisor-link"
+                  >
+                    AICON LAB
+                  </a>
+                </p>
+                <p>
+                  Under the supervision of Prof.&nbsp;
+                  <a
+                    href="https://scholar.google.co.kr/citations?hl=ko&user=XYh6Z0gAAAAJ&view_op=list_works&sortby=pubdate"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="advisor-link"
+                  >
+                    KS Choi
+                  </a>
+                </p>
+              </div>
+              <div className="exp-logo">
+                <img
+                  src={snu}
+                  alt="SNU Logo"
+                  className="exp-logo-img"
+                />
+              </div>
+            </div>
+          </div>
 
         {/* CNU */}
         <div className="timeline-item">
