@@ -15,26 +15,10 @@ function Publications() {
         <hr style={{ borderColor: '#e0e0e0', marginBottom: '5em', opacity: '0.15' }} />
 
 
-        {/* <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2026</h3>
-
-        <hr
-          style={{
-            width: '100%',
-            marginLeft: '0',
-            marginRight: 'auto',
-            marginTop: '1em',
-            marginBottom: '1em',
-            borderColor: '#e0e0e0',
-            opacity: '0.15',
-            display: 'block'
-          }}
-        /> */}
 
 
 
-        {/* <p></p><br></br><br></br> */}
-
-        <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2025</h3>
+        <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2026</h3>
 
         <hr
           style={{
@@ -65,8 +49,8 @@ function Publications() {
               Expert Systems with Applications, 2025
             </a>
             </i>
-            {" "},
-             IF=7.5
+            {" "}
+            (IF=7.5, JCR Top 6.1%), Vol. 304, 130631, Apr. 2026.
           </p>
           <p></p>
           <a 
@@ -79,7 +63,23 @@ function Publications() {
           </a>
         </div>
 
+
         <p></p><br></br><br></br>
+
+        <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2025</h3>
+
+        <hr
+          style={{
+            width: '100%',
+            marginLeft: '0',
+            marginRight: 'auto',
+            marginTop: '1em',
+            marginBottom: '1em',
+            borderColor: '#e0e0e0',
+            opacity: '0.15',
+            display: 'block'
+          }}
+        />
 
         <div style={{ marginBottom: '1.5em' }}>
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>

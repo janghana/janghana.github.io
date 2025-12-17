@@ -113,6 +113,42 @@ function Home() {
         />
 
 
+{/* 
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <a href="#/post/ICMRI2025" className="code-link">Post</a>
+          {" "}
+          [Dec. 2025] Accepted for publication in{" "}
+          <i>
+            <a
+              href="https://www.sciencedirect.com/journal/expert-systems-with-applications"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+              Expert Systems with Applications (ESWA)
+            </a>
+          </i>
+          {" "}
+          (Impact Factor: 7.5). 
+          {" "}
+          <a href="https://www.sciencedirect.com/science/article/pii/S0957417425042460" target="_blank" rel="noopener noreferrer" className="advisor-link">
+            Cyclic Conditional Diffusion Models for CT-to-MR Synthetic Image Segmentation with Misaligned Image Pairs
+          </a>
+          .{" "}
+        </p>
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <a
+            href="#/post/ICMRI2025"
+            className="code-link"
+          >
+            Post
+          </a>
+          [Dec. 2025] 
+          {" "}
+          Attended <b>NeurIPS 2025</b> Conference in San Diego, California, United States.
+        </p> */}
+
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           <a
@@ -123,20 +159,17 @@ function Home() {
           </a>
           [Oct. 2025] 
           {" "}
-          Presented ICMRI 2025 Paper, published <b>Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast Enhanced MRI</b>, with 
-          {" "} 🏆 {" "}
-                  <a 
-                    href="https://drive.google.com/file/d/1puwCCurH7XDfHEM-_a25z5MN8IBUE_it/view?usp=sharing"
-                    target="_blank"
-                    style={{ 
-                      color: 'darkgoldenrod',
-                      // border: '1px solid darkgoldenrod',
-                    }}              
-                    // rel="noopener noreferrer" 
-                    // className="code-link"
-                  >
-                    Best Trainee Scientific Award (Silver Prize)
-                  </a>
+          Presented my paper at the ICMRI 2025 Conference, <b>Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast-Enhanced MRI</b>,
+          and received the 🏆 {" "}
+          <a 
+            href="https://drive.google.com/file/d/1puwCCurH7XDfHEM-_a25z5MN8IBUE_it/view?usp=sharing"
+            target="_blank"
+            style={{ 
+              color: 'darkgoldenrod',
+            }}              
+          >
+            Best Trainee Scientific Award (Silver Prize)
+          </a>
           {" "}
           in Seoul, South Korea.
         </p>
@@ -151,34 +184,17 @@ function Home() {
           </a>
           [Sep. 2025] 
           {" "}
-          Presented MICCAI CLIP workshop 2025 Paper, published <b>Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning</b>,
+          Presented my paper at the MICCAI 2025 CLIP Workshop, 
+          {" "}
+          <a href="https://link.springer.com/chapter/10.1007/978-3-032-05479-1_4" target="_blank" rel="noopener noreferrer" className="advisor-link">
+            Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning
+          </a>
+          ,
           {" "}
           in Daejeon, South Korea.
         </p>
 
 
-
-        {/* <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          <a
-            href="#/post/AICON"
-            className="code-link"
-          >
-            Post
-          </a>
-
-          [Mar. 2025] Joined SNU
-          {" "}
-          <i><a
-            href="https://sites.google.com/view/snuhradaicon"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="advisor-link"
-          >
-            AICON LAB
-          </a></i>
-          {" "}
-          as a Research Assistant to advance research in Deep Learning and Neuro­imaging.
-        </p> */}
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           <a
@@ -200,32 +216,7 @@ function Home() {
           </a></i> {" "}
           in San Diego, California, United States.
         </p>
-
-        {/* <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          <a href="#/post/Nanocellect" className="code-link">Post</a>
-          &nbsp;[Jul.&nbsp;2024]&nbsp;
-          Published my first-author paper&nbsp;
-          <strong>“Unsupervised Diffusion Model for Synthesizing&nbsp;T1-weighted&nbsp;MRI Scans from Abdominal CT Scans”</strong>&nbsp;
-          at&nbsp;
-          <i><a
-            href="https://www.kiise.or.kr/conference/kcc/2024/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="advisor-link"
-          >
-            Korea&nbsp;Computer&nbsp;Congress&nbsp;2024
-          </a></i>, Jeju&nbsp;ICC&nbsp;(South Korea).
-        </p>
-        */}
-
-
-
       </div>
-
-      
-      
-      
-
       <div className="home-right" />
     </div>
   );
