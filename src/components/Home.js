@@ -83,10 +83,10 @@ function Home() {
         <p style={{ marginBottom: '1rem', lineHeight: '1.6', color: '#333' }}>
           Feel free to contact me anytime at&nbsp;
           <a
-            href="mailto:janghan001112@gmail.com"
+            href="mailto:hanjang@snu.ac.kr"
             className="advisor-link"
           >
-            janghan001112[at]gmail[dot]com
+            hanjang[at]snu[dot]ac[dot]kr
           </a>
           .
         </p>

@@ -59,7 +59,13 @@ function ProfileSidebar() {
           <br />
           to enhance people's quality of life.
         </p>
-        
+        <a
+          href="mailto:hanjang@snu.ac.kr"
+          className="advisor-link"
+        >
+          hanjang[at]snu[dot]ac[dot]kr
+        </a>
+        <br></br>
         <div 
           style={{ 
             display: 'flex', 

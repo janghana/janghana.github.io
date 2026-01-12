@@ -14,14 +14,14 @@ function Contact() {
         <hr style={{ borderColor: '#e0e0e0', opacity: '0.15' }} />
 
         <h2>Email</h2>
-        <a href="mailto:janghan001112@gmail.com" className="advisor-link">
-          janghan001112[at]gmail[dot]com
+        <a href="mailto:hanjang@snu.ac.kr" className="advisor-link">
+        hanjang[at]snu[dot]ac[dot]kr
         </a>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           If you're interested in my research or would like to learn more about me, 
           please contact me through the{" "}
-          <a href="mailto:janghan001112@gmail.com" className="advisor-link">
+          <a href="mailto:hanjang@snu.ac.kr" className="advisor-link">
             email
           </a>.
           <br />
