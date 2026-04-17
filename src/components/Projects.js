@@ -1,0 +1,1151 @@
+import React from 'react';
+import '../App.css';
+import LeftSideProfile from './LeftSideProfile';
+import { BlockMath } from 'react-katex';
+import 'katex/dist/katex.min.css';
+import ModalImage from 'react-modal-image';
+
+import GraphDeepLearningBreastDCEMRI from './pjts/Graph_Deep_Learning_for_Triple_Negative_Breast_Cancer_Prediction_Using_Dynamic_Contrast_Enhanced_MRI.png';
+import SpecializedInteractiveSegmentation from './pjts/Specialized_Interactive_Segmentation_for_Meningioma_Radiotherapy_Planning.png';
+import UnsupervisedDiffusionCT from './pjts/Unsupervised_Diffusion_Model_for_Synthesizing_T1-weighted_MRI_Scans_from_Abdominal_CT_Scans.png';
+import GABNetHCC from './pjts/GABNet_Graph_Attention_Boosting_Network_for_circRNA_Analysis_in_the_Diagnosis_of_Hepatocellular_Carcinoma.png';
+import CNUNAVI from './pjts/CNU_NAVI.png';
+import BreastCancerViT from './pjts/Enhancing_Breast_Cancer_MRI_Classification_Through_ViT_and_Multi-Marker.png';
+import ContrastAgentFree from './pjts/Contrast_Agent-Free_Approach_for_Enhancing_HCC_Visualization_in_CECT_Derived_from_NCECT_Utilizing_CA_Injection_Principles.png';
+import DiffusionModelT1Synthesis from './pjts/Diffusion-Model-Based_Conditional_Medical_Image_Translation_for_T1-Weighted_MR_Imaging_Synthesis_from_CT.png';
+import AorticContrastUNETR from './pjts/Enhancing_HCC_Tumor_Segmentation_through_Aortic_Contrast-Enhanced_Imaging_with_UNETR.png';
+import PredictiveCodingNetwork from './pjts/Designing_a_Predictive_Coding_Network_Model_to_Mimic_the_Human_Visual_Cortex.png';
+import EmotionalChat from './pjts/Emotional_Chat_Comparative_Analysis_of_T5_BART_and_BERT_for_Generating_Sentimental_Dialogues.png';
+import JumpingPhenomenon from './pjts/Investigating_Brainwave_Patterns_in_Response_to_the_Jumping_Phenomenon.png';
+function Projects() {
+  return (
+    <div className="projects-container">
+      <div className="projects-left">
+        <LeftSideProfile />
+      </div>
+
+      <div className="projects-main">
+        <h2>Projects</h2>
+
+        <hr style={{ borderColor: '#e0e0e0', marginBottom: '5em', opacity: '0.15' }} />
+
+        <div className="timeline">
+          <h3>2025</h3>
+          <hr
+            style={{
+              width: '100%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
+
+<div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast Enhanced MRI</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
+                <p>
+                  We introduce a graph deep learning-based framework for triple-negative breast cancer (TNBC) prediction from breast Dynamic Contrast Enhanced Magnetic Resonance Imaging (DCE-MRI)
+                  that captures intratumoral heterogeneity and is robust across MRI acquisition protocols.
+                  This study utilized the MAMA-MIA breast DCE-MRI dataset, comprising 3–7 post-contrast time points per case.
+                  Tumor voxels were processed to extract signal intensity curves, which were then reconstructed using a vector-quantized variational autoencoder (VQ-VAE).
+                  Latent embeddings were mapped to a compact codebook for unsupervised voxel clustering, generating heterogeneous tumor subregions.
+                  Each cluster was represented as a graph node with features derived from averaged latent vectors, and edges were established between spatially proximal nodes with similarity-based features.
+                  A graph neural network (GNN) was subsequently trained to classify triple-negative breast cancer (TNBC) versus non-TNBC.
+                  Patient characteristics and molecular subtype distributions for the breast DCE-MRI cohorts are summarized in Table 1, which includes internal datasets (ISPY) and external datasets (Duke, NACT).                </p>
+                <p>Dynamic Contrast-Enhanced Magnetic Resonance Imaging, Triple Negative Breast Cancer, Graph Neural Network</p>
+                <p>
+                  @<a 
+                    href="https://en.snu.ac.kr/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    SNU
+                  </a>&nbsp;
+                  @<a 
+                    href="http://www.snuh.org/global/en/main.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    SNUH
+                  </a>&nbsp;
+                  @<a 
+                    href="https://sites.google.com/view/snuhradaicon/home?authuser=0"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    AICON LAB
+                  </a>&nbsp;
+                  @<a 
+                    href="https://icmri.ksmrm.org/2025m/"
+                    target="_blank" 
+                    style={{ color: 'red' }}
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    ICMRI 2025
+                  </a>
+                  {" "} 🏆 {" "}
+                  <a 
+                    href="https://drive.google.com/file/d/1puwCCurH7XDfHEM-_a25z5MN8IBUE_it/view?usp=sharing"
+                    target="_blank"
+                    style={{ 
+                      color: 'darkgoldenrod',
+                      border: '1px solid darkgoldenrod',
+                      padding: '2px 5px'
+                    }}              
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Best Trainee Scientific Award (Silver Prize)
+                  </a>
+
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://drive.google.com/file/d/1gfXy22iOdNhNALBTo6k9rpiBjEsy-X6T/view?usp=drive_link"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Poster
+                  </a>
+                  <a
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Paper
+                  </a>
+                  <span className="duration-tag">Mar. 2025 - Oct. 2025</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={GraphDeepLearningBreastDCEMRI}
+                  large={GraphDeepLearningBreastDCEMRI}
+                  alt="Graph Deep Learning for Triple Negative Breast Cancer Prediction Using Dynamic Contrast-Enhanced MRI"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
+                <p>
+                  Precise delineation of meningiomas is crucial for effective radiotherapy (RT) planning,
+                  directly influencing treatment efficacy and preservation of adjacent healthy tissues.
+                  While automated deep learning approaches have demonstrated considerable potential,
+                  achieving consistently accurate clinical segmentation remains challenging due to tumor heterogeneity.
+                  Interactive Medical Image Segmentation (IMIS) addresses this challenge by integrating advanced AI techniques with clinical input.
+                  However, generic segmentation tools, despite widespread applicability, often lack the specificity required for clinically critical and disease-specific tasks like meningioma RT planning.
+                  To overcome these limitations, we introduce Interactive-MEN-RT, a dedicated IMIS tool specifically developed for clinician-assisted 3D meningioma segmentation in RT workflows.
+                  The system incorporates multiple clinically relevant interaction methods, including point annotations, bounding boxes, lasso tools, and scribbles, enhancing usability and clinical precision.
+                  In our evaluation involving 500 contrast-enhanced T1-weighted MRI scans from the BraTS 2025 Meningioma RT Segmentation Challenge,
+                  Interactive-MEN-RT demonstrated substantial improvement compared to other segmentation methods, achieving Dice similarity coefficients of up to 77.6% and Intersection over Union scores of 64.8%.
+                  These results emphasize the need for clinically tailored segmentation solutions in critical applications such as meningioma RT planning.
+                </p>
+                <p>Magnetic Resonance Imaging, Meningioma, Tumor Segmentation, Interactive Medical Image Segmentation</p>
+                <p>
+                  @<a 
+                    href="https://en.snu.ac.kr/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    SNU
+                  </a>&nbsp;
+                  @<a 
+                    href="http://www.snuh.org/global/en/main.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    SNUH
+                  </a>&nbsp;
+                  @<a 
+                    href="https://sites.google.com/view/snuhradaicon/home?authuser=0"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    AICON LAB
+                  </a>&nbsp;
+                  @<a 
+                    href="https://conferences.miccai.org/2025/en/"
+                    target="_blank" 
+                    style={{ color: 'red' }}
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    MICCAI 2025
+                  </a>
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://janghana.github.io/Interactive_MEN_RT/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Project Page
+                  </a>
+
+                  <a 
+                    href="https://link.springer.com/chapter/10.1007/978-3-032-05479-1_4"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Paper
+                  </a>
+
+                  <a 
+                    href="https://arxiv.org/abs/2510.00416"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    arXiv
+                  </a>
+                  <a 
+                    href="https://github.com/snuh-rad-aicon/Interactive-MEN-RT"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <a 
+                    href="https://github.com/snuh-rad-aicon/Interactive-MEN-RT"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Hugging Face
+                  </a>
+                  <span className="duration-tag">May. 2025 - Sep. 2025</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={SpecializedInteractiveSegmentation}
+                  large={SpecializedInteractiveSegmentation}
+                  alt="Specialized Interactive Segmentation for Meningioma Radiotherapy Planning"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          <h3>2024</h3>
+          <hr
+            style={{
+              width: '100%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
+                <p>
+                  The advancement of medical imaging technology has significantly 
+                  contributed to the improvement of diagnostic precision. Among these, 
+                  CT and MRI hold undiminished importance, each modality establishing 
+                  itself as an essential tool in medical diagnosis and treatment planning 
+                  due to their unique advantages. In particular, MRI has the capability 
+                  to present clearer contrasts and finer details of specific tissues, 
+                  playing a crucial role in precise diagnostics. However, while MRI scans 
+                  are costly and time-consuming, CT scans offer the advantage of being 
+                  relatively inexpensive and providing images quickly. Against this 
+                  backdrop, this study proposes a new approach that synthesizes 
+                  T1-weighted MR outphase images using only CT images. The core of this 
+                  research lies in applying adversarial diffusion models to replicate the 
+                  detailed anatomical tissues of MRI solely from CT. This approach is 
+                  expected to preserve the detailed anatomical advantages of MRI while 
+                  saving on the cost and time associated with medical imaging. It can 
+                  provide rapid, high-resolution images even in situations where MRI 
+                  imaging is challenging, enhancing diagnostic accuracy and the quality 
+                  of patient care.
+                </p>
+                <p>
+                  @<a 
+                    href="https://plus.cnu.ac.kr/html/en/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    CNU
+                  </a>&nbsp;
+                  @<a 
+                    href="https://www.kist.re.kr/eng/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                  @<a 
+                    href="https://en.seoultech.ac.kr/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    SeoulTech
+                  </a>&nbsp;
+                  @BAISLAB
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Paper
+                  </a>
+                  <a 
+                    href="https://github.com/janghana/Unsupervised-Diffusion-Model-for-Synthesizing-T1-weighted-MRI-Scans-from-Abdominal-CT-Scans"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <a 
+                    href="https://drive.google.com/file/d/1J3rnoVAd6anQrsf-7kLHkHUhdYOFSOmN/view?usp=drive_link"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Poster
+                  </a>
+                  <span className="duration-tag">Jan. 2024 - Jun. 2024</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={UnsupervisedDiffusionCT}
+                  large={UnsupervisedDiffusionCT}
+                  alt="Unsupervised Diffusion Model for Synthesizing T1-weighted MRI"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>GABNet: Graph Attention Boosting Network for circRNA Analysis in the Diagnosis of Hepatocellular Carcinoma</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Senior
+                </p>
+                <p>
+                  Circular RNA (circRNA) is a type of non-coding RNA that is notable for 
+                  its stability and abundance in human tissues, possessing a closed-loop 
+                  structure that makes it resistant to exonucleases, thereby enhancing 
+                  its potential as a diagnostic and therapeutic biomarker. Recent 
+                  studies have shown that circRNA plays a crucial role in cancer 
+                  development and progression, making it useful for non-invasive early 
+                  diagnosis and prediction of cancer as a major biomarker. Hepatocellular 
+                  carcinoma (HCC) is the most deadly type of liver cancer, and its high 
+                  mortality rate is due to the challenges of early detection and accurate 
+                  diagnosis. Traditional diagnostic methods often fail to detect HCC in 
+                  its early stages and involve high costs and invasive procedures, 
+                  highlighting the urgent need for new non-invasive and cost-effective 
+                  biomarkers and predictive models. circRNA can be easily detected in 
+                  body fluids, making it a powerful non-invasive diagnostic tool that 
+                  can assess the presence and progression of tumors. This study explores 
+                  methods to predict HCC using circRNA data, utilizing a Heterogeneous 
+                  Attention Network (HAN) to model the complex interactions between 
+                  circRNAs and their host genes. By combining embeddings obtained from 
+                  the HAN model with XGBoost, the study achieved high predictive 
+                  accuracy, proposing a new non-invasive approach for HCC prediction 
+                  that could also be beneficial for diagnosing other types of cancers.
+                </p>
+                <p>
+                  @<a 
+                    href="https://plus.cnu.ac.kr/html/en/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    CNU
+                  </a>&nbsp;@Graduation_Project
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://drive.google.com/file/d/14Jb0DGuJ3rtw9oVpDX8h-zFtCXwUOFBz/view?usp=drive_link"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Paper
+                  </a>
+                  <a 
+                    href="https://github.com/janghana/HCC-Prediction-with-circRNA-using-Ensemble-Heterogeneous-Graph-Attention-Networks"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <a 
+                    href="https://drive.google.com/file/d/1wL0qKHLMqsJQ5L3oL_iSEl03YpwCQRZw/view"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Awards
+                  </a>
+                  <a 
+                    href="https://drive.google.com/file/d/1mUGoFzGKtcTUVR2UUFi4breL0e4KBnFk/view"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Poster
+                  </a>
+                  <span className="duration-tag">Mar. 2024 - Dec. 2024</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={GABNetHCC}
+                  large={GABNetHCC}
+                  alt="GABNet: Graph Attention Boosting Network for circRNA Analysis"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>CNU NAVI (Chungnam National University NAVIgation)</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Senior
+                </p>
+                <p>
+                  In this study, we develop an OCR (Optical Character Recognition) 
+                  technology tailored to the Everytime dataset, leveraging a novel deep 
+                  learning architecture. The proposed model integrates CTPN (Connectionist 
+                  Text Proposal Network) for text detection and TPS-ResNet-BiLSTM-Attn 
+                  (Thin-Plate Spline Spatial Transformer Network, Residual Network, 
+                  Bidirectional Long Short-Term Memory, Attention) for text recognition. 
+                  Additionally, the model incorporates a HangulNet module specifically 
+                  designed for Korean text, which effectively decomposes Hangul characters 
+                  into their constituent consonants and vowels. The CTPN component 
+                  efficiently detects text regions in images, while the TPS-ResNet-BiLSTM-Attn 
+                  architecture accurately recognizes the detected text. This hybrid 
+                  approach addresses the challenges associated with the complex structure 
+                  of Korean characters and enhances the overall OCR performance on the 
+                  Everytime dataset.
+                </p>
+                <p>
+                  @<a 
+                    href="https://plus.cnu.ac.kr/html/en/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    CNU
+                  </a>&nbsp;@Toy_Project
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://github.com/janghana/CNU-NAVI"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <span className="duration-tag">Mar. 2024 - Aug. 2024</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={CNUNAVI}
+                  large={CNUNAVI}
+                  alt="CNU NAVI (Chungnam National University NAVIgation)"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          <h3 style={{ marginTop: '3rem' }}>2023</h3>
+          <hr
+            style={{
+              width: '100%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Enhancing Breast Cancer MRI Classification Through Vision Transformer(ViT) and Multi-Marker</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Internship
+                </p>
+                <p>
+                  I worked on a joint project that aimed to enhance breast cancer 
+                  classification performance in T2-weighted MRI images. The focus of this project 
+                  was to demonstrate that a multi-marker model, which incorporated both 
+                  the label indicating the presence of breast cancer and information 
+                  about protein markers such as Estrogen Receptor (ER), Progesterone 
+                  Receptor (PR), and Human Epidermal Growth Factor Receptor 2 (HER2), named Triple-Negative, 
+                  was more effective than a single-marker model that only used the label 
+                  for the presence of breast cancer. The goal of this project was to prove 
+                  the possibility that we could identify the aforementioned protein 
+                  markers through non-invasive MRI imaging.
+                </p>
+                <p>
+                  @<a 
+                    href="https://www.kist.re.kr/eng/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                  @<a 
+                    href="https://anam.kumc.or.kr/en/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    KoreaUniversityAnamHospital
+                  </a>&nbsp;
+                  @AIMILAB
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://drive.google.com/file/d/14jp4KGZlAj2tE1xGyHQD4Unks2Ln5WNx/view"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Paper
+                  </a>
+                  <a 
+                    href="https://github.com/janghana/Breast-Cancer-Classification-using-ViT"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <span className="duration-tag">Sep. 2023 - Dec. 2023</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={BreastCancerViT}
+                  large={BreastCancerViT}
+                  alt="Enhancing Breast Cancer MRI Classification with ViT and Multi-Marker"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>
+                  Contrast Agent-Free Approach for Enhancing Hepatocellular Carcinoma (HCC) Visualization in Contrast-Enhanced Computed Tomography (CECT) Derived from Non-Contrast Enhanced Computed Tomography (NCECT): Utilizing Contrast Agent (CA) Injection Principles
+                </h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Internship
+                </p>
+                <p>
+                  This study presents a novel approach to enhance the visualization of 
+                  Hepatocellular Carcinoma (HCC) in Contrast-Enhanced Computed Tomography (CECT) 
+                  derived from Non-Contrast Enhanced Computed Tomography (NCECT). It 
+                  demonstrates that the conventional multiple CA injections and CT scans 
+                  can be effectively replaced by a single NCECT scan, thereby reducing the 
+                  risks associated with contrast agents and improving the efficiency of 
+                  the diagnostic process. This method enables the achievement of contrast 
+                  enhancement effects without the use of contrast agents, significantly 
+                  increasing patient safety during the diagnostic procedure.
+                </p>
+                <p>
+                  @<a 
+                    href="https://www.kist.re.kr/eng/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                  @<a 
+                    href="https://sev.severance.healthcare/sev-en/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    YonseiSeveranceHospital
+                  </a>&nbsp;
+                  @AIMILAB
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://github.com/janghana/NCECT-to-CECT"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <span className="duration-tag">Jun. 2023 - Dec. 2023</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={ContrastAgentFree}
+                  large={ContrastAgentFree}
+                  alt="Contrast Agent-Free Approach for Enhancing HCC Visualization..."
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Diffusion-Model-Based Conditional Medical Image Translation for T1-Weighted MR Imaging Synthesis from CT</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Internship
+                </p>
+                <p>
+                  Medical imaging plays a crucial role in enhancing the accuracy of 
+                  diagnosis. In particular, some tissues can be more accurately 
+                  identified through multiple imaging modalities. If an image obtained 
+                  from one imaging technique can be transformed into another modality, 
+                  it would lead to a more efficient diagnostic process in the medical 
+                  field. In this study, we conducted research on synthesizing the bile 
+                  duct using CT scans into MRI-T1 images. Due to differences in imaging 
+                  techniques, the bile duct is less distinguishable in CT scans but 
+                  appears more prominently in MRI-T1 images. By obtaining MRI-T1 image 
+                  information solely from CT scans, we anticipate time and cost savings 
+                  in the medical field. This research highlights the limitations of 
+                  prior neural network-based studies on the translation from CT to MRI 
+                  and proposes a solution using a diffusion model.
+                </p>
+                <p>
+                  @<a 
+                    href="https://www.kist.re.kr/eng/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                  @<a 
+                    href="https://anam.kumc.or.kr/en/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    KoreaUniversityAnamHospital
+                  </a>&nbsp;
+                  @AIMILAB
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://github.com/janghana/SynDiff-Medical-Image-Translation"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <img
+                    src="https://img.shields.io/github/stars/janghana/SynDiff-Medical-Image-Translation?style=flat-square&label=%E2%AD%90&logo=github&logoColor=FACC15&labelColor=ffffff&color=ffffff"
+                    alt="GitHub stars"
+                    style={{
+                      marginLeft: '0.25rem',
+                      border: '1px solid #FACC15',
+                      borderRadius: '4px',
+                      boxShadow: '0 1px 4px rgba(0,0,0,0.15)',
+                    }}
+                  />
+                  <span className="duration-tag">Sep. 2023 - Oct. 2023</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={DiffusionModelT1Synthesis}
+                  large={DiffusionModelT1Synthesis}
+                  alt="Diffusion-Model-Based Conditional Medical Image Translation"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation through Aortic Contrast-Enhanced Imaging with UNETR</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Internship
+                </p>
+                <p>
+                  I conducted a research project focused on enhancing the diagnostic 
+                  precision of Hepatocellular Carcinoma (HCC) using the UNETR model. The 
+                  primary objective was to improve the contrast enhancement of HCC tumors 
+                  for better segmentation and detection. A significant part of this 
+                  project involved adjusting the HCC contrast through the aorta contrast, 
+                  which proved to be a crucial factor in achieving more accurate tumor 
+                  segmentation.
+                </p>
+                <p>
+                  The key strategy of this project involved using the contrast levels 
+                  derived from aortic imaging to adjust the contrast of HCC tumors. This 
+                  approach focused on enhancing the clarity of HCC contrast by leveraging 
+                  the distinct imaging characteristics of the aorta. By referencing the 
+                  unique contrast levels obtained from aortic images, the UNETR model was 
+                  able to more effectively amplify the contrast between HCC tumors and 
+                  surrounding tissues. This adjustment enabled more precise segmentation 
+                  and identification of tumors, significantly improving the precision of 
+                  HCC diagnosis. Utilizing the contrast information from aortic imaging 
+                  in this manner is expected to contribute to more accurate detection and 
+                  treatment planning for HCC.
+                </p>
+                <BlockMath math="Corrected~Contrast = Original~Contrast \times \frac{Original~Contrast}{Aorta~Average~Contrast~Value}" />
+                <p>
+                  @<a 
+                    href="https://www.kist.re.kr/eng/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    KIST
+                  </a>&nbsp;
+                  @<a 
+                    href="https://sev.severance.healthcare/sev-en/index.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    YonseiSeveranceHospital
+                  </a>&nbsp;
+                  @AIMILAB
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://github.com/kimhyoree/Improving-HCC-diagnostic-precision-in-CT-using-UNETR-model"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <span className="duration-tag">Jun. 2023 - Aug. 2023</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={AorticContrastUNETR}
+                  large={AorticContrastUNETR}
+                  alt="Enhancing Hepatocellular Carcinoma(HCC) Tumor Segmentation"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Designing a Predictive Coding Network Model to Mimic the Human Visual Cortex</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
+                <p>
+                  The project was initiated with a question derived from neuroscience: 
+                  How can computer vision's CNNs effectively detect illusory contours, 
+                  which are perceptual phenomena uniquely observed in the human visual 
+                  cortex? To validate this, I designed a DNN model that takes illusory 
+                  contours as inputs and aims to detect various polygons, from triangles 
+                  to octagons. The model adeptly identified conventional polygons but 
+                  struggled with intricate shapes like illusory contours, which are 
+                  perceptual phenomena observed in the human visual cortex. Subsequently, 
+                  the Predictive Coding Network (PCN) was incorporated to enhance the 
+                  detection capabilities. The ultimate objective of this project was to 
+                  design a PCN model that emulates the processing methods of the human 
+                  visual cortex.
+                </p>
+                <p>
+                  @<a 
+                    href="https://www.ibs.re.kr/eng.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    IBS
+                  </a>&nbsp;
+                  @<a 
+                    href="https://www.ibs.re.kr/glia/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    BrainXLAB
+                  </a>
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://github.com/janghana/Predictive-Coding-Network"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <span className="duration-tag">Jan. 2023 - Jun. 2023</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={PredictiveCodingNetwork}
+                  large={PredictiveCodingNetwork}
+                  alt="Designing a Predictive Coding Network Model to Mimic the Human Visual Cortex"
+                  hideZoom
+                  className="my-modal-image"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Emotional Chat: Comparative Analysis of T5, BART, and BERT for Generating Sentimental Dialogues</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Junior
+                </p>
+                <p>
+                  "Emotional Chat" is a natural language processing-based learning model 
+                  that learns and processes through scripts about emotional AI corpus 
+                  data. This study aims to compare the capability to generate emotional 
+                  dialogues using three models – T5, BART, and BERT – that have recently 
+                  garnered significant attention in the AI natural language processing 
+                  domain. Specifically, this research examines how each model understands 
+                  and generates emotional utterances and which model most effectively 
+                  comprehends and responds to the user's emotional state.
+                </p>
+                <p>
+                  @<a 
+                    href="https://plus.cnu.ac.kr/html/en/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    CNU
+                  </a>&nbsp;
+                  @NLP_Project
+                </p>
+                <p className='link-row'>
+                  <a 
+                    href="https://drive.google.com/file/d/1bAVzBOuxXDjDzxMKfmEaZTfPcUS3XDXC/view"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Paper
+                  </a>
+                  <a 
+                    href="https://github.com/janghana/Emotional-Chat"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  <span className="duration-tag">Mar. 2023 - Jun. 2023</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={EmotionalChat}
+                  large={EmotionalChat}
+                  alt="Emotional Chat: Comparative Analysis of T5, BART, and BERT"
+                  hideZoom
+                  className="my-modal-image"
+                />
+                <p>Source DALL·E 3 prompted with “[Project Abstract]”</p>
+              </div>
+            </div>
+          </div>
+          <h3 style={{ marginTop: '3rem' }}>2022</h3>
+          <hr
+            style={{
+              width: '100%',
+              marginLeft: '0',
+              marginRight: 'auto',
+              marginTop: '1em',
+              marginBottom: '1em',
+              borderColor: '#e0e0e0',
+              opacity: '0.15',
+              display: 'block'
+            }}
+          />
+          <div className="timeline-item">
+            <div
+              className="card-base proj-card"
+              style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}
+            >
+              <div style={{ flex: 1, marginRight: '1rem' }}>
+                <h3>Investigating Brainwave Patterns in Response to the "Jumping" Phenomenon</h3>
+                <p style={{ margin: '0 0 0.5rem', fontStyle: 'italic', color: '#555' }}>
+                  Research Assistant
+                </p>
+                <p>
+                  This project centered on the unique 'Jumping' phenomenon observed 
+                  within the human visual system. On a display, three spheres, 
+                  accompanied by Gaussian noise, rotated either clockwise or 
+                  counterclockwise. Intriguingly, the Gaussian noise within each sphere 
+                  moved at a distinct 270-degree angle, independent of the sphere's own 
+                  rotation. Due to this movement, the human visual cortex perceived the 
+                  spheres differently from their anticipated trajectory, a phenomenon 
+                  termed 'Jumping' in Neuroscience. The primary aim of this project was 
+                  to measure and analyze the brainwave responses associated with this 
+                  phenomenon. The experiments were conducted under various conditions: 
+                  rotation directions (clockwise and counter-clockwise) and at three 
+                  different motion speeds (slow, medium, and fast). Across these six 
+                  conditions, stimuli were presented at frequencies ranging from 1.25Hz 
+                  to 10Hz, encompassing both the alpha and theta brainwave ranges. Each 
+                  stimulus lasted for an 8-second duration, with brainwave recordings 
+                  captured from the onset of the experiment until its conclusion. The 
+                  analysis utilized the 'psignifit' tool, and machine learning 
+                  methodologies were employed. The analysis suggested the presence of 
+                  notable peaks within the brainwave patterns using ElectroEncephaloGram 
+                  (EEG).
+                </p>
+                <p>
+                  @<a 
+                    href="https://www.ibs.re.kr/eng.do"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    IBS
+                  </a>&nbsp;
+                  @<a 
+                    href="https://www.unist.ac.kr/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    UNIST
+                  </a>&nbsp;
+                  @<a 
+                    href="https://www.ibs.re.kr/glia/"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    BrainXLAB
+                  </a>&nbsp;@IBS-UNIST Joint Research
+                </p>
+
+                <p className="link-row">
+                  <a 
+                    href="https://github.com/janghana/EEG-data-analysis-of-128-channels"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="code-link"
+                  >
+                    Github
+                  </a>
+                  
+                  <span className="duration-tag">Apr. 2022 - May 2023</span>
+                </p>
+              </div>
+              <div
+                style={{
+                    textAlign: 'center',
+                    maxWidth: '400px',
+                    width: '100%',
+                    marginRight: '-450px',
+                }}
+                className="proj-img">
+                <ModalImage
+                  small={JumpingPhenomenon}
+                  large={JumpingPhenomenon}
+                  alt="Investigating Brainwave Patterns in Response to the Jumping Phenomenon"
+                  hideZoom
+                  className="my-modal-image"
+                />
+                <p>
+                  If you want to see the video about the above picture, click this link:&nbsp;
+                  <a 
+                    href="https://drive.google.com/file/d/1BobxfhqmgHK-C1yrrsNltcuCzjpQJuR_/view"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="advisor-link"
+                  >
+                    Link
+                  </a>  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+      </div>
+      <div className='projects-right'/>
+    </div>
+  );
+}
+
+export default Projects;

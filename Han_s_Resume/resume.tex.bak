@@ -1,0 +1,294 @@
+\documentclass{resume}
+
+\usepackage[left=0.40in,top=0.3in,right=0.75in,bottom=0.1in]{geometry}
+\usepackage{fontawesome}
+\usepackage{times}
+\usepackage[hidelinks,colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+  linkcolor=blue,
+  citecolor=blue
+}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+%-------------------------------------------
+% Contact / Social
+%-------------------------------------------
+\address{
+  \faGithub\ \href{https://github.com/janghana}{github.janghana} \quad
+  \faLink\ \href{https://janghana.github.io/}{janghana.github.io} \quad
+  \faEnvelope\ \href{mailto:hanjang@snu.ac.kr}{hanjang@snu.ac.kr}
+}
+\address{
+Seoul National University, 101 Daehak-ro, Jongno-gu, Seoul, South Korea
+}
+
+\name{Han Jang}
+
+\begin{document}
+{\centerline {\em \textbf { Deep Learning, Medical Imaging, LLMs/VLMs } } }
+
+%-------------------------------------------
+% Education / Skills
+%-------------------------------------------
+\begin{table}[h!]
+\begin{tabular}{p{0.47\textwidth} p{0.47\textwidth}}
+\begin{minipage}[t]{\linewidth}
+    \vspace{0pt}
+    {\Large \textbf{Education}} \\
+    \rule{\linewidth}{0.3pt}\\[4pt]
+
+    \textbf{Integrated MS/Ph.D:} \textit{Mar. 2026 -- Present} \\
+    \textbf{Seoul National University -- Seoul, South Korea}\\
+    Interdisciplinary Program in Bioengineering, College of Engineering
+    
+    \bigskip
+    \textbf{Bachelor of Science:} \textit{Mar. 2019 -- Aug. 2025} \\
+    \textbf{Chungnam National University -- Daejeon, South Korea}\\
+    The Division of Computer Convergence, \\ College of Engineering
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}
+    \vspace{0pt}
+    {\Large \textbf{Skills}} \\
+    \rule{\linewidth}{0.3pt}\\[2pt]
+
+    \textbf{Programming Language Proficiency} \\
+    Python, MATLAB, C++, C, Java
+
+    \vspace{1pt}
+    \textbf{Libraries and Frameworks} \\
+    PyTorch, PyTorch Lightning, W\&B, TensorFlow, scikit-learn, Git, GitHub, Docker, OpenCV, PsychoPy
+
+    \vspace{1pt}
+    \textbf{Support Programs (Medical Imaging)} \\
+    3D Slicer, ImageJ (FIJI), ITK-SNAP, RadiAnt DICOM Viewer, MIPAV, Elastix, SimpleITK
+
+    \vspace{1pt}
+    \textbf{Experimental Equipment (Neuroscience)} \\
+    Brain Product: EEG, Tobii TX300 Eye Tracker
+
+    % \vspace{1pt}
+    % \textbf{Online Work Stationary Friendly} \\
+    % Jira, Bitbucket, Microsoft Teams, Outlook, Notion, Overleaf, Slack
+\end{minipage}
+\end{tabular}
+\end{table}
+
+%-------------------------------------------
+% Experience
+%-------------------------------------------
+\begin{rSection}{Experience}
+
+\bigskip
+\textbf{Seoul National University Hospital (SNUH) -- Seoul, South Korea} \hfill \textit{Mar. 2025 -- Present} \\
+\hspace*{0.5em} \textit{Research Assistant (On-site)} \\
+\hspace*{1em} Department of Radiology; Advanced Imaging and Computational Neuroimaging Laboratory (AICON LAB). \\
+\hspace*{1em} Work under the supervision of Prof.\ K.S.\ Choi on neuroimaging, particularly glioblastoma (GBM) survival analysis, \\
+\hspace*{1em} leveraging multi-modal approaches with LLMs/VLMs, advanced image segmentation, survival analysis, and statistical methods.
+
+\bigskip
+\textbf{NanoCellect Biomedical, Inc. -- San Diego, California, United States} \hfill \textit{Apr. 2024 -- Feb. 2025} \\
+\hspace*{0.5em} \textit{Machine Learning Engineer (Remote \& On-site)} \\
+\hspace*{1em} R\&D Team; collaborative research with Lo Lab, University of California San Diego (UCSD). \\
+\hspace*{1em} Applied cell image analysis techniques using machine learning (e.g., lightweight cell classification), deep learning (e.g., cell segmentation), \\
+\hspace*{1em} and statistical analysis (e.g., thresholding, t-SNE distribution) for cytology imaging on VERLO\textsuperscript{\texttrademark} Image-Guided Cell Sorter.
+
+\bigskip
+\textbf{Seoul National University of Science and Technology (SEOULTECH) -- Seoul, Republic of Korea} \hfill \textit{Dec. 2023 -- Aug. 2024} \\
+\hspace*{0.5em} \textit{Research Assistant (Hybrid)} \\
+\hspace*{1em} Department of Applied Artificial Intelligence; BAIS LAB (Prof.\ K.H.\ Choi). \\
+\hspace*{1em} Applied a bi-directional adversarial diffusion approach to synthesize medical images between MRI and CT, \\
+\hspace*{1em} enhancing the fidelity of cross-modality imaging in collaboration with KIST \& KUMC.
+
+\bigskip
+\textbf{Korea Institute of Science and Technology (KIST) -- Seoul, Republic of Korea} \hfill \textit{Jun. 2023 -- Dec. 2023} \\
+\hspace*{0.5em} \textit{Research Intern (On-site)} \\
+\hspace*{1em} Bionics Research Center; Advanced Imaging and Medical Intelligence (AIMI) LAB (Dr.\ K.H.\ Choi). \\
+\hspace*{1em} Developed diffusion-based modality translation generative models for medical imaging synthesis using CT scans, \\
+\hspace*{1em} and explored 3D segmentation/classification frameworks for HCC and breast cancer in collaboration with KUMC.
+
+\bigskip
+\textbf{Institute for Basic Science (IBS) -- Daejeon, Republic of Korea} \hfill \textit{Jan. 2023 -- Jun. 2023} \\
+\hspace*{0.5em} \textit{Research Assistant (On-site)} \\
+\hspace*{1em} Center for Cognition and Sociality; BrainX LAB (Dr.\ Y.J.\ Kim). \\
+\hspace*{1em} Learned deep neural network modeling for mimicking human visual cortex processing and analyzed EEG data using Python. \vspace{3pt}
+
+\hspace*{0.5em} \textit{Research Assistant (On-site)} \hfill \textit{Apr. 2022 -- Sep. 2022} \\
+\hspace*{1em} Center for Cognition and Sociality; BrainX LAB (Dr.\ Y.J.\ Kim). \\
+\hspace*{1em} Conducted EEG experiments with human participants and developed a machine learning decoder for decoding brainwave signals.
+
+\end{rSection}
+
+
+
+
+
+%-------------------------------------------
+% Publication
+%-------------------------------------------
+\begin{rSection}{Publications}
+
+\textbf{\textit{SciZoom: A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era}}%
+\hfill \textit{2026} \\
+\hspace*{1em} \textbf{Han Jang}, J.H. Lee, K.S. Choi$^{*}$, \textit{arXiv preprint arXiv:2603.16131}, 2026. \\[0.8em]
+
+\textbf{\textit{Segmentation-before-Staining Improves Structural Fidelity in Virtual IHC-to-Multiplex IF Translation}}%
+\hfill \textit{2026} \\
+\hspace*{1em} J.H. Lee, \textbf{Han Jang}, H. Eum, J. Jang, K.S. Choi$^{*}$, \textit{arXiv preprint arXiv:2603.16160}, 2026. \\[0.8em]
+
+\textbf{\textit{Evidential Perfusion Physics-Informed Neural Networks with Residual Uncertainty Quantification}}%
+\hfill \textit{2026} \\
+\hspace*{1em} J.H. Lee, M. Choi, \textbf{Han Jang}, Y.H. Jeon, H. Eum, J. Jang, C.H. Sohn, K.S. Choi$^{*}$, \textit{arXiv preprint arXiv:2603.09359}, 2026. \\[0.8em]
+
+\textbf{\textit{MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs}}%
+\hfill \textit{2026} \\
+\hspace*{1em} J.H. Lee, \textbf{Han Jang}, K.S. Choi$^{*}$, \textit{arXiv preprint arXiv:2602.06268}, 2026. \\[0.8em]
+
+\textbf{\textit{Cyclic Conditional Diffusion Models for CT-to-MR Synthetic Image Segmentation with Misaligned Image Pairs}}%
+\hfill \textit{2025} \\
+\hspace*{1em} \textbf{Han Jang}$^{1}$, N. Han$^{1}$, J.H. Kwon, H. Seo, B.J. Park$^{*}$, K.H. Choi$^{*}$,
+\textit{Expert Systems with Applications}, 2025, IF 7.5. \\[0.8em]
+
+\textbf{\textit{GlioSurv: Interpretable Transformer for Multimodal, Individualized Survival Prediction in Diffuse Glioma}}%
+\hfill \textit{2025} \\
+\hspace*{1em} J.H. Lee, J. Jang, H. Eum, \textbf{Han Jang}, M. Kim, S.H. Park, C.K. Park, S.H. Choi, S.S. Ahn, Y. Han, K.S. Choi$^{*}$, \textit{npj Digital Medicine}, 8(1), 660, 2025. \\[0.8em]
+
+\textbf{\textit{Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast Enhanced MRI}}%
+\hfill \textit{2025} \\
+\hspace*{1em} \textbf{Han Jang}$^{1}$, J.H. Lee, K.S. Choi$^{*}$, ICMRI 2025, Grand Walkerhill, Seoul, South Korea. \\
+\hspace*{1em} \textit{Best Trainee Scientific Award (Silver Prize).} \\[0.8em]
+
+\textbf{\textit{Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning}}%
+\hfill \textit{2025} \\
+\hspace*{1em} J.H. Lee$^{1}$, \textbf{Han Jang}$^{1}$, K.S. Choi$^{*}$, MICCAI 2025 (pp.~32--41), CLIP Workshop,
+Daejeon Convention Center, South Korea. \\[0.8em]
+
+\textbf{\textit{Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans}}%
+\hfill \textit{Jun. 2024} \\
+\hspace*{1em} \textbf{Han Jang}$^{1}$, J.H. Kwon, K.H. Choi$^{*}$, Korea Computer Congress 2024 (pp.~2048--2050),
+Jeju ICC, South Korea.
+
+\end{rSection}
+
+
+
+%-------------------------------------------
+% Projects
+%-------------------------------------------
+\begin{rSection}{Projects}
+
+%-------------------------------------------
+% HCC circRNA
+%-------------------------------------------
+\textbf{HCC Prediction with circRNA using Ensemble Heterogeneous Graph Attention Networks} \hfill \textit{Mar. 2024 -- Dec. 2024} \\
+\hspace*{0.5em} \textit{Keywords: Bioinformatics, circRNA, Hepatocellular carcinoma, Heterogeneous, Graph, Ensemble}
+[\href{https://drive.google.com/file/d/14Jb0DGuJ3rtw9oVpDX8h-zFtCXwUOFBz/view?usp=drive_link}{Paper} $|$ 
+\href{https://github.com/janghana/HCC-Prediction-with-circRNA-using-Ensemble-Heterogeneous-Graph-Attention-Networks}{Code} $|$ 
+\href{https://drive.google.com/file/d/1wL0qKHLMqsJQ5L3oL_iSEl03YpwCQRZw/view}{Awards} $|$ 
+\href{https://drive.google.com/file/d/1mUGoFzGKtcTUVR2UUFi4breL0e4KBnFk/view}{Poster}] \\
+\hspace*{1em} Circular RNA (circRNA) is a type of non-coding RNA showing high stability and abundance, making it a potential biomarker in cancer research. This project focuses on predicting HCC using circRNA data by integrating heterogeneous graph attention networks and XGBoost. The approach leverages the resilience of circRNA in body fluids as a non-invasive biomarker, potentially improving early detection and precision treatment strategies for liver cancer. \\
+\hspace*{1em} Constructed a heterogeneous attention network to capture complex circRNA–gene interactions.  
+\hspace*{1em} Incorporated an ensemble approach combining graph embeddings with XGBoost to refine predictive performance.
+
+%-------------------------------------------
+% Unsupervised Diffusion T1
+%-------------------------------------------
+\bigskip
+\textbf{Unsupervised Diffusion Model for Synthesizing T1-weighted MRI Scans from Abdominal CT Scans} \hfill \textit{Dec. 2023 -- Jun. 2024} \\
+\textit{Keywords: Computer Vision, Medical Imaging, Generative Models, Diffusion Models, Medical Registration} \quad
+[\href{https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11862432}{Paper} $|$ 
+\href{https://github.com/janghana/Unsupervised-Diffusion-Model-for-Synthesizing-T1-weighted-MRI-Scans-from-Abdominal-CT-Scans}{Code} $|$ 
+\href{https://drive.google.com/file/d/1J3rnoVAd6anQrsf-7kLHkHUhdYOFSOmN/view?usp=drive_link}{Poster}] \\
+\hspace*{1em} Proposed a cyclic diffusive generative model for translating CT to T1-weighted MRI, aiming to reduce high costs and long acquisition times of MRI scans. This approach leverages adversarial diffusion techniques, preserving tissue detail from CT while synthesizing MRI-like contrast. \\
+\hspace*{1em} Implemented a cycle-consistent diffusion framework to stabilize CT-to-MRI translation.  
+\hspace*{1em} Demonstrated potential cost-saving benefits in clinical environments by reducing additional MRI scans.
+
+%-------------------------------------------
+% Breast Cancer ViT
+%-------------------------------------------
+\bigskip
+\textbf{Enhancing Breast Cancer MRI Classification Through ViT and Multi-Marker Integration} \hfill \textit{Sep. 2023 -- Dec. 2023} \\
+\textit{Keywords: Computer Vision, Medical Imaging, 3D Medical Image Classification, Breast Cancer, ER, PR, HER2} \quad
+[\href{https://drive.google.com/file/d/14jp4KGZlAj2tE1xGyHQD4Unks2Ln5WNx/view}{Paper} $|$ 
+\href{https://github.com/janghana/Breast-Cancer-Classification-using-ViT}{Code}] \\
+\hspace*{1em} Focused on augmenting breast cancer classification in MRI by incorporating multiple biomarkers (ER, PR, HER2) alongside cancer labels. Demonstrated that multi-marker synergy could outperform single-marker models, revealing non-invasive ways to probe protein expressions in breast cancer. \\
+\hspace*{1em} Deployed a Vision Transformer (ViT) pipeline for more robust feature extraction in T2-weighted MRI data.  
+\hspace*{1em} Showed improved accuracy by fusing clinically relevant biomarkers and imaging data.
+
+%-------------------------------------------
+% Contrast Agent-Free HCC
+%-------------------------------------------
+\bigskip
+\textbf{Contrast Agent-Free Approach for Enhancing HCC Visualization on CECT Derived from NCECT} \hfill \textit{Jun. 2023 -- Dec. 2023} \\
+\textit{Keywords: Computer Vision, Medical Imaging, Diffusion Models, Generative Models} \quad
+[\href{https://github.com/janghana/NCECT-to-CECT}{Code}] \\
+\hspace*{1em} Introduced a method to enhance hepatocellular carcinoma (HCC) visibility by generating pseudo-contrast-enhanced CT (CECT) from non-contrast CT (NCECT) scans. Reduced the need for multiple contrast agent injections, improving patient safety and diagnostic workflow efficiency. \\
+\hspace*{1em} Employed an adversarial diffusion model to simulate vascular enhancement.  
+\hspace*{1em} Achieved comparable contrast effects without repeated CA exposure.
+
+%-------------------------------------------
+% HCC Tumor Segmentation with UNETR
+%-------------------------------------------
+\bigskip
+\textbf{Enhancing HCC Tumor Segmentation through Aortic Contrast-Enhanced Imaging with UNETR} \hfill \textit{Jun. 2023 -- Aug. 2023} \\
+\textit{Keywords: Computer Vision, Medical Imaging, 3D Medical Image Segmentation} \quad
+[\href{https://github.com/kimhyoree/Improving-HCC-diagnostic-precision-in-CT-using-UNETR-model}{Code}] \\
+\hspace*{1em} Investigated an aorta-referenced contrast strategy to improve HCC segmentation performance. Leveraged the UNETR model to precisely identify tumor boundaries, emphasizing the contrast difference boosted by aortic imaging. \\
+\hspace*{1em} Enhanced segmentation by calibrating tumor intensity with aortic contrast.  
+\hspace*{1em} Demonstrated robust tumor delineation, potentially aiding early detection and treatment planning.
+
+%-------------------------------------------
+% Predictive Coding Network
+%-------------------------------------------
+\bigskip
+\textbf{Designing a Predictive Coding Network Model to Mimic the Human Visual Cortex} \hfill \textit{Jan. 2023 -- Jun. 2023} \\
+\textit{Keywords: Cognitive Neuroscience, Computer Vision, Illusory Contour, Kanizsa Triangle} \quad
+[\href{https://github.com/janghana/Predictive-Coding-Network}{Code}] \\
+\hspace*{1em} Explored neural mechanisms behind illusory contour processing, implementing a predictive coding network (PCN) to capture complex visual illusions akin to those in the human cortex. \\
+\hspace*{1em} Demonstrated that standard CNNs struggle with illusory shapes, necessitating a predictive framework.  
+\hspace*{1em} Validated PCN’s ability to handle intricacies of visual illusions beyond conventional polygon detection.
+
+%-------------------------------------------
+% Investigating "Jumping" Phenomenon
+%-------------------------------------------
+\bigskip
+\textbf{Investigating Brainwave Patterns in Response to the “Jumping” Phenomenon} \hfill \textit{Apr. 2022 -- Oct. 2022} \\
+\textit{Keywords: Cognitive Neuroscience, EEG, Illusory jumping, Machine Learning} \quad
+[\href{https://github.com/janghana/EEG-data-analysis-of-128-channels}{Code} $|$ 
+\href{https://drive.google.com/file/d/1BobxfhqmgHK-C1yrrsNltcuCzjpQJuR_/view}{Video}] \\
+\hspace*{1em} Analyzed a “jumping” effect in rotating objects with embedded Gaussian noise, recording 128-channel EEG signals to uncover neural correlates. Explored steady-state visual potentials and alpha-range responses. \\
+\hspace*{1em} Observed no SSVEP-like signals but identified peaks in the alpha band (8–13 Hz).  
+- Employed machine learning classification to decode rhythmic sampling patterns linked to illusory motion.
+
+\end{rSection}
+
+%-------------------------------------------
+% Extracurricular Activities
+%-------------------------------------------
+\begin{rSection}{Extracurricular Activities}
+
+\textbf{Chungnam National University -- Daejeon} \hfill \textit{Aug. 2024} \\
+\hspace*{0.5em} \textit{CNU Engineering Fair 2024} \\
+\hspace*{1em} Awarded the Encouragement Award for innovative application of graph neural networks in biomedical research.
+
+\textbf{Chungnam National University -- Daejeon} \hfill \textit{Jun. 2024} \\
+\hspace*{0.5em} \textit{SW/AI Creative Contest} \\
+\hspace*{1em} Received an Encouragement Award in the AI section.
+
+\textbf{Chungnam National University -- Daejeon} \hfill \textit{Jun. 2023, Oct. 2022} \\
+\hspace*{0.5em} \textit{SW/AI Creative Contest} \\
+\hspace*{1em} Developed coding skills for various corporate challenges through hands-on testing formats. \\
+\hspace*{1em} Received an Encouragement Award among approximately 100 participants.
+
+\textbf{Chungnam National University -- Daejeon} \hfill \textit{Oct. 2019} \\
+\hspace*{0.5em} \textit{Creative Software Contest} \\
+\hspace*{1em} Gained ideation, idea planning, and prototyping skills ($e.g.$, Figma). \\
+\hspace*{1em} Received an Excellence Award among competitive teams.
+
+\end{rSection}
+
+\end{document}

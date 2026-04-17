@@ -1,0 +1,60 @@
+.home-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.home-content {
+  flex: 2;
+  padding: 1rem;
+}
+
+.right-space {
+  flex: 1;
+}
+
+.section-divider {
+  width: 50%;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  opacity: 0.15;
+  margin: 1rem 0;
+}
+
+.home-content p {
+  margin: 0 0 1rem;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+}
+
+.research-list {
+  list-style-type: disc;
+  margin: 0 0 1rem 1.5rem;
+  padding: 0;
+}
+
+.research-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 2rem;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+}
+
+.timeline-content {
+  margin-left: 2px;
+  padding: 8px;
+  background-color: #fff;
+  border-left: 2px solid #ccc;
+}
