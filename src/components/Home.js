@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 import LeftSideProfile from './LeftSideProfile';
 
 
 function Home() {
+  const [showAllNews, setShowAllNews] = useState(false);
   return (
     <div className="home-container">
       
@@ -113,10 +114,18 @@ function Home() {
 
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <a
+            href="https://janghana.github.io/HiPerfGNN/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="code-link"
+          >
+            Post
+          </a>
           [May 2026]
           {" "}
           Our paper{" "}
-          <a href="https://arxiv.org/abs/2605.07156" target="_blank" rel="noopener noreferrer" className="advisor-link">
+          <a href="https://janghana.github.io/HiPerfGNN/" target="_blank" rel="noopener noreferrer" className="advisor-link">
             HiPerfGNN: Hierarchical Perfusion Graphs for Tumor Heterogeneity Modeling in Glioma Molecular Subtyping
           </a>
           {" "}was{" "}
@@ -144,81 +153,136 @@ function Home() {
           [Apr. 2026]
           {" "}
           Our paper{" "}
-          <a href="https://arxiv.org/abs/2604.05738" target="_blank" rel="noopener noreferrer" className="advisor-link">
+          <a href="https://janghana.github.io/MedLayBench-V/" target="_blank" rel="noopener noreferrer" className="advisor-link">
             MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models
           </a>
           {" "}was accepted to{" "}
-          <i>Findings of the 64th Annual Meeting of the Association for Computational Linguistics</i>{" "}
+          <i>Findings of the 64th Annual Meeting of the{" "}
+            <a
+              href="https://2026.aclweb.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="advisor-link"
+            >
+              Association for Computational Linguistics
+            </a>
+          </i>{" "}
           (<strong>ACL 2026</strong>, <strong style={{ color: '#c0392b' }}>Oral Presentation</strong>).
         </p>
 
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          [Dec. 2025]
+          {" "}
+          Our paper{" "}
           <a
-            href="#/post/ICMRI2025"
-            className="code-link"
-          >
-            Post
-          </a>
-          [Oct. 2025] 
-          {" "}
-          Presented my paper at the ICMRI 2025 Conference, <b>Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast-Enhanced MRI</b>,
-          and received the 🏆 {" "}
-          <a 
-            href="https://drive.google.com/file/d/1puwCCurH7XDfHEM-_a25z5MN8IBUE_it/view?usp=sharing"
-            target="_blank"
-            style={{ 
-              color: 'darkgoldenrod',
-            }}              
-          >
-            Best Trainee Scientific Award (Silver Prize)
-          </a>
-          {" "}
-          in Seoul, South Korea.
-        </p>
-
-
-        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          <a
-            href="#/post/MICCAI2025"
-            className="code-link"
-          >
-            Post
-          </a>
-          [Sep. 2025] 
-          {" "}
-          Presented my paper at the MICCAI 2025 CLIP Workshop, 
-          {" "}
-          <a href="https://link.springer.com/chapter/10.1007/978-3-032-05479-1_4" target="_blank" rel="noopener noreferrer" className="advisor-link">
-            Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning
-          </a>
-          ,
-          {" "}
-          in Daejeon, South Korea.
-        </p>
-
-
-
-        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          <a
-            href="#/post/Nanocellect"
-            className="code-link"
-          >
-            Post
-          </a>
-          [Feb. 2025] 
-          {" "}
-          Completed a <strong>Machine Learning Engineer</strong> at {" "}
-          <i><a
-            href="https://nanocellect.com/"
+            href="https://www.sciencedirect.com/science/article/pii/S0957417425042460"
             target="_blank"
             rel="noopener noreferrer"
             className="advisor-link"
           >
-            NanoCellect Biomedical, Inc.
-          </a></i> {" "}
-          in San Diego, California, United States.
+            Cyclic Conditional Diffusion Models for CT-to-MR Synthetic Image Segmentation with Misaligned Image Pairs
+          </a>
+          {" "}was published in{" "}
+          <a
+            href="https://www.sciencedirect.com/journal/expert-systems-with-applications"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+          >
+            <i>Expert Systems with Applications</i>
+          </a>
+          {" "}(IF=7.5, JCR Top 6.1%).
         </p>
+
+
+        {showAllNews && (
+          <>
+            <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+              <a
+                href="#/post/ICMRI2025"
+                className="code-link"
+              >
+                Post
+              </a>
+              [Oct. 2025]
+              {" "}
+              Presented my paper at the ICMRI 2025 Conference, <b>Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using Dynamic Contrast-Enhanced MRI</b>,
+              and received the 🏆 {" "}
+              <a
+                href="https://drive.google.com/file/d/1puwCCurH7XDfHEM-_a25z5MN8IBUE_it/view?usp=sharing"
+                target="_blank"
+                style={{
+                  color: 'darkgoldenrod',
+                }}
+              >
+                Best Trainee Scientific Award (Silver Prize)
+              </a>
+              {" "}
+              in Seoul, South Korea.
+            </p>
+
+
+            <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+              <a
+                href="#/post/MICCAI2025"
+                className="code-link"
+              >
+                Post
+              </a>
+              [Sep. 2025]
+              {" "}
+              Presented my paper at the MICCAI 2025 CLIP Workshop,
+              {" "}
+              <a href="https://janghana.github.io/Interactive_MEN_RT/" target="_blank" rel="noopener noreferrer" className="advisor-link">
+                Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning
+              </a>
+              ,
+              {" "}
+              in Daejeon, South Korea.
+            </p>
+
+
+            <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+              <a
+                href="#/post/Nanocellect"
+                className="code-link"
+              >
+                Post
+              </a>
+              [Feb. 2025]
+              {" "}
+              Completed a <strong>Machine Learning Engineer</strong> at {" "}
+              <i><a
+                href="https://nanocellect.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="advisor-link"
+              >
+                NanoCellect Biomedical, Inc.
+              </a></i> {" "}
+              in San Diego, California, United States.
+            </p>
+          </>
+        )}
+
+        <div style={{ textAlign: 'center', marginTop: '1.2em' }}>
+          <button
+            onClick={() => setShowAllNews(!showAllNews)}
+            style={{
+              background: 'transparent',
+              border: '1px solid #007BFF',
+              color: '#007BFF',
+              padding: '6px 18px',
+              borderRadius: '999px',
+              fontSize: '0.85em',
+              cursor: 'pointer',
+              fontWeight: 500,
+            }}
+          >
+            {showAllNews ? '− Show less' : '+ Show more news'}
+          </button>
+        </div>
 
         <br></br>
         <br></br>

@@ -28,6 +28,22 @@ git add -A && git commit -m "update" && git push
 
 Step 2 is only needed when `Han_s_Resume/resume.tex` changes. For pure-UI changes, skip straight to step 3.
 
+## Maintenance / recovery
+
+`scripts/maintain.sh` automates the steps above and handles common failure
+modes. **Read the comment block at the top of that file before debugging
+build issues — it documents every failure we have hit and the fix.**
+
+```bash
+./scripts/maintain.sh check   # diagnose disk / node / node_modules health
+./scripts/maintain.sh fix     # auto-reinstall node_modules if broken
+./scripts/maintain.sh build   # check + fix + build + copy artifacts
+./scripts/maintain.sh deploy  # build + interactive commit + push
+```
+
+The most common gotcha: **a partially-installed `node_modules` (≪ 250MB)
+silently hangs the build.** The script detects this and reinstalls.
+
 ## Layout notes
 
 - `src/components/Publications.js` — publications page; keep in sync with `Han_s_Resume/resume.tex` when papers are added.
