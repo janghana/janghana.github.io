@@ -113,6 +113,26 @@ function Home() {
 
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          [May 2026]
+          {" "}
+          Our paper{" "}
+          <a href="https://arxiv.org/abs/2605.07156" target="_blank" rel="noopener noreferrer" className="advisor-link">
+            HiPerfGNN: Hierarchical Perfusion Graphs for Tumor Heterogeneity Modeling in Glioma Molecular Subtyping
+          </a>
+          {" "}was{" "}
+          <strong style={{ color: '#c0392b' }}>provisionally accepted</strong>{" "}to the{" "}
+          <a
+            href="https://conferences.miccai.org/2026/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+          >
+            International Conference on Medical Image Computing and Computer-Assisted Intervention
+          </a>
+          {" "}(<strong>MICCAI 2026</strong>, Main Conference).
+        </p>
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           <a
             href="https://www.linkedin.com/feed/update/urn:li:activity:7447599745172402176/"
             target="_blank"
@@ -123,11 +143,11 @@ function Home() {
           </a>
           [Apr. 2026]
           {" "}
-          Congratulations! Our paper{" "}
+          Our paper{" "}
           <a href="https://arxiv.org/abs/2604.05738" target="_blank" rel="noopener noreferrer" className="advisor-link">
             MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models
           </a>
-          {" "}has been accepted to{" "}
+          {" "}was accepted to{" "}
           <i>Findings of the 64th Annual Meeting of the Association for Computational Linguistics</i>{" "}
           (<strong>ACL 2026</strong>, <strong style={{ color: '#c0392b' }}>Oral Presentation</strong>).
         </p>

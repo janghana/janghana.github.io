@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HiPerfGNN: Hierarchical Perfusion Graphs for Glioma Molecular Subtyping</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <h1>HiPerfGNN</h1>
+    <p class="subtitle">Hierarchical Perfusion Graphs for Tumor Heterogeneity Modeling in Glioma Molecular Subtyping</p>
+    <p class="authors">
+      Han Jang<sup>*</sup>, Junhyeok Lee<sup>*</sup>, Heeseong Eum, Joon Jang, Yoseob Han, Seung Hong Choi, Kyu Sung Choi<sup>&dagger;</sup>
+    </p>
+    <p class="affil" style="font-size:12px;">
+      <sup>*</sup> Equal contribution. &nbsp; <sup>&dagger;</sup> Corresponding author.
+    </p>
+    <p class="affil">
+      Seoul National University &middot; SNU College of Medicine &middot; SNU Hospital &middot; AICON Lab
+    </p>
+    <p class="venue-tag">MICCAI 2026 Main &middot; Provisionally Accepted</p>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2605.07156v1" class="btn">arXiv</a>
+      <a href="https://arxiv.org/pdf/2605.07156v1" class="btn warm">PDF</a>
+      <a href="https://github.com/janghana/HiPerfGNN" class="btn"><img src="images/github.png" alt=""> Code</a>
+    </div>
+  </div>
+</header>
+
+<section class="container">
+  <div class="tldr">
+    <span class="tldr-tag">TL;DR</span>
+    <p>A hierarchical perfusion-aware GNN for non-invasive glioma molecular subtyping from DSC-MRI, reaching IDH AUC 0.96 internally and 0.89 externally.</p>
+  </div>
+  <div class="chips">
+    <span class="chip">VQ-VAE Perfusion Codes</span>
+    <span class="chip">Hierarchical GNN</span>
+    <span class="chip warm">IDH AUC 0.96</span>
+    <span class="chip warm">1p/19q AUC 0.89</span>
+    <span class="chip warm">WHO Grade AUC 0.84</span>
+    <span class="chip">External n=397</span>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Abstract</h2>
+  <p>
+    Precise molecular subtyping of gliomas, including isocitrate dehydrogenase (IDH) mutation and
+    1p/19q codeletion, directly guides surgical and therapeutic decisions, yet currently relies on
+    invasive tissue sampling. Deep learning on structural MRI has emerged as a non-invasive
+    alternative, but anatomy-only approaches cannot capture the hemodynamic signatures that
+    distinguish molecular subtypes. Radiogenomics based on dynamic susceptibility contrast (DSC)
+    MRI holds immense potential for non-invasively characterizing glioma molecular subtypes, yet
+    clinical deployment has been hindered by inter-site variability and the limitations of
+    voxel-wise analysis. We introduce <strong>HiPerfGNN</strong>, a framework that first learns
+    discrete hemodynamic representations from raw time-intensity curves using a vector-quantized
+    variational autoencoder (VQ-VAE). These quantized perfusion codes define coarse-level graph
+    nodes representing functional tumor habitats, each of which is hierarchically subdivided into
+    fine-level subregions guided by structural MRI. A hierarchical graph neural network then
+    propagates information across scales for molecular prediction. On an internal cohort (n=475),
+    the model achieved AUCs of <strong>0.96 (IDH)</strong>, <strong>0.89 (1p/19q)</strong>, and
+    <strong>0.84 (WHO grade)</strong>, and maintained robust IDH performance (AUC 0.89) on an
+    independent external cohort (n=397) without recalibration. Gradient-based saliency analysis
+    confirms biologically grounded attention patterns aligned with known glioma pathophysiology.
+  </p>
+</section>
+
+<section class="container">
+  <h2>Method Overview</h2>
+  <figure>
+    <img src="images/architecture.png" alt="HiPerfGNN architecture overview">
+    <figcaption>
+      <strong>Overview of HiPerfGNN.</strong>
+      (a) A <em>VQ-VAE</em> encodes per-voxel time-intensity curves from DSC-MRI into discrete
+      hemodynamic codes, yielding spatio-temporal tumor cluster maps.
+      (b) <em>Hierarchical graph construction</em> derives a coarse <em>Tumor Graph</em> from
+      perfusion clusters and a fine <em>Subregion Graph</em> from structure-guided 3D SLIC
+      supervoxels on T1/T1CE/T2/FLAIR.
+      (c) <em>Hierarchical GNN</em> with PNA layers and LSTM temporal aggregation propagates
+      information across scales, predicting IDH mutation, 1p/19q codeletion, and WHO grade under
+      the 2021 CNS tumor classification.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="container">
+  <h2>Results</h2>
+  <figure class="tbl">
+    <img src="tables/table1.png" alt="Table 1: Comparative performance of radiogenomic models">
+    <figcaption>
+      <strong>Table 1. Comparative performance of radiogenomic models.</strong>
+      Accuracy, F1 (macro), Sensitivity, Specificity, and AUC with 95% confidence intervals from
+      1000-iteration stratified bootstrapping across IDH, 1p/19q, and WHO grade on the internal
+      cohort, and IDH on the external UPenn cohort. <strong>Bold</strong> indicates best;
+      <u>underline</u> indicates second best. HiPerfGNN consistently outperforms PerfGAT and
+      GlioMT, reaching <strong>AUC 0.963</strong> for IDH on the internal cohort and
+      <strong>0.887</strong> on the external UPenn cohort without recalibration.
+    </figcaption>
+  </figure>
+
+  <figure class="tbl">
+    <img src="tables/table2.png" alt="Table 2: Ablation study comparing graph architecture variants">
+    <figcaption>
+      <strong>Table 2. Ablation study of graph architecture variants.</strong>
+      Effect of Perfusion codes (Perf), Hierarchical structure (Hier), and Structure-guided
+      supervoxels (SG). The full configuration (Perf + Hier + SG) achieves the best AUCs across
+      every task and cohort, confirming that perfusion-aware coarse nodes and structure-guided
+      fine subregions are both necessary for cross-site molecular subtyping.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="container">
+  <h2>Saliency &amp; Tumor Heterogeneity</h2>
+  <figure>
+    <img src="images/visual.png" alt="Gradient-based saliency maps across glioma molecular subtypes">
+    <figcaption>
+      <strong>Subtype-specific saliency.</strong>
+      DSC-MRI time-intensity curves (top), structural MRI with tumor mask and overlay (middle),
+      and gradient-based saliency maps (bottom) for four representative cases:
+      (a, d) <em>Glioblastoma, IDH-wildtype, WHO grade 4</em>;
+      (b) <em>Astrocytoma, IDH-mutant, WHO grade 3</em>;
+      (c) <em>Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, WHO grade 2</em>.
+      Attention concentrates on biologically meaningful regions &mdash; enhancing tumor cores in
+      IDH-wildtype cases, and infiltrative non-enhancing tumor in IDH-mutant lower-grade gliomas.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="container">
+  <h2>BibTeX</h2>
+<pre class="bib"><code>@inproceedings{jang2026hiperfgnn,
+  title     = {HiPerfGNN: Hierarchical Perfusion Graphs for Tumor Heterogeneity Modeling in Glioma Molecular Subtyping},
+  author    = {Jang, Han and Lee, Junhyeok and Eum, Heeseong and Jang, Joon and Han, Yoseob and Choi, Seung Hong and Choi, Kyu Sung},
+  booktitle = {Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  year      = {2026}
+}</code></pre>
+</section>
+
+<footer class="container">
+  <p>&copy; 2026 AICON Lab, Seoul National University.</p>
+</footer>
+
+</body>
+</html>

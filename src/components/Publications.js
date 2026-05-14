@@ -31,6 +31,22 @@ function Publications() {
 
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+            HiPerfGNN: Hierarchical Perfusion Graphs for Tumor Heterogeneity Modeling in Glioma Molecular Subtyping
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            <strong>Han Jang</strong>, J. Lee, H. Eum, J. Jang, Y. Han, S. H. Choi, K. S. Choi,
+            {" "}
+            <i><a href="https://conferences.miccai.org/2026/" target="_blank" rel="noopener noreferrer" className="advisor-link">MICCAI 2026</a></i>
+            {" "}<strong style={{ color: '#c0392b' }}>(Provisionally Accepted, Main Conference)</strong>
+          </p>
+          <p></p>
+          <a href="https://arxiv.org/abs/2605.07156" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
+          <a href="https://janghana.github.io/HiPerfGNN/" target="_blank" rel="noopener noreferrer" className="code-link">Project Page</a>
+          <a href="https://github.com/janghana/HiPerfGNN" target="_blank" rel="noopener noreferrer" className="code-link">Github</a>
+        </div>
+
+        <div className="card-base pub-card">
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
