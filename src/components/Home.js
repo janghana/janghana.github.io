@@ -172,6 +172,14 @@ function Home() {
 
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <a
+            href="https://www.sciencedirect.com/science/article/pii/S0957417425042460"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="code-link"
+          >
+            Post
+          </a>
           [Dec. 2025]
           {" "}
           Our paper{" "}
