@@ -72,8 +72,9 @@ function Home() {
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          My research aims to make tangible contributions to humanity, and I plan to pursue graduate 
-          studies to continue engaging in deeper academic exploration and research.
+          My research aims to make tangible contributions to humanity. As a graduate student, I am
+          committed to deeper academic exploration and to contributing to academia through sustained
+          research.
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>

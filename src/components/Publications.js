@@ -35,7 +35,7 @@ function Publications() {
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
             <strong>Han Jang</strong>, et al.
-            {" "}<strong style={{ color: '#c0392b' }}>(Under Review)</strong>
+            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
           </p>
         </div>
 
@@ -45,7 +45,7 @@ function Publications() {
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
             <strong>Han Jang</strong>, et al.
-            {" "}<strong style={{ color: '#c0392b' }}>(Under Review)</strong>
+            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
           </p>
         </div>
 
@@ -55,7 +55,7 @@ function Publications() {
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
             <strong>Han Jang</strong>, et al.
-            {" "}<strong style={{ color: '#c0392b' }}>(Under Review)</strong>
+            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
           </p>
         </div>
 
