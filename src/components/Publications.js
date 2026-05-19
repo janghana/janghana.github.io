@@ -14,6 +14,60 @@ function Publications() {
         <h2>Publications</h2>
         <hr style={{ borderColor: '#e0e0e0', marginBottom: '5em', opacity: '0.15' }} />
 
+        <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>Under Review</h3>
+
+        <hr
+          style={{
+            width: '100%',
+            marginLeft: '0',
+            marginRight: 'auto',
+            marginTop: '1em',
+            marginBottom: '1em',
+            borderColor: '#e0e0e0',
+            opacity: '0.15',
+            display: 'block'
+          }}
+        />
+
+        <div className="card-base pub-card">
+          <p style={{ margin: '0 0 0.4em', fontSize: '0.8em', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#7f8c8d' }}>
+            retrieval-augmented
+          </p>
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+            BI-RADS-aware multimodal retrieval-augmented diagnosis for breast ultrasound: a multinational clinical validation and reader study
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            <strong>Han Jang</strong>, et al.
+            {" "}<strong style={{ color: '#c0392b' }}>(Under Review)</strong>
+          </p>
+        </div>
+
+        <div className="card-base pub-card">
+          <p style={{ margin: '0 0 0.4em', fontSize: '0.8em', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#7f8c8d' }}>
+            medical vision-language models
+          </p>
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+            MedLayXPlain: Benchmarking the Expert-Lay Gap in Medical Vision-Language Models
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            <strong>Han Jang</strong>, et al.
+            {" "}<strong style={{ color: '#c0392b' }}>(Under Review)</strong>
+          </p>
+        </div>
+
+        <div className="card-base pub-card">
+          <p style={{ margin: '0 0 0.4em', fontSize: '0.8em', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#7f8c8d' }}>
+            interpretable language modeling
+          </p>
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+            Interpretable automated assessment of head injury severity from radiologic reports using language models: a multicentre, registry-based development and cross-national clinical validation study
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            <strong>Han Jang</strong>, et al.
+            {" "}<strong style={{ color: '#c0392b' }}>(Under Review)</strong>
+          </p>
+        </div>
+
         <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2026</h3>
 
         <hr
