@@ -153,11 +153,11 @@ function Home() {
           </a>
           [Apr. 2026]
           {" "}
-          Our paper{" "}
+          Presented my paper{" "}
           <a href="https://janghana.github.io/MedLayBench-V/" target="_blank" rel="noopener noreferrer" className="advisor-link">
             MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models
           </a>
-          {" "}was accepted to{" "}
+          {" "}at{" "}
           <i>Findings of the 64th Annual Meeting of the{" "}
             <a
               href="https://2026.aclweb.org/"
@@ -168,7 +168,7 @@ function Home() {
               Association for Computational Linguistics
             </a>
           </i>{" "}
-          (<strong>ACL 2026</strong>, <strong style={{ color: '#2563eb' }}>Poster Presentation</strong>).
+          (<strong>ACL 2026</strong>, <strong style={{ color: '#2563eb' }}>Poster Presentation</strong>), in San Diego, USA.
         </p>
 
 
