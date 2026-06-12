@@ -125,12 +125,11 @@ function Home() {
           </a>
           [May 2026]
           {" "}
-          Our paper{" "}
+          Published my paper{" "}
           <a href="https://janghana.github.io/HiPerfGNN/" target="_blank" rel="noopener noreferrer" className="advisor-link">
             HiPerfGNN: Hierarchical Perfusion Graphs for Tumor Heterogeneity Modeling in Glioma Molecular Subtyping
           </a>
-          {" "}was{" "}
-          <strong style={{ color: '#c0392b' }}>provisionally accepted</strong>{" "}to the{" "}
+          {" "}in the{" "}
           <a
             href="https://conferences.miccai.org/2026/"
             target="_blank"
