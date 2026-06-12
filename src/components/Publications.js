@@ -59,6 +59,26 @@ function Publications() {
           </p>
         </div>
 
+        <div className="card-base pub-card">
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#555' }}>
+            ... medical information retrieval ...
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            <strong>Han Jang</strong>, et al.
+            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
+          </p>
+        </div>
+
+        <div className="card-base pub-card">
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#555' }}>
+            ... LLM reliability ...
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            <strong>Han Jang</strong>, et al.
+            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
+          </p>
+        </div>
+
         <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2026</h3>
 
         <hr

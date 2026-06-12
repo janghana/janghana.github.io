@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.893b8c2c.chunk.css",
-    "main.js": "/static/js/main.1dce5899.chunk.js",
+    "main.js": "/static/js/main.575fbeda.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.16cec3eb.js",
     "static/css/2.6764440e.chunk.css": "/static/css/2.6764440e.chunk.css",
-    "static/js/2.ba7b04ad.chunk.js": "/static/js/2.ba7b04ad.chunk.js",
+    "static/js/2.09897722.chunk.js": "/static/js/2.09897722.chunk.js",
     "static/js/3.70b9a279.chunk.js": "/static/js/3.70b9a279.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.9112a126fc49fffb7177628ce0d33cb8.js": "/precache-manifest.9112a126fc49fffb7177628ce0d33cb8.js",
+    "precache-manifest.e71592539becc7ccb54b58cafbc4452a.js": "/precache-manifest.e71592539becc7ccb54b58cafbc4452a.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.ba7b04ad.chunk.js.LICENSE.txt": "/static/js/2.ba7b04ad.chunk.js.LICENSE.txt",
+    "static/js/2.09897722.chunk.js.LICENSE.txt": "/static/js/2.09897722.chunk.js.LICENSE.txt",
     "static/media/CNU_NAVI.png": "/static/media/CNU_NAVI.be9308d7.png",
     "static/media/Contrast_Agent-Free_Approach_for_Enhancing_HCC_Visualization_in_CECT_Derived_from_NCECT_Utilizing_CA_Injection_Principles.png": "/static/media/Contrast_Agent-Free_Approach_for_Enhancing_HCC_Visualization_in_CECT_Derived_from_NCECT_Utilizing_CA_Injection_Principles.1fc3e136.png",
     "static/media/Designing_a_Predictive_Coding_Network_Model_to_Mimic_the_Human_Visual_Cortex.png": "/static/media/Designing_a_Predictive_Coding_Network_Model_to_Mimic_the_Human_Visual_Cortex.e0e7745a.png",
@@ -58,8 +58,8 @@
   "entrypoints": [
     "static/js/runtime-main.16cec3eb.js",
     "static/css/2.6764440e.chunk.css",
-    "static/js/2.ba7b04ad.chunk.js",
+    "static/js/2.09897722.chunk.js",
     "static/css/main.893b8c2c.chunk.css",
-    "static/js/main.1dce5899.chunk.js"
+    "static/js/main.575fbeda.chunk.js"
   ]
 }
