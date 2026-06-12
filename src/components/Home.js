@@ -139,7 +139,7 @@ function Home() {
           >
             International Conference on Medical Image Computing and Computer-Assisted Intervention
           </a>
-          {" "}(<strong>MICCAI 2026</strong>, Main Conference).
+          {" "}(<strong>MICCAI 2026</strong>, Main Conference, Top 9%).
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
@@ -153,11 +153,11 @@ function Home() {
           </a>
           [Apr. 2026]
           {" "}
-          Our paper{" "}
+          Published my paper{" "}
           <a href="https://janghana.github.io/MedLayBench-V/" target="_blank" rel="noopener noreferrer" className="advisor-link">
             MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models
           </a>
-          {" "}was published in{" "}
+          {" "}in{" "}
           <i>Findings of the 64th Annual Meeting of the{" "}
             <a
               href="https://2026.aclweb.org/"
@@ -183,7 +183,7 @@ function Home() {
           </a>
           [Dec. 2025]
           {" "}
-          Our paper{" "}
+          Published my paper{" "}
           <a
             href="https://www.sciencedirect.com/science/article/pii/S0957417425042460"
             target="_blank"
@@ -192,7 +192,7 @@ function Home() {
           >
             Cyclic Conditional Diffusion Models for CT-to-MR Synthetic Image Segmentation with Misaligned Image Pairs
           </a>
-          {" "}was published in{" "}
+          {" "}in{" "}
           <a
             href="https://www.sciencedirect.com/journal/expert-systems-with-applications"
             target="_blank"
