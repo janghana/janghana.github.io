@@ -168,7 +168,7 @@ function Home() {
               Association for Computational Linguistics
             </a>
           </i>{" "}
-          (<strong>ACL 2026</strong>, <strong style={{ color: '#c0392b' }}>Oral Presentation</strong>).
+          (<strong>ACL 2026</strong>, <strong style={{ color: '#2563eb' }}>Poster Presentation</strong>).
         </p>
 
 
