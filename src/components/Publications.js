@@ -118,7 +118,7 @@ function Publications() {
             <strong>Han Jang</strong>, J. Lee, H. Eum, K. S. Choi,
             {" "}
             <i><a href="https://2026.aclweb.org/" target="_blank" rel="noopener noreferrer" className="advisor-link">Findings of ACL 2026</a></i>
-            {" "}<strong style={{ color: '#c0392b' }}>(Oral Presentation)</strong>, San Diego, USA
+            {" "}(Poster), San Diego, USA
           </p>
           <p></p>
           <a href="https://arxiv.org/abs/2604.05738" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
