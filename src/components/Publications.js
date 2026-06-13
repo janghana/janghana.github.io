@@ -160,7 +160,8 @@ function Publications() {
           <p style={{ margin: 0, fontSize: '0.9em' }}>
             J. Lee, M. Choi, <strong>Han Jang</strong>, Y. H. Jeon, H. Eum, J. Jang, C. Sohn, K. S. Choi,
             {" "}
-            <i>arXiv preprint</i>, 2026.
+            <i><a href="https://conferences.miccai.org/2026/" target="_blank" rel="noopener noreferrer" className="advisor-link">MICCAI 2026</a></i>
+            {" "}<strong style={{ color: '#c0392b' }}>(Provisionally Accepted, Main Conference)</strong>
           </p>
           <p></p>
           <a href="https://arxiv.org/abs/2603.09359" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
