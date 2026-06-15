@@ -1,0 +1,149 @@
+\documentclass{resume}
+
+\usepackage[left=0.40in,top=0.3in,right=0.40in,bottom=0.1in]{geometry}
+\usepackage{fontawesome}
+\usepackage{times}
+\usepackage[hidelinks,colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+  linkcolor=blue,
+  citecolor=blue
+}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+%-------------------------------------------
+% Contact / Social
+%-------------------------------------------
+\address{
+  \faGithub\ \href{https://github.com/janghana}{github.janghana} \quad
+  \faLink\ \href{https://janghana.github.io/}{janghana.github.io} \quad
+  \faEnvelope\ \href{mailto:hanjang@snu.ac.kr}{hanjang@snu.ac.kr}
+}
+\address{
+Seoul National University, 101 Daehak-ro, Jongno-gu, Seoul, South Korea
+}
+
+\name{Han Jang}
+
+\begin{document}
+{\centerline {\em \textbf { Medical Image Analysis $\cdot$ Large Multimodal Models } } }
+
+%-------------------------------------------
+% Education / Skills
+%-------------------------------------------
+\begin{table}[h!]
+\begin{tabular}{p{0.52\textwidth} p{0.43\textwidth}}
+\begin{minipage}[t]{\linewidth}
+    \vspace{0pt}
+    {\Large \textbf{Education}} \\
+    \rule{\linewidth}{0.3pt}\\[4pt]
+
+    \textbf{Integrated MS/Ph.D:} \textit{Mar. 2026 -- Present} \\
+    \textbf{Seoul National University -- Seoul, South Korea}\\
+    Interdisciplinary Program in Bioengineering, College of Engineering \\
+    \textit{Expected Graduation: 02/2031}
+    
+    \bigskip
+    \textbf{Bachelor of Science:} \textit{Mar. 2019 -- Aug. 2025} \\
+    \textbf{Chungnam National University -- Daejeon, South Korea}\\
+    The Division of Computer Convergence, \\ College of Engineering
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}
+    \vspace{0pt}
+    {\Large \textbf{Skills}} \\
+    \rule{\linewidth}{0.3pt}\\[2pt]
+
+    \textbf{Programming Languages} \\
+    Python, C++, C, Java, MATLAB
+
+    \vspace{1pt}
+    \textbf{Libraries and Frameworks} \\
+    PyTorch, PyTorch Lightning, TensorFlow, scikit-learn, W\&B, Docker, OpenCV, Git/GitHub
+
+    \vspace{1pt}
+    \textbf{Medical Imaging Tools} \\
+    3D Slicer, ImageJ (FIJI), ITK-SNAP, RadiAnt DICOM Viewer, SimpleITK, Elastix
+\end{minipage}
+\end{tabular}
+\end{table}
+
+%-------------------------------------------
+% Experience
+%-------------------------------------------
+\begin{rSection}{Experience}
+
+\bigskip
+\textbf{Seoul National University Hospital (SNUH) -- Seoul, South Korea} \hfill \textit{Mar. 2025 -- Present} \\
+\hspace*{0.5em} \textit{Research Assistant, Department of Radiology (AICON LAB, Prof.\ K.S.\ Choi)} \\
+\hspace*{1em} Developing GNN-based glioma molecular subtyping from perfusion MRI (accepted at MICCAI 2026). \\
+\hspace*{1em} Building large-scale medical VLM benchmarks for expert-lay semantic alignment at ACL 2026 Findings. \\
+\hspace*{1em} Leveraging multi-modal approaches with LLMs/VLMs for neuroimaging and survival analysis.
+
+\bigskip
+\textbf{NanoCellect Biomedical, Inc. -- San Diego, CA, USA} \hfill \textit{Apr. 2024 -- Feb. 2025} \\
+\hspace*{0.5em} \textit{Machine Learning Engineer (Remote \& On-site), R\&D Team; with Lo Lab, UC San Diego} \\
+\hspace*{1em} Applied ML/DL for cell image analysis (classification, segmentation, t-SNE) on VERLO\textsuperscript{\texttrademark} Cell Sorter.
+
+\bigskip
+\textbf{Seoul National University of Science and Technology -- Seoul, South Korea} \hfill \textit{Dec. 2023 -- Aug. 2024} \\
+\hspace*{0.5em} \textit{Research Assistant, Dept.\ of Applied AI (BAIS LAB, Prof.\ K.H.\ Choi)} \\
+\hspace*{1em} Developed bi-directional adversarial diffusion models for CT--MRI synthesis; published in ESWA (IF=7.5).
+
+\bigskip
+\textbf{Korea Institute of Science and Technology (KIST) -- Seoul, South Korea} \hfill \textit{Jun. 2023 -- Dec. 2023} \\
+\hspace*{0.5em} \textit{Research Intern, Bionics Research Center (AIMI LAB, Dr.\ K.H.\ Choi)} \\
+\hspace*{1em} Built diffusion-based modality translation models and 3D segmentation frameworks for HCC and breast cancer.
+
+\bigskip
+\textbf{Institute for Basic Science (IBS) -- Daejeon, South Korea} \hfill \textit{Apr. 2022 -- Jun. 2023} \\
+\hspace*{0.5em} \textit{Research Assistant, Center for Cognition and Sociality (BrainX LAB, Dr.\ Y.J.\ Kim)} \\
+\hspace*{1em} Conducted EEG experiments and built ML decoders for brainwave signal classification; modeled human visual cortex with predictive coding networks.
+
+\end{rSection}
+
+%-------------------------------------------
+% Selected Publications
+%-------------------------------------------
+\begin{rSection}{Selected Publications}
+
+\textbf{\textit{HiPerfGNN: Hierarchical Perfusion Graphs for Tumor Heterogeneity Modeling in Glioma Molecular Subtyping}}%
+\hfill \textit{2026} \\
+\hspace*{1em} \textbf{Han Jang}, J. Lee, H. Eum, J. Jang, Y. Han, S. H. Choi, K. S. Choi, \textit{MICCAI 2026} (Provisionally Accepted, Main Conference).
+\\[0.6em]
+
+\textbf{\textit{MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical VLMs}}%
+\hfill \textit{2026} \\
+\hspace*{1em} \textbf{Han Jang}, J. Lee, H. Eum, K. S. Choi, \textit{Findings of ACL 2026} , San Diego, USA.
+\\[0.6em]
+
+\textbf{\textit{GlioSurv: Interpretable Transformer for Multimodal Survival Prediction in Diffuse Glioma}}%
+\hfill \textit{2025} \\
+\hspace*{1em} J. Lee, J. Jang, H. Eum, \textbf{Han Jang}, M. Kim, ..., K. S. Choi, \textit{npj Digital Medicine}, 8(1), 660, 2025.
+\\[0.6em]
+
+\textbf{\textit{Cyclic Conditional Diffusion Models for CT-to-MR Synthetic Image Segmentation}}%
+\hfill \textit{2025} \\
+\hspace*{1em} \textbf{Han Jang}, N. Han, J. Kwon, H. Seo, B. J. Park, K. Choi, \textit{Expert Systems with Applications}, 2025, (IF=7.5, JCR Top 6.1\%).
+\\[0.6em]
+
+\textbf{\textit{Graph Deep Learning for Triple-Negative Breast Cancer Prediction Using DCE-MRI}}%
+\hfill \textit{2025} \\
+\hspace*{1em} \textbf{Han Jang}, J. Lee, K. S. Choi, \textit{ICMRI 2025}. \textbf{Best Trainee Scientific Award (Silver Prize).}
+
+\end{rSection}
+
+%-------------------------------------------
+% Professional Service
+%-------------------------------------------
+\begin{rSection}{Professional Service}
+
+\textbf{Reviewer}, \textit{Int'l Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2026)} \hfill \textit{2026} \\
+\textbf{Reviewer}, \textit{Frontiers in Physics} \hfill \textit{2026}
+
+\end{rSection}
+
+\end{document}
