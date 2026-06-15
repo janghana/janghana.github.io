@@ -321,6 +321,19 @@ function Home() {
           </a>
           {" "}(<strong>MICCAI 2026</strong>)
         </p>
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <strong>Reviewer</strong>,{" "}
+          <a
+            href="https://www.frontiersin.org/journals/physics"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+          >
+            Frontiers in Physics
+          </a>
+          {" "}(<strong>2026</strong>)
+        </p>
       </div>
       <div className="home-right" />
     </div>
