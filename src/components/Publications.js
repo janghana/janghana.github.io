@@ -127,6 +127,7 @@ function Publications() {
           <a href="https://huggingface.co/datasets/hanjang/MedLayBench-V" target="_blank" rel="noopener noreferrer" className="code-link">HuggingFace</a>
         </div>
 
+        {/* Unpublished — temporarily hidden until published
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             SciZoom: A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era
@@ -152,6 +153,7 @@ function Publications() {
           <p></p>
           <a href="https://arxiv.org/abs/2603.16160" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
         </div>
+        */}
 
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
@@ -167,6 +169,7 @@ function Publications() {
           <a href="https://arxiv.org/abs/2603.09359" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
         </div>
 
+        {/* Unpublished — temporarily hidden until published
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs
@@ -179,6 +182,7 @@ function Publications() {
           <p></p>
           <a href="https://arxiv.org/abs/2602.06268" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
         </div>
+        */}
 
 
         <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2025</h3>
