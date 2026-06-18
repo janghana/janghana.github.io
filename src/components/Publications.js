@@ -203,8 +203,8 @@ function Publications() {
           <p style={{ margin: 0, fontSize: '0.9em' }}>
             J. Lee, J. Jang, H. Eum, <strong>Han Jang</strong>, M. Kim, S. H. Park, C. K. Park, S. H. Choi, S. S. Ahn, Y. Han, K. S. Choi,
             {" "}
-            <i><a href="https://www.nature.com/npjdigitalmed/" target="_blank" rel="noopener noreferrer" className="advisor-link">npj Digital Medicine</a></i>
-            {" "}8(1), 660, 2025.
+            <i><a href="https://www.nature.com/npjdigitalmed/" target="_blank" rel="noopener noreferrer" className="advisor-link">npj Digital Medicine, 2025</a></i>
+            {" "}(IF=18.0, JCR Top 0.3%, Rank 1/194), Vol. 8, Art. 660, Nov. 2025.
           </p>
           <p></p>
           <a href="https://www.nature.com/articles/s41746-025-02018-x" target="_blank" rel="noopener noreferrer" className="code-link">Paper</a>
@@ -218,8 +218,8 @@ function Publications() {
           <p style={{ margin: 0, fontSize: '0.9em' }}>
             <strong>Han Jang</strong>, N. Han, J. Kwon, H. Seo, B. J. Park, K. Choi,
             {" "}
-            <i><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" target="_blank" rel="noopener noreferrer" className="advisor-link">Expert Systems with Applications, 2025</a></i>
-            {" "}(IF=7.5, JCR Top 6.1%), Vol. 304, 130631, Apr. 2026.
+            <i><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" target="_blank" rel="noopener noreferrer" className="advisor-link">Expert Systems with Applications, 2026</a></i>
+            {" "}(IF=9.4, JCR Top 5.8%), Vol. 304, 130631, Apr. 2026.
           </p>
           <p></p>
           <a href="https://www.sciencedirect.com/science/article/pii/S0957417425042460" target="_blank" rel="noopener noreferrer" className="code-link">Paper</a>
