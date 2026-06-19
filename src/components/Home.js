@@ -116,33 +116,6 @@ function Home() {
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           <a
-            href="https://janghana.github.io/HiPerfGNN/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="code-link"
-          >
-            Post
-          </a>
-          [May 2026]
-          {" "}
-          Published my paper{" "}
-          <a href="https://janghana.github.io/HiPerfGNN/" target="_blank" rel="noopener noreferrer" className="advisor-link">
-            HiPerfGNN: Hierarchical Perfusion Graphs for Tumor Heterogeneity Modeling in Glioma Molecular Subtyping
-          </a>
-          {" "}in the{" "}
-          <a
-            href="https://conferences.miccai.org/2026/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="advisor-link"
-          >
-            International Conference on Medical Image Computing and Computer-Assisted Intervention
-          </a>
-          {" "}(<strong>MICCAI 2026</strong>, Main Conference, Top 9%).
-        </p>
-
-        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-          <a
             href="https://www.linkedin.com/feed/update/urn:li:activity:7447599745172402176/"
             target="_blank"
             rel="noopener noreferrer"
