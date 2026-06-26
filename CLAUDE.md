@@ -60,6 +60,6 @@ If a build fails with `Cannot find module ...`, missing packages, or `ETIMEDOUT`
 
 ## Layout notes
 
-- `src/components/Publications.js` — publications page; keep in sync with `Han_s_Resume/resume.tex` when papers are added. MICCAI provisional acceptances use the red style: `<strong style={{ color: '#c0392b' }}>(Provisionally Accepted, Main Conference)</strong>`.
+- `src/components/Publications.js` — publications page; keep in sync with `Han_s_Resume/resume.tex` when papers are added. MICCAI provisional acceptances use the blue style: `<strong style={{ color: '#2563eb' }}>(Provisionally Accepted, Main Conference)</strong>`.
 - `Han_s_Resume/resume.tex` compiles to `resume.pdf`; mirrored to `CV.pdf` and `public/CV.pdf` so the CV viewer (`src/components/CV.js`) can load it from `/CV.pdf`.
 - `build/`, root `index.html`, root `asset-manifest.json`, and `static/` are all build artifacts — regenerate via the flow above rather than hand-editing.
