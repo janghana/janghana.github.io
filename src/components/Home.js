@@ -173,7 +173,7 @@ function Home() {
           >
             <i>Expert Systems with Applications</i>
           </a>
-          {" "}(IF=7.5, JCR Top 6.1%).
+          {" "}(IF=9.4, JCR Top 5.8%).
         </p>
 
 

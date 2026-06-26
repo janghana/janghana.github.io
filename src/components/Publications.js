@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 import LeftSideProfile from './LeftSideProfile';
 
 function Publications() {
+  const [showUnderReview, setShowUnderReview] = useState(false);
+
+  const underReviewTopics = [
+    '... retrieval-augmented ...',
+    '... Medical Vision-Language Models ...',
+    '... LLM reliability ...',
+    '... scientific summarization ...',
+    '... Clinical Safety ...',
+  ];
+
   return (
     <div className="pub-container">
 
@@ -14,90 +24,57 @@ function Publications() {
         <h2>Publications</h2>
         <hr style={{ borderColor: '#e0e0e0', marginBottom: '5em', opacity: '0.15' }} />
 
-        <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>Under Review</h3>
-
-        <hr
+        <button
+          type="button"
+          onClick={() => setShowUnderReview((v) => !v)}
+          aria-expanded={showUnderReview}
           style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
             width: '100%',
-            marginLeft: '0',
-            marginRight: 'auto',
-            marginTop: '1em',
-            marginBottom: '1em',
-            borderColor: '#e0e0e0',
-            opacity: '0.15',
-            display: 'block'
+            margin: '1.5em 0 0.5em',
+            padding: '0.7em 1em',
+            background: '#f4f4f5',
+            border: '1px solid #e0e0e0',
+            borderRadius: '6px',
+            cursor: 'pointer',
+            color: '#6b7280',
+            fontSize: '1.2em',
+            fontWeight: 600,
+            textAlign: 'left'
           }}
-        />
+        >
+          <span>
+            Under Review
+            <span style={{ marginLeft: '0.6em', fontSize: '0.7em', fontWeight: 500, color: '#9ca3af' }}>
+              {underReviewTopics.length} manuscripts
+            </span>
+          </span>
+          <span style={{ fontSize: '0.8em', color: '#9ca3af', transition: 'transform 0.2s', transform: showUnderReview ? 'rotate(180deg)' : 'none' }}>
+            ▾
+          </span>
+        </button>
 
-        <div className="card-base pub-card">
-          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#555' }}>
-            ... retrieval-augmented ...
-          </h4>
-          <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>Han Jang</strong>, et al.
-            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
-          </p>
-        </div>
-
-        <div className="card-base pub-card">
-          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#555' }}>
-            ... Medical Vision-Language Models ...
-          </h4>
-          <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>Han Jang</strong>, et al.
-            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
-          </p>
-        </div>
-
-        <div className="card-base pub-card">
-          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#555' }}>
-            ... interpretable language modeling ...
-          </h4>
-          <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>Han Jang</strong>, et al.
-            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
-          </p>
-        </div>
-
-        <div className="card-base pub-card">
-          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#555' }}>
-            ... medical information retrieval ...
-          </h4>
-          <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>Han Jang</strong>, et al.
-            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
-          </p>
-        </div>
-
-        <div className="card-base pub-card">
-          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#555' }}>
-            ... LLM reliability ...
-          </h4>
-          <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>Han Jang</strong>, et al.
-            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
-          </p>
-        </div>
-
-        <div className="card-base pub-card">
-          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#555' }}>
-            ... scientific summarization ...
-          </h4>
-          <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>Han Jang</strong>, et al.
-            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
-          </p>
-        </div>
-
-        <div className="card-base pub-card">
-          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#555' }}>
-            ... Clinical Safety ...
-          </h4>
-          <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>Han Jang</strong>, et al.
-            {" "}<strong style={{ color: '#7f8c8d' }}>(Under Review)</strong>
-          </p>
-        </div>
+        {showUnderReview && (
+          <div style={{ marginBottom: '1em' }}>
+            {underReviewTopics.map((topic) => (
+              <div
+                className="card-base pub-card"
+                key={topic}
+                style={{ background: '#fafafa', borderColor: '#ececec' }}
+              >
+                <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#6b7280' }}>
+                  {topic}
+                </h4>
+                <p style={{ margin: 0, fontSize: '0.9em', color: '#6b7280' }}>
+                  <strong>Han Jang</strong>, et al.
+                  {" "}<strong style={{ color: '#9ca3af' }}>(Under Review)</strong>
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
 
         <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2026</h3>
 
@@ -125,6 +102,7 @@ function Publications() {
             {" "}<strong style={{ color: '#2563eb' }}>(Poster Presentation)</strong>, San Diego, USA
           </p>
           <p></p>
+          <a href="https://aclanthology.org/2026.findings-acl.914/" target="_blank" rel="noopener noreferrer" className="code-link">ACL Anthology</a>
           <a href="https://arxiv.org/abs/2604.05738" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
           <a href="https://janghana.github.io/MedLayBench-V/" target="_blank" rel="noopener noreferrer" className="code-link">Project Page</a>
           <a href="https://github.com/janghana/MedLayBench-V" target="_blank" rel="noopener noreferrer" className="code-link">Github</a>
