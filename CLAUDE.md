@@ -19,12 +19,13 @@ This is what looked like a recurring "node_modules error." **It is an iCloud pro
 Run from the repo root (`/Users/janghan/dev/janghana.github.io`):
 
 ```bash
-# 1. Edit src/ (and Han_s_Resume/resume.tex only if the CV changes)
+# 1. Edit src/ (and Han_s_Resume/Han_Jang_Resume.tex only if the CV changes)
 
-# 2. If resume.tex changed, recompile CV.pdf and sync copies (skip otherwise)
-cd Han_s_Resume && pdflatex -interaction=nonstopmode resume.tex && cd ..
-cp Han_s_Resume/resume.pdf CV.pdf
-cp Han_s_Resume/resume.pdf public/CV.pdf
+# 2. If Han_Jang_Resume.tex changed, recompile CV.pdf and sync copies (skip otherwise)
+cd Han_s_Resume && pdflatex -interaction=nonstopmode Han_Jang_Resume.tex && cd ..
+cp Han_s_Resume/Han_Jang_Resume.pdf CV.pdf
+cp Han_s_Resume/Han_Jang_Resume.pdf public/CV.pdf
+cp Han_s_Resume/Han_Jang_Resume.pdf Han_s_Resume/CV.pdf
 
 # 3. Build React app
 GENERATE_SOURCEMAP=false DISABLE_ESLINT_PLUGIN=true npx react-scripts build
@@ -40,10 +41,10 @@ git reset -q -- '*.DS_Store'                    # repo tracks .DS_Store; keep th
 git commit -m "..." && git push origin main
 ```
 
-Step 2 is only needed when `Han_s_Resume/resume.tex` changes. For pure-UI changes, skip to step 3.
+Step 2 is only needed when `Han_s_Resume/Han_Jang_Resume.tex` changes. For pure-UI changes, skip to step 3. A CV-only change (no `src/` edit) needs no React build — GitHub Pages serves `/CV.pdf` from the repo root directly, so just recompile, sync the copies, and commit the PDFs.
 
 Conventions:
-- **Do not include `CV.pdf` / `public/CV.pdf` in a commit unless `resume.tex` actually changed.** ("CV.pdf 제외하고 배포" is the usual ask.)
+- **Do not include `CV.pdf` / `public/CV.pdf` in a commit unless `Han_Jang_Resume.tex` actually changed.** ("CV.pdf 제외하고 배포" is the usual ask.)
 - Stage explicit paths, not `git add -A` — the repo tracks `.DS_Store` files that get touched on every `ls`/`cd`, and a blind add commits that noise.
 
 ## Build / node_modules troubleshooting
@@ -61,5 +62,5 @@ If a build fails with `Cannot find module ...`, missing packages, or `ETIMEDOUT`
 ## Layout notes
 
 - `src/components/Publications.js` — publications page; keep in sync with `Han_s_Resume/resume.tex` when papers are added. MICCAI provisional acceptances use the blue style: `<strong style={{ color: '#2563eb' }}>(Provisionally Accepted, Main Conference)</strong>`.
-- `Han_s_Resume/resume.tex` compiles to `resume.pdf`; mirrored to `CV.pdf` and `public/CV.pdf` so the CV viewer (`src/components/CV.js`) can load it from `/CV.pdf`.
+- `Han_s_Resume/Han_Jang_Resume.tex` is the **deployed** CV source (the "Professional Service" version); it compiles to `Han_Jang_Resume.pdf`, mirrored to `Han_s_Resume/CV.pdf`, root `CV.pdf`, and `public/CV.pdf` so the CV viewer (`src/components/CV.js`) can load it from `/CV.pdf`. (`Han_s_Resume/resume.tex` → `resume.pdf` is an older selected-papers variant kept in the repo but **not** deployed — don't edit it for live CV changes.)
 - `build/`, root `index.html`, root `asset-manifest.json`, and `static/` are all build artifacts — regenerate via the flow above rather than hand-editing.
