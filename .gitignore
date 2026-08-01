@@ -11,3 +11,6 @@ build/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+# Unpublished project page — kept locally, not deployed
+HiPerfGNN/
