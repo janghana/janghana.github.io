@@ -298,6 +298,19 @@ function Home() {
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           <strong>Reviewer</strong>,{" "}
           <a
+            href="https://bmjdigitalhealth.bmj.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+          >
+            BMJ Digital Health &amp; AI
+          </a>
+          {" "}(<strong>2026</strong>)
+        </p>
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <strong>Reviewer</strong>,{" "}
+          <a
             href="https://www.frontiersin.org/journals/physics"
             target="_blank"
             rel="noopener noreferrer"
