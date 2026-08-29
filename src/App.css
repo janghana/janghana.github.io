@@ -398,7 +398,7 @@ body {
 }
 
 /* ==================================
-   Home — Current Education
+   Home - Current Education
 ================================== */
 .edu-row{
   display:flex;
@@ -415,31 +415,43 @@ body {
 }
 
 /* ==================================
-   Home — Selected Papers cards
+   Home - Selected Papers cards
 ================================== */
 .selected-card{
   display:flex;
   gap:1.2rem;
-  align-items:flex-start;
-  overflow:hidden;
+  align-items:center;
+  overflow:visible;
 }
 
 .selected-thumb{
   flex:0 0 230px;
   width:230px;
-}
-
-.selected-thumb img,
-.selected-thumb .selected-thumb-img{
-  display:block;
-  width:100%;
-  height:auto;
-  max-height:150px;
-  object-fit:contain;
-  object-position:center;
-  cursor:zoom-in;
+  min-height:120px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:0;
+  margin:0;
   border:none;
   background:none;
+  cursor:zoom-in;
+  -webkit-appearance:none;
+  appearance:none;
+}
+
+.selected-thumb img{
+  display:block;
+  max-width:100%;
+  max-height:150px;
+  width:auto;
+  height:auto;
+  object-fit:contain;
+  transition:transform .2s ease;
+}
+
+.selected-thumb:hover img{
+  transform:scale(1.03);
 }
 
 .selected-body{
@@ -463,14 +475,90 @@ body {
 @media(max-width:768px){
   .selected-card{
     flex-direction:column;
+    align-items:stretch;
     gap:.9rem;
   }
   .selected-thumb{
     flex:none;
     width:100%;
   }
+  .selected-thumb img{
+    max-height:190px;
+  }
+}
+
+/* ==================================
+   Lightbox (portal to document.body)
+================================== */
+.lightbox-overlay{
+  position:fixed;
+  inset:0;
+  z-index:9999;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:5vh 4vw;
+  background:rgba(15,23,42,.84);
+  -webkit-backdrop-filter:blur(4px);
+  backdrop-filter:blur(4px);
+  cursor:zoom-out;
+  animation:lightbox-fade .22s ease-out both;
+}
+
+.lightbox-img{
+  max-width:100%;
+  max-height:100%;
+  width:auto;
+  height:auto;
+  object-fit:contain;
+  background:#fff;
+  border-radius:10px;
+  box-shadow:0 24px 64px rgba(0,0,0,.45);
+  cursor:default;
+  animation:lightbox-pop .28s cubic-bezier(.2,.8,.25,1) both;
+}
+
+.lightbox-close{
+  position:absolute;
+  top:18px;
+  right:22px;
+  width:38px;
+  height:38px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:none;
+  border-radius:50%;
+  background:rgba(255,255,255,.15);
+  color:#fff;
+  font-size:24px;
+  line-height:1;
+  cursor:pointer;
+  transition:background .2s ease, transform .2s ease;
+}
+.lightbox-close:hover{
+  background:rgba(255,255,255,.3);
+  transform:scale(1.06);
+}
+
+@keyframes lightbox-fade{
+  from{ opacity:0 }
+  to{ opacity:1 }
+}
+
+@keyframes lightbox-pop{
+  from{ opacity:0; transform:scale(.94) }
+  to{ opacity:1; transform:scale(1) }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .lightbox-overlay,
+  .lightbox-img{
+    animation:none;
+  }
   .selected-thumb img,
-  .selected-thumb .selected-thumb-img{
-    max-height:180px;
+  .selected-thumb:hover img{
+    transition:none;
+    transform:none;
   }
 }

@@ -64,7 +64,7 @@ function Publications() {
           <a href="https://huggingface.co/datasets/hanjang/MedLayBench-V" target="_blank" rel="noopener noreferrer" className="code-link">HuggingFace</a>
         </div>
 
-        {/* Unpublished — temporarily hidden until published
+        {/* Unpublished - temporarily hidden until published
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             SciZoom: A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era
@@ -106,7 +106,7 @@ function Publications() {
           <a href="https://arxiv.org/abs/2603.09359" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
         </div>
 
-        {/* Journal review in progress — keep hidden until it is safe to announce
+        {/* Journal review in progress - keep hidden until it is safe to announce
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             State-of-the-Art Diagnostic Performance of an Interpretable Vision-Language Model for BI-RADS Assessment in Breast Ultrasound (B-RAD): Multinational Validation and Reader Study

@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 import LeftSideProfile from './LeftSideProfile';
-import ModalImage from 'react-modal-image';
+import Lightbox from './Lightbox';
 
 import SnuMark from './Affiliation/snu.png';
 import MpibThumb from './selected/mpib_overview.png';
@@ -35,7 +35,7 @@ const SELECTED_PAPERS = [
       </a>
     ),
     venueSuffix: <>, Budapest, Hungary</>,
-    tldr: 'Poisoned retrieval context can flip a clinical LLM from safe advice to harmful advice — MPIB measures how far, and where it breaks.'
+    tldr: 'Poisoned retrieval context can flip a clinical LLM from safe advice to harmful advice, and MPIB measures how far it bends.'
   },
   {
     thumb: MedLayBenchThumb,
@@ -94,6 +94,8 @@ const RESEARCH_THEMES = [
 ];
 
 function Home() {
+  const [zoomed, setZoomed] = useState(null);
+
   return (
     <div className="home-container">
 
@@ -158,7 +160,7 @@ function Home() {
           I focus on <em>Computer Science</em> and <em>Artificial Intelligence</em>, 
           with a particular interest in
           {" "}<em>Medical Image Analysis</em>, <em>Generative Models</em>, and{" "}
-          <em>the reliability of large multimodal language models</em>.
+          <em>the reliability of large multimodal models</em>.
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
@@ -195,7 +197,7 @@ function Home() {
         <div className="edu-row">
           <img className="edu-mark" src={SnuMark} alt="Seoul National University" />
           <p style={{ margin: 0, lineHeight: '1.6' }}>
-            <strong>M.S.-Ph.D. Integrated Student</strong>,{" "}
+            <strong>MS-PhD Student</strong>,{" "}
             <a
               href="https://bioeng.snu.ac.kr/en/"
               target="_blank"
@@ -225,15 +227,14 @@ function Home() {
 
         {SELECTED_PAPERS.map((paper) => (
           <div className="card-base selected-card" key={paper.title}>
-            <div className="selected-thumb">
-              <ModalImage
-                small={paper.thumb}
-                large={paper.thumb}
-                alt={paper.title}
-                hideZoom
-                className="selected-thumb-img"
-              />
-            </div>
+            <button
+              type="button"
+              className="selected-thumb"
+              onClick={() => setZoomed({ src: paper.thumb, alt: paper.title })}
+              aria-label={`Enlarge figure: ${paper.title}`}
+            >
+              <img src={paper.thumb} alt={paper.title} loading="lazy" />
+            </button>
             <div className="selected-body">
               <h4 style={{ margin: '0 0 0.4em', fontSize: '1.05em', lineHeight: '1.4' }}>
                 <a
@@ -260,6 +261,7 @@ function Home() {
           </div>
         ))}
 
+        {/* Research Themes - temporarily hidden.
         <br></br>
         <br></br>
         <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>Research Themes</h3>
@@ -268,11 +270,13 @@ function Home() {
 
         {RESEARCH_THEMES.map((theme) => (
           <p key={theme.name} style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
-            <strong>{theme.name}</strong> — {theme.desc}
+            <strong>{theme.name}</strong> - {theme.desc}
           </p>
         ))}
 
-        {/* News — temporarily hidden; Selected Papers carries the highlights for now.
+        */}
+
+        {/* News - temporarily hidden; Selected Papers carries the highlights for now.
         <br />
         <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>News</h3>
         <hr style={SECTION_RULE} />
@@ -340,6 +344,10 @@ function Home() {
         </p>
       </div>
       <div className="home-right" />
+
+      {zoomed && (
+        <Lightbox src={zoomed.src} alt={zoomed.alt} onClose={() => setZoomed(null)} />
+      )}
     </div>
   );
 }
