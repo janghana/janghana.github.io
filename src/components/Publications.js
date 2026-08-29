@@ -1,18 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../App.css';
 import LeftSideProfile from './LeftSideProfile';
 
 function Publications() {
-  const [showUnderReview, setShowUnderReview] = useState(false);
-
-  const underReviewTopics = [
-    '... retrieval-augmented ...',
-    '... Medical Vision-Language Models ...',
-    '... LLM reliability ...',
-    '... scientific summarization ...',
-    '... Clinical Safety ...',
-  ];
-
   return (
     <div className="pub-container">
 
@@ -23,58 +13,6 @@ function Publications() {
       <div className="pub-main">
         <h2>Publications</h2>
         <hr style={{ borderColor: '#e0e0e0', marginBottom: '5em', opacity: '0.15' }} />
-
-        <button
-          type="button"
-          onClick={() => setShowUnderReview((v) => !v)}
-          aria-expanded={showUnderReview}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            width: '100%',
-            margin: '1.5em 0 0.5em',
-            padding: '0.7em 1em',
-            background: '#f4f4f5',
-            border: '1px solid #e0e0e0',
-            borderRadius: '6px',
-            cursor: 'pointer',
-            color: '#6b7280',
-            fontSize: '1.2em',
-            fontWeight: 600,
-            textAlign: 'left'
-          }}
-        >
-          <span>
-            Under Review
-            <span style={{ marginLeft: '0.6em', fontSize: '0.7em', fontWeight: 500, color: '#9ca3af' }}>
-              {underReviewTopics.length} manuscripts
-            </span>
-          </span>
-          <span style={{ fontSize: '0.8em', color: '#9ca3af', transition: 'transform 0.2s', transform: showUnderReview ? 'rotate(180deg)' : 'none' }}>
-            ▾
-          </span>
-        </button>
-
-        {showUnderReview && (
-          <div style={{ marginBottom: '1em' }}>
-            {underReviewTopics.map((topic) => (
-              <div
-                className="card-base pub-card"
-                key={topic}
-                style={{ background: '#fafafa', borderColor: '#ececec' }}
-              >
-                <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4', fontStyle: 'italic', color: '#6b7280' }}>
-                  {topic}
-                </h4>
-                <p style={{ margin: 0, fontSize: '0.9em', color: '#6b7280' }}>
-                  <strong>Han Jang</strong>, et al.
-                  {" "}<strong style={{ color: '#9ca3af' }}>(Under Review)</strong>
-                </p>
-              </div>
-            ))}
-          </div>
-        )}
 
         <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2026</h3>
 
@@ -151,18 +89,36 @@ function Publications() {
           <a href="https://arxiv.org/abs/2603.09359" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
         </div>
 
-        {/* Unpublished — temporarily hidden until published
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
-            J. Lee, <strong>Han Jang</strong>, K. S. Choi,
+            J. Lee<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, K. S. Choi,
             {" "}
-            <i>arXiv preprint</i>, 2026.
+            <i><a href="https://2026.emnlp.org/" target="_blank" rel="noopener noreferrer" className="advisor-link">Findings of EMNLP 2026</a></i>
+          </p>
+          <p style={{ margin: '0.35em 0 0', fontSize: '0.8em', color: '#6b7280' }}>
+            <sup>*</sup> Equal contribution (co-first author)
           </p>
           <p></p>
           <a href="https://arxiv.org/abs/2602.06268" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
+        </div>
+
+        {/* Journal review in progress — keep hidden until it is safe to announce
+        <div className="card-base pub-card">
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+            State-of-the-Art Diagnostic Performance of an Interpretable Vision-Language Model for BI-RADS Assessment in Breast Ultrasound (B-RAD): Multinational Validation and Reader Study
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            S. Jung<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, K. S. Choi,
+            {" "}
+            <i><a href="https://www.rsna.org/annual-meeting" target="_blank" rel="noopener noreferrer" className="advisor-link">Annual Meeting of the Radiological Society of North America 2026 (RSNA 2026)</a></i>
+            {" "}<strong style={{ color: '#2563eb' }}>(Abstract Accepted)</strong>, Chicago, USA
+          </p>
+          <p style={{ margin: '0.35em 0 0', fontSize: '0.8em', color: '#6b7280' }}>
+            <sup>*</sup> Equal contribution (co-first author)
+          </p>
         </div>
         */}
 
