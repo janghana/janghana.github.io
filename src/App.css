@@ -398,6 +398,23 @@ body {
 }
 
 /* ==================================
+   Home — Current Education
+================================== */
+.edu-row{
+  display:flex;
+  align-items:center;
+  gap:.6rem;
+  margin-bottom:1rem;
+}
+
+.edu-mark{
+  flex:0 0 auto;
+  height:1.6em;
+  width:auto;
+  object-fit:contain;
+}
+
+/* ==================================
    Home — Selected Papers cards
 ================================== */
 .selected-card{
@@ -408,14 +425,21 @@ body {
 }
 
 .selected-thumb{
-  flex:0 0 210px;
-  width:210px;
-  height:130px;
+  flex:0 0 230px;
+  width:230px;
+}
+
+.selected-thumb img,
+.selected-thumb .selected-thumb-img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:150px;
   object-fit:contain;
-  background:#f8fafc;
-  border:1px solid rgba(0,0,0,.06);
-  border-radius:10px;
-  padding:6px;
+  object-position:center;
+  cursor:zoom-in;
+  border:none;
+  background:none;
 }
 
 .selected-body{
@@ -427,6 +451,15 @@ body {
   overflow-wrap:anywhere;
 }
 
+.selected-title-link{
+  color:inherit;
+  text-decoration:none;
+}
+.selected-title-link:hover{
+  color:#0056b3;
+  text-decoration:underline;
+}
+
 @media(max-width:768px){
   .selected-card{
     flex-direction:column;
@@ -435,6 +468,9 @@ body {
   .selected-thumb{
     flex:none;
     width:100%;
-    height:160px;
+  }
+  .selected-thumb img,
+  .selected-thumb .selected-thumb-img{
+    max-height:180px;
   }
 }

@@ -31,6 +31,23 @@ function Publications() {
 
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+            MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            J. Lee<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, K. S. Choi,
+            {" "}
+            <i><a href="https://2026.emnlp.org/" target="_blank" rel="noopener noreferrer" className="advisor-link">Findings of EMNLP 2026</a></i>
+            , Budapest, Hungary
+          </p>
+          <p style={{ margin: '0.35em 0 0', fontSize: '0.8em', color: '#6b7280' }}>
+            <sup>*</sup> Equal contribution (co-first author)
+          </p>
+          <p></p>
+          <a href="https://arxiv.org/abs/2602.06268" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
+        </div>
+
+        <div className="card-base pub-card">
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
@@ -87,22 +104,6 @@ function Publications() {
           </p>
           <p></p>
           <a href="https://arxiv.org/abs/2603.09359" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
-        </div>
-
-        <div className="card-base pub-card">
-          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
-            MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs
-          </h4>
-          <p style={{ margin: 0, fontSize: '0.9em' }}>
-            J. Lee<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, K. S. Choi,
-            {" "}
-            <i><a href="https://2026.emnlp.org/" target="_blank" rel="noopener noreferrer" className="advisor-link">Findings of EMNLP 2026</a></i>
-          </p>
-          <p style={{ margin: '0.35em 0 0', fontSize: '0.8em', color: '#6b7280' }}>
-            <sup>*</sup> Equal contribution (co-first author)
-          </p>
-          <p></p>
-          <a href="https://arxiv.org/abs/2602.06268" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
         </div>
 
         {/* Journal review in progress — keep hidden until it is safe to announce

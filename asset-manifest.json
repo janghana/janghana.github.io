@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.94dd6e14.chunk.css",
-    "main.js": "/static/js/main.7054972c.chunk.js",
+    "main.css": "/static/css/main.869eaf97.chunk.css",
+    "main.js": "/static/js/main.1e18bbbc.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.62c5d8ac.js",
     "static/css/2.6764440e.chunk.css": "/static/css/2.6764440e.chunk.css",
-    "static/js/2.5b6f1e9a.chunk.js": "/static/js/2.5b6f1e9a.chunk.js",
+    "static/js/2.71d5d509.chunk.js": "/static/js/2.71d5d509.chunk.js",
     "static/js/3.060314bb.chunk.js": "/static/js/3.060314bb.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.20abce55411169c875ae3c9865fc61b2.js": "/precache-manifest.20abce55411169c875ae3c9865fc61b2.js",
+    "precache-manifest.298e31f31a721e90de2453ad85e1579a.js": "/precache-manifest.298e31f31a721e90de2453ad85e1579a.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.5b6f1e9a.chunk.js.LICENSE.txt": "/static/js/2.5b6f1e9a.chunk.js.LICENSE.txt",
+    "static/js/2.71d5d509.chunk.js.LICENSE.txt": "/static/js/2.71d5d509.chunk.js.LICENSE.txt",
     "static/media/CNU_NAVI.png": "/static/media/CNU_NAVI.be9308d7.png",
     "static/media/Contrast_Agent-Free_Approach_for_Enhancing_HCC_Visualization_in_CECT_Derived_from_NCECT_Utilizing_CA_Injection_Principles.png": "/static/media/Contrast_Agent-Free_Approach_for_Enhancing_HCC_Visualization_in_CECT_Derived_from_NCECT_Utilizing_CA_Injection_Principles.1fc3e136.png",
     "static/media/Designing_a_Predictive_Coding_Network_Model_to_Mimic_the_Human_Visual_Cortex.png": "/static/media/Designing_a_Predictive_Coding_Network_Model_to_Mimic_the_Human_Visual_Cortex.e0e7745a.png",
@@ -40,7 +40,7 @@
     "static/media/miccai3_top_view.png": "/static/media/miccai3_top_view.a9aa4432.png",
     "static/media/miccai4_oral_ppt.png": "/static/media/miccai4_oral_ppt.591b8535.png",
     "static/media/miccai_food.png": "/static/media/miccai_food.fce31e1c.png",
-    "static/media/mpib.svg": "/static/media/mpib.a4485210.svg",
+    "static/media/mpib_overview.png": "/static/media/mpib_overview.d4af5782.png",
     "static/media/my_name_silver_width.png": "/static/media/my_name_silver_width.b77f561e.png",
     "static/media/name_tag.png": "/static/media/name_tag.487ca31f.png",
     "static/media/nanocellect_representative.jpg": "/static/media/nanocellect_representative.6c432000.jpg",
@@ -61,8 +61,8 @@
   "entrypoints": [
     "static/js/runtime-main.62c5d8ac.js",
     "static/css/2.6764440e.chunk.css",
-    "static/js/2.5b6f1e9a.chunk.js",
-    "static/css/main.94dd6e14.chunk.css",
-    "static/js/main.7054972c.chunk.js"
+    "static/js/2.71d5d509.chunk.js",
+    "static/css/main.869eaf97.chunk.css",
+    "static/js/main.1e18bbbc.chunk.js"
   ]
 }
