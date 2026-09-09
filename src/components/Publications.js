@@ -51,9 +51,6 @@ function Publications() {
             <i><a href="https://2026.emnlp.org/" target="_blank" rel="noopener noreferrer" className="advisor-link">Findings of EMNLP 2026</a></i>
             , Budapest, Hungary
           </p>
-          <p style={{ margin: '0.35em 0 0', fontSize: '0.8em', color: '#6b7280' }}>
-            <sup>*</sup> Equal contribution (co-first author)
-          </p>
           <p></p>
           <a href="https://arxiv.org/abs/2602.06268" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
         </div>

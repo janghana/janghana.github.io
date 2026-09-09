@@ -21,6 +21,23 @@ const SECTION_RULE = {
 
 const SELECTED_PAPERS = [
   {
+    thumb: null,
+    title: 'Interpretable Multimodal Retrieval-Augmented Diagnosis for Breast Ultrasound with Multinational Clinical Validation and Reader Study',
+    paper: null,
+    authors: (
+      <>
+        <strong>Han Jang</strong><sup>*</sup>, S. An<sup>*</sup>, S. Jung, H. Ji, M. Kim, S. Lee, K. S. Choi, S. M. Ha
+      </>
+    ),
+    venue: (
+      <a href="https://www.nature.com/npjdigitalmed/" target="_blank" rel="noopener noreferrer" className="advisor-link">
+        npj Digital Medicine, 2026
+      </a>
+    ),
+    venueSuffix: <> <strong style={{ color: '#2563eb' }}>(In press)</strong></>,
+    tldr: 'Retrieval over a multinational breast ultrasound archive gives BI-RADS assessment its evidence back, validated across countries and against readers.'
+  },
+  {
     thumb: MpibThumb,
     title: 'MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs',
     paper: 'https://arxiv.org/abs/2602.06268',
@@ -227,24 +244,44 @@ function Home() {
 
         {SELECTED_PAPERS.map((paper) => (
           <div className="card-base selected-card" key={paper.title}>
-            <button
-              type="button"
-              className="selected-thumb"
-              onClick={() => setZoomed({ src: paper.thumb, alt: paper.title })}
-              aria-label={`Enlarge figure: ${paper.title}`}
-            >
-              <img src={paper.thumb} alt={paper.title} loading="lazy" />
-            </button>
+            {paper.thumb ? (
+              <button
+                type="button"
+                className="selected-thumb"
+                onClick={() => setZoomed({ src: paper.thumb, alt: paper.title })}
+                aria-label={`Enlarge figure: ${paper.title}`}
+              >
+                <img src={paper.thumb} alt={paper.title} loading="lazy" />
+              </button>
+            ) : (
+              <div
+                className="selected-thumb"
+                style={{
+                  cursor: 'default',
+                  border: '1px dashed #d1d5db',
+                  borderRadius: '6px',
+                  color: '#9ca3af',
+                  fontSize: '0.85em',
+                  letterSpacing: '0.04em'
+                }}
+              >
+                Figure TBD
+              </div>
+            )}
             <div className="selected-body">
               <h4 style={{ margin: '0 0 0.4em', fontSize: '1.05em', lineHeight: '1.4' }}>
-                <a
-                  href={paper.paper}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="selected-title-link"
-                >
-                  {paper.title}
-                </a>
+                {paper.paper ? (
+                  <a
+                    href={paper.paper}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="selected-title-link"
+                  >
+                    {paper.title}
+                  </a>
+                ) : (
+                  paper.title
+                )}
               </h4>
               <p style={{ margin: 0, fontSize: '0.9em' }}>
                 {paper.authors}, <i>{paper.venue}</i>{paper.venueSuffix}
@@ -252,11 +289,13 @@ function Home() {
               <p style={{ margin: '0.6em 0 0.8em', fontSize: '0.88em', lineHeight: '1.55', color: '#444' }}>
                 <strong>TL;DR</strong>&nbsp;&nbsp;{paper.tldr}
               </p>
-              <div>
-                <a href={paper.paper} target="_blank" rel="noopener noreferrer" className="code-link">
-                  Paper
-                </a>
-              </div>
+              {paper.paper && (
+                <div>
+                  <a href={paper.paper} target="_blank" rel="noopener noreferrer" className="code-link">
+                    Paper
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         ))}
