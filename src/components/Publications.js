@@ -31,6 +31,18 @@ function Publications() {
 
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+            Interpretable Multimodal Retrieval-Augmented Diagnosis for Breast Ultrasound with Multinational Clinical Validation and Reader Study
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            <strong>Han Jang</strong><sup>*</sup>, S. An<sup>*</sup>, S. Jung, H. Ji, M. Kim, S. Lee, K. S. Choi, S. M. Ha,
+            {" "}
+            <i><a href="https://www.nature.com/npjdigitalmed/" target="_blank" rel="noopener noreferrer" className="advisor-link">npj Digital Medicine</a></i>
+            , 2026 {" "}<strong style={{ color: '#2563eb' }}>(In press)</strong>
+          </p>
+        </div>
+
+        <div className="card-base pub-card">
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
@@ -106,22 +118,17 @@ function Publications() {
           <a href="https://arxiv.org/abs/2603.09359" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
         </div>
 
-        {/* Journal review in progress - keep hidden until it is safe to announce
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             State-of-the-Art Diagnostic Performance of an Interpretable Vision-Language Model for BI-RADS Assessment in Breast Ultrasound (B-RAD): Multinational Validation and Reader Study
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
-            S. Jung<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, K. S. Choi,
+            S. Jung, <strong>Han Jang</strong>, K. S. Choi,
             {" "}
             <i><a href="https://www.rsna.org/annual-meeting" target="_blank" rel="noopener noreferrer" className="advisor-link">Annual Meeting of the Radiological Society of North America 2026 (RSNA 2026)</a></i>
             {" "}<strong style={{ color: '#2563eb' }}>(Abstract Accepted)</strong>, Chicago, USA
           </p>
-          <p style={{ margin: '0.35em 0 0', fontSize: '0.8em', color: '#6b7280' }}>
-            <sup>*</sup> Equal contribution (co-first author)
-          </p>
         </div>
-        */}
 
 
         <h3 style={{ margin: '1.5em 0 0.5em', fontSize: '1.2em' }}>2025</h3>
