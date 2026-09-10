@@ -34,7 +34,7 @@ const SELECTED_PAPERS = [
         npj Digital Medicine, 2026
       </a>
     ),
-    venueSuffix: <> <strong style={{ color: '#2563eb' }}>(In press)</strong></>,
+    venueSuffix: <> (<strong>IF=18.0</strong>, JCR Top 0.52%) <strong style={{ color: '#2563eb' }}>(In press)</strong></>,
     tldr: 'Retrieval over a multinational breast ultrasound archive gives BI-RADS assessment its evidence back, validated across countries and against readers.'
   },
   {

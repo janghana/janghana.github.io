@@ -37,7 +37,7 @@ function Publications() {
             <strong>Han Jang</strong><sup>*</sup>, S. An<sup>*</sup>, S. Jung, H. Ji, M. Kim, S. Lee, K. S. Choi, S. M. Ha,
             {" "}
             <i><a href="https://www.nature.com/npjdigitalmed/" target="_blank" rel="noopener noreferrer" className="advisor-link">npj Digital Medicine</a></i>
-            , 2026 {" "}<strong style={{ color: '#2563eb' }}>(In press)</strong>
+            , 2026{" "}(<strong>IF=18.0</strong>, JCR Top 0.52%){" "}<strong style={{ color: '#2563eb' }}>(In press)</strong>
           </p>
         </div>
 
