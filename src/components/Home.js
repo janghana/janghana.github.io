@@ -60,7 +60,7 @@ const SELECTED_PAPERS = [
     paper: 'https://aclanthology.org/2026.findings-acl.914/',
     authors: (
       <>
-        <strong>Han Jang</strong>, J. Lee, H. Eum, K. S. Choi
+        <strong>Han Jang</strong><sup>*</sup>, J. Lee<sup>*</sup>, H. Eum, K. S. Choi
       </>
     ),
     venue: (
@@ -77,7 +77,7 @@ const SELECTED_PAPERS = [
     paper: 'https://www.sciencedirect.com/science/article/pii/S0957417425042460',
     authors: (
       <>
-        <strong>Han Jang</strong>, N. Han, J. Kwon, H. Seo, B. J. Park, K. S. Choi
+        <strong>Han Jang</strong><sup>*</sup>, N. Han<sup>*</sup>, J. Kwon, H. Seo, B. J. Park, K. S. Choi
       </>
     ),
     venue: (

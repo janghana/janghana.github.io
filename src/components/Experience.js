@@ -100,7 +100,7 @@ function Experience() {
                   Product: &nbsp;
                   <strong>
                     <a
-                      href="https://nanocellect.com/verlo/"
+                      href="https://nanocellect.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="advisor-link"

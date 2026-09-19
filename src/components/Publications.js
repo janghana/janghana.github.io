@@ -60,7 +60,7 @@ function Publications() {
             MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>Han Jang</strong>, J. Lee, H. Eum, K. S. Choi,
+            <strong>Han Jang</strong><sup>*</sup>, J. Lee<sup>*</sup>, H. Eum, K. S. Choi,
             {" "}
             <i><a href="https://2026.aclweb.org/" target="_blank" rel="noopener noreferrer" className="advisor-link">Findings of ACL 2026</a></i>
             {" "}<strong style={{ color: '#2563eb' }}>(Poster Presentation)</strong>, San Diego, USA
@@ -163,7 +163,7 @@ function Publications() {
             Cyclic Conditional Diffusion Models for CT-to-MR Synthetic Image Segmentation with Misaligned Image Pairs
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
-            <strong>Han Jang</strong>, N. Han, J. Kwon, H. Seo, B. J. Park, K. Choi,
+            <strong>Han Jang</strong><sup>*</sup>, N. Han<sup>*</sup>, J. Kwon, H. Seo, B. J. Park, K. Choi,
             {" "}
             <i><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" target="_blank" rel="noopener noreferrer" className="advisor-link">Expert Systems with Applications, 2026</a></i>
             {" "}(<strong>IF=9.4</strong>, JCR Top 5.8%), Vol. 304, 130631, Apr. 2026.
