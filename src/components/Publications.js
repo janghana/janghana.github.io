@@ -92,7 +92,7 @@ function Publications() {
             Segmentation-before-Staining Improves Structural Fidelity in Virtual IHC-to-Multiplex IF Translation
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
-            J. Lee, <strong>Han Jang</strong>, H. Eum, J. Jang, K. S. Choi,
+            J. Lee<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, H. Eum, J. Jang, K. S. Choi,
             {" "}
             <i>arXiv preprint</i>, 2026.
           </p>
@@ -120,7 +120,7 @@ function Publications() {
             State-of-the-Art Diagnostic Performance of an Interpretable Vision-Language Model for BI-RADS Assessment in Breast Ultrasound (B-RAD): Multinational Validation and Reader Study
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
-            S. Jung, <strong>Han Jang</strong>, K. S. Choi,
+            S. Jung<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, K. S. Choi,
             {" "}
             <i><a href="https://www.rsna.org/annual-meeting" target="_blank" rel="noopener noreferrer" className="advisor-link">Annual Meeting of the Radiological Society of North America 2026 (RSNA 2026)</a></i>
             {" "}<strong style={{ color: '#2563eb' }}>(Abstract Accepted)</strong>, Chicago, USA
@@ -178,7 +178,7 @@ function Publications() {
             Domain-Specialized Interactive Segmentation Framework for Meningioma Radiotherapy Planning
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
-            J. Lee, <strong>Han Jang</strong>, K. S. Choi,
+            J. Lee<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, K. S. Choi,
             {" "}
             <i><a href="https://conferences.miccai.org/2025/en/" target="_blank" rel="noopener noreferrer" className="advisor-link">MICCAI, 2025</a></i>
             {" "}(pp. 32-41), CLIP workshop, Daejeon Convention Center, South Korea

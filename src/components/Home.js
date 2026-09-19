@@ -43,7 +43,7 @@ const SELECTED_PAPERS = [
     paper: 'https://arxiv.org/abs/2602.06268',
     authors: (
       <>
-        J. Lee, <strong>Han Jang</strong>, K. S. Choi
+        J. Lee<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, K. S. Choi
       </>
     ),
     venue: (
@@ -378,6 +378,19 @@ function Home() {
             className="advisor-link"
           >
             Frontiers in Physics
+          </a>
+          {" "}(<strong>2026</strong>)
+        </p>
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <strong>Reviewer</strong>,{" "}
+          <a
+            href="https://www.frontiersin.org/journals/oncology"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+          >
+            Frontiers in Oncology
           </a>
           {" "}(<strong>2026</strong>)
         </p>
