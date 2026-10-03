@@ -23,7 +23,7 @@ const SELECTED_PAPERS = [
   {
     thumb: null,
     title: 'Interpretable Multimodal Retrieval-Augmented Diagnosis for Breast Ultrasound with Multinational Clinical Validation and Reader Study',
-    paper: null,
+    paper: 'https://www.nature.com/articles/s41746-026-03272-3',
     authors: (
       <>
         <strong>Han Jang</strong><sup>*</sup>, S. An<sup>*</sup>, S. Jung, H. Ji, M. Kim, S. Lee, K. S. Choi, S. M. Ha
@@ -34,7 +34,7 @@ const SELECTED_PAPERS = [
         npj Digital Medicine, 2026
       </a>
     ),
-    venueSuffix: <> (<strong>IF=18.0</strong>, JCR Top 0.52%) <strong style={{ color: '#2563eb' }}>(In press)</strong></>,
+    venueSuffix: <> (<strong>IF=18.0</strong>, JCR Top 0.52%)</>,
     tldr: 'Retrieval over a multinational breast ultrasound archive gives BI-RADS assessment its evidence back, validated across countries and against readers.'
   },
   {
