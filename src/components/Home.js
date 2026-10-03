@@ -7,6 +7,7 @@ import SnuMark from './Affiliation/snu.png';
 import MpibThumb from './selected/mpib_overview.png';
 import MedLayBenchThumb from './selected/medlaybench_v.png';
 import CyclicThumb from './selected/cyclic_diffusion.png';
+import NpjdmThumb from './selected/npjdm_overview.png';
 
 const SECTION_RULE = {
   width: '100%',
@@ -21,7 +22,7 @@ const SECTION_RULE = {
 
 const SELECTED_PAPERS = [
   {
-    thumb: null,
+    thumb: NpjdmThumb,
     title: 'Interpretable Multimodal Retrieval-Augmented Diagnosis for Breast Ultrasound with Multinational Clinical Validation and Reader Study',
     paper: 'https://www.nature.com/articles/s41746-026-03272-3',
     authors: (
@@ -34,7 +35,7 @@ const SELECTED_PAPERS = [
         npj Digital Medicine, 2026
       </a>
     ),
-    venueSuffix: <> (<strong>IF=18.0</strong>, JCR Top 0.52%)</>,
+    venueSuffix: <> (<strong>IF=18.0</strong>, JCR Top 0.52%), doi:<a href="https://doi.org/10.1038/s41746-026-03272-3" target="_blank" rel="noopener noreferrer" className="advisor-link">10.1038/s41746-026-03272-3</a></>,
     tldr: 'Retrieval over a multinational breast ultrasound archive gives BI-RADS assessment its evidence back, validated across countries and against readers.'
   },
   {
