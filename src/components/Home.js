@@ -367,7 +367,7 @@ function Home() {
           >
             BMJ Digital Health &amp; AI
           </a>
-          {" "}(<strong>2026</strong>)
+          {" "}(<strong>2026–2027</strong>)
         </p>
 
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
