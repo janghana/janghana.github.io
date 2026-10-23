@@ -92,7 +92,7 @@ const SELECTED_PAPERS = [
         Expert Systems with Applications, 2026
       </a>
     ),
-    venueSuffix: <> (<strong>IF=9.4</strong>, JCR Top 5.8%)</>,
+    venueSuffix: <> (<strong>IF=9.4</strong>, JCR Top 5.8%), Vol. 304, 130631</>,
     tldr: 'Synthesizes MR from CT and segments it without ever needing pixel-aligned CT-MR training pairs.'
   }
 ];
