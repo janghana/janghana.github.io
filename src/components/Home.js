@@ -23,8 +23,9 @@ const SECTION_RULE = {
 const SELECTED_PAPERS = [
   {
     thumb: NpjdmThumb,
-    title: 'Interpretable Multimodal Retrieval-Augmented Diagnosis for Breast Ultrasound with Multinational Clinical Validation and Reader Study',
+    title: 'Interpretable Multimodal Retrieval Augmented Diagnosis for Breast Ultrasound with Multinational Clinical Validation and Reader Study',
     paper: 'https://www.nature.com/articles/s41746-026-03272-3',
+    code: 'https://github.com/snuh-rad-aicon/B-RAD',
     authors: (
       <>
         <strong>Han Jang</strong><sup>*</sup>, S. An<sup>*</sup>, S. Jung, H. Ji, M. Kim, S. Lee, K. S. Choi, S. M. Ha
@@ -290,11 +291,18 @@ function Home() {
               <p style={{ margin: '0.6em 0 0.8em', fontSize: '0.88em', lineHeight: '1.55', color: '#444' }}>
                 <strong>TL;DR</strong>&nbsp;&nbsp;{paper.tldr}
               </p>
-              {paper.paper && (
+              {(paper.paper || paper.code) && (
                 <div>
-                  <a href={paper.paper} target="_blank" rel="noopener noreferrer" className="code-link">
-                    Paper
-                  </a>
+                  {paper.paper && (
+                    <a href={paper.paper} target="_blank" rel="noopener noreferrer" className="code-link">
+                      Paper
+                    </a>
+                  )}
+                  {paper.code && (
+                    <a href={paper.code} target="_blank" rel="noopener noreferrer" className="code-link">
+                      Code
+                    </a>
+                  )}
                 </div>
               )}
             </div>

@@ -31,7 +31,7 @@ function Publications() {
 
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
-            Interpretable Multimodal Retrieval-Augmented Diagnosis for Breast Ultrasound with Multinational Clinical Validation and Reader Study
+            Interpretable Multimodal Retrieval Augmented Diagnosis for Breast Ultrasound with Multinational Clinical Validation and Reader Study
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
             <strong>Han Jang</strong><sup>*</sup>, S. An<sup>*</sup>, S. Jung, H. Ji, M. Kim, S. Lee, K. S. Choi, S. M. Ha,
@@ -41,6 +41,7 @@ function Publications() {
           </p>
           <p></p>
           <a href="https://www.nature.com/articles/s41746-026-03272-3" target="_blank" rel="noopener noreferrer" className="code-link">Paper</a>
+          <a href="https://github.com/snuh-rad-aicon/B-RAD" target="_blank" rel="noopener noreferrer" className="code-link">Code</a>
         </div>
 
         <div className="card-base pub-card">
