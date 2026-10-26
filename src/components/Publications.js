@@ -42,6 +42,7 @@ function Publications() {
           <p></p>
           <a href="https://www.nature.com/articles/s41746-026-03272-3" target="_blank" rel="noopener noreferrer" className="code-link">Paper</a>
           <a href="https://github.com/snuh-rad-aicon/B-RAD" target="_blank" rel="noopener noreferrer" className="code-link">Code</a>
+          <a href="https://www.ibric.org/bric/hanbitsa/researcher.do?mode=treatise-view&id=103595&authorId=54115&pager.offset=0&pagerLimit=10&srAuthorId=54115&beforemode=view#!/list" target="_blank" rel="noopener noreferrer" className="code-link interview-link">Interview (BRIC Hanbitsa)</a>
         </div>
 
         <div className="card-base pub-card">
@@ -55,6 +56,7 @@ function Publications() {
             , Budapest, Hungary
           </p>
           <p></p>
+          <a href="https://aclanthology.org/2026.findings-emnlp.1670/" target="_blank" rel="noopener noreferrer" className="code-link">ACL Anthology</a>
           <a href="https://arxiv.org/abs/2602.06268" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
         </div>
 

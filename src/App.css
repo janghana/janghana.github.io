@@ -56,6 +56,13 @@ body {
   background:#deebf9;
   /* color:#fff; */
 }
+.interview-link{
+  color:#4f46e5;
+  border-color:#4f46e5;
+}
+.interview-link:hover{
+  background:#e0e7ff;
+}
 
 .link-row{
   display:flex;

@@ -26,6 +26,7 @@ const SELECTED_PAPERS = [
     title: 'Interpretable Multimodal Retrieval Augmented Diagnosis for Breast Ultrasound with Multinational Clinical Validation and Reader Study',
     paper: 'https://www.nature.com/articles/s41746-026-03272-3',
     code: 'https://github.com/snuh-rad-aicon/B-RAD',
+    interview: 'https://www.ibric.org/bric/hanbitsa/researcher.do?mode=treatise-view&id=103595&authorId=54115&pager.offset=0&pagerLimit=10&srAuthorId=54115&beforemode=view#!/list',
     authors: (
       <>
         <strong>Han Jang</strong><sup>*</sup>, S. An<sup>*</sup>, S. Jung, H. Ji, M. Kim, S. Lee, K. S. Choi, S. M. Ha
@@ -42,7 +43,8 @@ const SELECTED_PAPERS = [
   {
     thumb: MpibThumb,
     title: 'MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs',
-    paper: 'https://arxiv.org/abs/2602.06268',
+    paper: 'https://aclanthology.org/2026.findings-emnlp.1670/',
+    arxiv: 'https://arxiv.org/abs/2602.06268',
     authors: (
       <>
         J. Lee<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, K. S. Choi
@@ -60,6 +62,8 @@ const SELECTED_PAPERS = [
     thumb: MedLayBenchThumb,
     title: 'MedLayBench-V: A Large-Scale Benchmark for Expert-Lay Semantic Alignment in Medical Vision Language Models',
     paper: 'https://aclanthology.org/2026.findings-acl.914/',
+    arxiv: 'https://arxiv.org/abs/2604.05738',
+    project: 'https://janghana.github.io/MedLayBench-V/',
     authors: (
       <>
         <strong>Han Jang</strong><sup>*</sup>, J. Lee<sup>*</sup>, H. Eum, K. S. Choi
@@ -291,16 +295,31 @@ function Home() {
               <p style={{ margin: '0.6em 0 0.8em', fontSize: '0.88em', lineHeight: '1.55', color: '#444' }}>
                 <strong>TL;DR</strong>&nbsp;&nbsp;{paper.tldr}
               </p>
-              {(paper.paper || paper.code) && (
+              {(paper.paper || paper.arxiv || paper.project || paper.code || paper.interview) && (
                 <div>
                   {paper.paper && (
                     <a href={paper.paper} target="_blank" rel="noopener noreferrer" className="code-link">
                       Paper
                     </a>
                   )}
+                  {paper.arxiv && (
+                    <a href={paper.arxiv} target="_blank" rel="noopener noreferrer" className="code-link">
+                      arXiv
+                    </a>
+                  )}
+                  {paper.project && (
+                    <a href={paper.project} target="_blank" rel="noopener noreferrer" className="code-link">
+                      Project Page
+                    </a>
+                  )}
                   {paper.code && (
                     <a href={paper.code} target="_blank" rel="noopener noreferrer" className="code-link">
                       Code
+                    </a>
+                  )}
+                  {paper.interview && (
+                    <a href={paper.interview} target="_blank" rel="noopener noreferrer" className="code-link interview-link">
+                      Interview (BRIC Hanbitsa)
                     </a>
                   )}
                 </div>
