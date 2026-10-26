@@ -45,6 +45,8 @@ const SELECTED_PAPERS = [
     title: 'MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs',
     paper: 'https://aclanthology.org/2026.findings-emnlp.1670/',
     arxiv: 'https://arxiv.org/abs/2602.06268',
+    code: 'https://github.com/jhlee0619/mpib-eval',
+    dataset: 'https://huggingface.co/datasets/jhlee0619/mpib',
     authors: (
       <>
         J. Lee<sup>*</sup>, <strong>Han Jang</strong><sup>*</sup>, K. S. Choi
@@ -64,6 +66,8 @@ const SELECTED_PAPERS = [
     paper: 'https://aclanthology.org/2026.findings-acl.914/',
     arxiv: 'https://arxiv.org/abs/2604.05738',
     project: 'https://janghana.github.io/MedLayBench-V/',
+    code: 'https://github.com/janghana/MedLayBench-V',
+    dataset: 'https://huggingface.co/datasets/hanjang/MedLayBench-V',
     authors: (
       <>
         <strong>Han Jang</strong><sup>*</sup>, J. Lee<sup>*</sup>, H. Eum, K. S. Choi
@@ -295,8 +299,13 @@ function Home() {
               <p style={{ margin: '0.6em 0 0.8em', fontSize: '0.88em', lineHeight: '1.55', color: '#444' }}>
                 <strong>TL;DR</strong>&nbsp;&nbsp;{paper.tldr}
               </p>
-              {(paper.paper || paper.arxiv || paper.project || paper.code || paper.interview) && (
+              {(paper.paper || paper.arxiv || paper.project || paper.code || paper.dataset || paper.interview) && (
                 <div>
+                  {paper.project && (
+                    <a href={paper.project} target="_blank" rel="noopener noreferrer" className="code-link">
+                      Project Page
+                    </a>
+                  )}
                   {paper.paper && (
                     <a href={paper.paper} target="_blank" rel="noopener noreferrer" className="code-link">
                       Paper
@@ -307,14 +316,14 @@ function Home() {
                       arXiv
                     </a>
                   )}
-                  {paper.project && (
-                    <a href={paper.project} target="_blank" rel="noopener noreferrer" className="code-link">
-                      Project Page
-                    </a>
-                  )}
                   {paper.code && (
                     <a href={paper.code} target="_blank" rel="noopener noreferrer" className="code-link">
                       Code
+                    </a>
+                  )}
+                  {paper.dataset && (
+                    <a href={paper.dataset} target="_blank" rel="noopener noreferrer" className="code-link">
+                      Dataset
                     </a>
                   )}
                   {paper.interview && (

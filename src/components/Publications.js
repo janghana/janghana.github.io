@@ -58,6 +58,8 @@ function Publications() {
           <p></p>
           <a href="https://aclanthology.org/2026.findings-emnlp.1670/" target="_blank" rel="noopener noreferrer" className="code-link">ACL Anthology</a>
           <a href="https://arxiv.org/abs/2602.06268" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
+          <a href="https://github.com/jhlee0619/mpib-eval" target="_blank" rel="noopener noreferrer" className="code-link">Github</a>
+          <a href="https://huggingface.co/datasets/jhlee0619/mpib" target="_blank" rel="noopener noreferrer" className="code-link">HuggingFace</a>
         </div>
 
         <div className="card-base pub-card">
@@ -71,9 +73,9 @@ function Publications() {
             {" "}<strong style={{ color: '#2563eb' }}>(Poster Presentation)</strong>, San Diego, USA
           </p>
           <p></p>
+          <a href="https://janghana.github.io/MedLayBench-V/" target="_blank" rel="noopener noreferrer" className="code-link">Project Page</a>
           <a href="https://aclanthology.org/2026.findings-acl.914/" target="_blank" rel="noopener noreferrer" className="code-link">ACL Anthology</a>
           <a href="https://arxiv.org/abs/2604.05738" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
-          <a href="https://janghana.github.io/MedLayBench-V/" target="_blank" rel="noopener noreferrer" className="code-link">Project Page</a>
           <a href="https://github.com/janghana/MedLayBench-V" target="_blank" rel="noopener noreferrer" className="code-link">Github</a>
           <a href="https://huggingface.co/datasets/hanjang/MedLayBench-V" target="_blank" rel="noopener noreferrer" className="code-link">HuggingFace</a>
         </div>
