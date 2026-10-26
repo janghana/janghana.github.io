@@ -85,6 +85,7 @@ const SELECTED_PAPERS = [
     thumb: CyclicThumb,
     title: 'Cyclic Conditional Diffusion Models for CT-to-MR Synthetic Image Segmentation with Misaligned Image Pairs',
     paper: 'https://www.sciencedirect.com/science/article/pii/S0957417425042460',
+    code: 'https://github.com/janghana/C3DMAAL-official',
     authors: (
       <>
         <strong>Han Jang</strong><sup>*</sup>, N. Han<sup>*</sup>, J. Kwon, H. Seo, B. J. Park, K. S. Choi
