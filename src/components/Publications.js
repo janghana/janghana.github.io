@@ -111,6 +111,19 @@ function Publications() {
 
         <div className="card-base pub-card">
           <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
+            Text-Deficient Multimodal Stroke Segmentation with Lesion-Grounded Self-Retrieval-Augmented Generation
+          </h4>
+          <p style={{ margin: 0, fontSize: '0.9em' }}>
+            H. Eum, J. Lee, J. Jang, <strong>Han Jang</strong>, S. Kim, K. S. Choi,
+            {" "}
+            <i><a href="https://conferences.miccai.org/2026/" target="_blank" rel="noopener noreferrer" className="advisor-link">MICCAI 2026</a></i>
+            {" "}<strong style={{ color: '#2563eb' }}>(Main Conference, Spotlight)</strong>
+          </p>
+          <p></p>
+        </div>
+
+        <div className="card-base pub-card">
+          <h4 style={{ margin: '0 0 0.5em', fontSize: '1.1em', lineHeight: '1.4' }}>
             Evidential Perfusion Physics-Informed Neural Networks with Residual Uncertainty Quantification
           </h4>
           <p style={{ margin: 0, fontSize: '0.9em' }}>
