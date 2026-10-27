@@ -117,9 +117,10 @@ function Publications() {
             H. Eum, J. Lee, J. Jang, <strong>Han Jang</strong>, S. Kim, K. S. Choi,
             {" "}
             <i><a href="https://conferences.miccai.org/2026/" target="_blank" rel="noopener noreferrer" className="advisor-link">MICCAI 2026</a></i>
-            {" "}<strong style={{ color: '#2563eb' }}>(Main Conference, Spotlight)</strong>
+            {" "}<strong style={{ color: '#2563eb' }}>(Provisionally Accepted, Main Conference, Spotlight)</strong>
           </p>
           <p></p>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-032-38059-3_59" target="_blank" rel="noopener noreferrer" className="code-link">Paper</a>
         </div>
 
         <div className="card-base pub-card">
@@ -133,6 +134,7 @@ function Publications() {
             {" "}<strong style={{ color: '#2563eb' }}>(Provisionally Accepted, Main Conference)</strong>
           </p>
           <p></p>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-032-38079-1_25" target="_blank" rel="noopener noreferrer" className="code-link">Paper</a>
           <a href="https://arxiv.org/abs/2603.09359" target="_blank" rel="noopener noreferrer" className="code-link">arXiv</a>
         </div>
 
