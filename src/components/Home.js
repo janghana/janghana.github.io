@@ -24,6 +24,7 @@ const SELECTED_PAPERS = [
   {
     thumb: NpjdmThumb,
     title: 'Interpretable Multimodal Retrieval Augmented Diagnosis for Breast Ultrasound with Multinational Clinical Validation and Reader Study',
+    project: 'https://ailab.kookmin.ac.kr/B-RAD-project-page/',
     paper: 'https://www.nature.com/articles/s41746-026-03272-3',
     code: 'https://github.com/snuh-rad-aicon/B-RAD',
     interview: 'https://www.ibric.org/bric/hanbitsa/researcher.do?mode=treatise-view&id=103595&authorId=54115&pager.offset=0&pagerLimit=10&srAuthorId=54115&beforemode=view#!/list',

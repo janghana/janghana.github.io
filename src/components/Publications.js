@@ -40,6 +40,7 @@ function Publications() {
             , 2026{" "}(<strong>IF=18.0</strong>, JCR Top 0.52%), doi:<a href="https://doi.org/10.1038/s41746-026-03272-3" target="_blank" rel="noopener noreferrer" className="advisor-link">10.1038/s41746-026-03272-3</a>
           </p>
           <p></p>
+          <a href="https://ailab.kookmin.ac.kr/B-RAD-project-page/" target="_blank" rel="noopener noreferrer" className="code-link">Project Page</a>
           <a href="https://www.nature.com/articles/s41746-026-03272-3" target="_blank" rel="noopener noreferrer" className="code-link">Paper</a>
           <a href="https://github.com/snuh-rad-aicon/B-RAD" target="_blank" rel="noopener noreferrer" className="code-link">Code</a>
           <a href="https://www.ibric.org/bric/hanbitsa/researcher.do?mode=treatise-view&id=103595&authorId=54115&pager.offset=0&pagerLimit=10&srAuthorId=54115&beforemode=view#!/list" target="_blank" rel="noopener noreferrer" className="code-link interview-link">Interview (BRIC Hanbitsa)</a>
