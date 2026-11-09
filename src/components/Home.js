@@ -385,6 +385,19 @@ function Home() {
         <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           <strong>Reviewer</strong>,{" "}
           <a
+            href="https://www.midl.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="advisor-link"
+          >
+            Medical Imaging with Deep Learning
+          </a>
+          {" "}(<strong>MIDL 2027</strong>)
+        </p>
+
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          <strong>Reviewer</strong>,{" "}
+          <a
             href="https://conferences.miccai.org/2026/"
             target="_blank"
             rel="noopener noreferrer"
